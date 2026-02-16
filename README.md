@@ -10,3 +10,6 @@ A place for graduate research students
 - M-O: 30: Andy Cunningham
 - P-S: 31: Tim Chen
 - T-X: 28: Mingyu Guo
+
+# Important links
+[Graduate research student forms](https://adelaideuni.edu.au/research/graduate-research-school/graduate-research-student-forms/)
