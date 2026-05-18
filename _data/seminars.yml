@@ -23,6 +23,20 @@ seminars:
       property, and commercialisation pathways for HDR research.
     status: completed
 
+  - id: initial-review-2026-04-24-dahia
+    type: initial_review
+    candidate: "Simranjeet Singh Dahia"
+    supervisor: "Prof Claudia Szabo, Dr Ruslan Puscasu, Dr Azhar Iqbal"
+    date: 2026-04-24
+    time: "15:00"
+    title: "Quantum multi-agent reinforcement learning for decision-making in complex systems"
+    abstract: |
+      Multi-agent reinforcement learning is a natural framework for decentralised decision-making in complex systems, but it faces persistent challenges under partial observability, strong inter-agent coupling and increasing coordination complexity. Quantum multi-agent reinforcement learning (QMARL) has recently emerged as a possible way to enhance policy and value representations in such settings. However, the field remains methodologically fragmented, is dominated by hybrid simulation-based studies and lacks both a consistent operational definition and disciplined evaluation standards. Our systematic review found that most existing work concentrates on encoding and policy approximation, while learning, coordination and evaluation remain underdeveloped.
+
+      This PhD investigates QMARL as a representational framework rather than a computational speedup claim. We established a centralized-training, decentralized-execution QMARL pipeline, implemented matched quantum-classical benchmarking and introduced a Dec-POMDP calibration benchmark to test whether the framework can resolve non-classical correlation structure. Building on this foundation, ongoing experiments in cooperative MARL environments examine when quantum-parameterized actors and critics remain competitive and when stronger coordination regimes begin to expose representation-dependent behaviour. These findings motivate the next stage of the project: a complex phase space representation designed to explicitly encode coordination-relevant dynamics and a conflict-aware stabilisation mechanism for more expressive modelling of complex multi-agent dynamics.
+    teams_url: "https://teams.microsoft.com/meet/4391590514779?p=ARWeFvAXrS5MG9hrZb"
+    status: completed
+
   - id: initial-review-2026-05-13-ye
     type: initial_review
     candidate: "Ziyang Ye"
@@ -37,4 +51,21 @@ seminars:
 
       Through a comparative and system-oriented methodology, this study will evaluate robustness at multiple levels, from foundation representations to downstream system behaviour, using a range of adversarial settings and defence strategies. The expected outcome is a more unified understanding of vulnerability propagation, defence limitations, and robustness–generalisation trade-offs, contributing to the development of more secure and reliable visual intelligence systems.
     teams_url: "https://teams.microsoft.com/meet/43679131191974?p=VNm7XZhoNDkqJ8DnhW"
-    status: scheduled
+    status: completed
+
+  - id: initial-review-2026-05-13-wang
+    type: initial_review
+    candidate: "Chuhan Wang"
+    supervisor: "Prof. Olaf Maennel and Prof. Ruidong Chang"
+    date: 2026-05-13
+    time: "13:00–14:00"
+    title: "Towards Reliable Digital Twin State: Definition, Maintenance, and Use under Imperfect Sensing"
+    abstract: |
+      Digital Twin (DT) systems for the building environment promise continuous, model-based insight into the condition of buildings and infrastructure. However, the sensing data that drives these systems is noisy, intermittent, and heterogeneous and most existing frameworks respond by treating sensor observations directly as system state in practice. This leads to various instability: transient objects corrupt geometric models, sensor failures leave the state undefined, and residual uncertainty propagates unchecked to downstream monitoring and maintenance decisions etc.
+
+      This research proposes a state-centric perspective for DT systems, in which system state is an explicitly defined, continuously maintained, and reliably construct from but not equate with sensor observations. A unified three-module framework is developed to address the full state lifecycle under imperfect sensing: (1) a geometric state definition module that infers persistent structural state from multi-temporal LiDAR point clouds and images, distinguishing permanent features from transient elements; (2) a state maintenance module that coordinates heterogeneous IoT sensor streams, identify sensor reliability, and resolves inter-sensor conflicts to produce a trusted Digital Twin state; (3) a decision module that formulates resource-constrained maintenance and sensing strategies, accounting for residual state uncertainty.
+
+      The framework is validated using data from an ARC-funded large-scale IoT deployment across residential buildings, providing real-world conditions of sensing noise, heterogeneity, and long-term operation. Expected contributions include a conceptual framework for state-centric Digital Twins, and an empirically validated system demonstrating practical deployability. This research addresses a cross-domain gap identified across geometric modeling, multi-sensor integration, and reliability-aware decision-making literature.
+    teams_url: "https://teams.microsoft.com/l/meetup-join/19%3ameeting_MjgwN2FkZDYtZGIyZC00YTYwLThkNmEtZGNlMGI1MTI3MjAw%40thread.v2/0?context=%7b%22Tid%22%3a%22b3cddf40-9654-4a26-86a1-779c51f69c48%22%2c%22Oid%22%3a%2268661114-00d5-44f4-9e15-a3dc292001b2%22%7d"
+    location: "Ingkarni Wardli 4.63 (IW 4.63) — also available via Teams"
+    status: completed
