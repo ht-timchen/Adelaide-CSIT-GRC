@@ -10,7 +10,7 @@
   {% assign is_cancelled = true %}
 {% endif %}
 {% assign is_thesis = false %}
-{% if s.type == "initial_review" or s.type == "thesis_defence" %}
+{% if s.type == "candidature_review" or s.type == "thesis_defence" %}
   {% assign is_thesis = true %}
 {% endif %}
 

@@ -23,8 +23,8 @@ seminars:
       property, and commercialisation pathways for HDR research.
     status: completed
 
-  - id: initial-review-2026-04-24-dahia
-    type: initial_review
+  - id: candidature-review-2026-04-24-dahia
+    type: candidature_review
     candidate: "Simranjeet Singh Dahia"
     supervisor: "Prof Claudia Szabo, Dr Ruslan Puscasu, Dr Azhar Iqbal"
     date: 2026-04-24
@@ -37,8 +37,8 @@ seminars:
     teams_url: "https://teams.microsoft.com/meet/4391590514779?p=ARWeFvAXrS5MG9hrZb"
     status: completed
 
-  - id: initial-review-2026-05-13-ye
-    type: initial_review
+  - id: candidature-review-2026-05-13-ye
+    type: candidature_review
     candidate: "Ziyang Ye"
     supervisor: "Prof Olaf Maennel"
     date: 2026-05-13
@@ -53,8 +53,8 @@ seminars:
     teams_url: "https://teams.microsoft.com/meet/43679131191974?p=VNm7XZhoNDkqJ8DnhW"
     status: completed
 
-  - id: initial-review-2026-05-13-wang
-    type: initial_review
+  - id: candidature-review-2026-05-13-wang
+    type: candidature_review
     candidate: "Chuhan Wang"
     supervisor: "Prof. Olaf Maennel and Prof. Ruidong Chang"
     date: 2026-05-13

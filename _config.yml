@@ -19,8 +19,8 @@ exclude:
   - .gitignore
 
 seminar_types:
-  initial_review:
-    label: Initial review seminar
+  candidature_review:
+    label: Candidature review
     badge: badge-review
   thesis_defence:
     label: Thesis defence (public seminar)
@@ -33,5 +33,5 @@ seminar_types:
     badge: badge-special
 
 thesis_types:
-  - initial_review
+  - candidature_review
   - thesis_defence

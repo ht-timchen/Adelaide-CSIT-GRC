@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Seminars
-description: Upcoming and past HDR seminars, thesis defences, initial reviews, and special sessions.
+description: Upcoming and past HDR seminars, thesis defences, candidature reviews, and special sessions.
 ---
 
 <div class="page-header">
@@ -11,7 +11,7 @@ description: Upcoming and past HDR seminars, thesis defences, initial reviews, a
 
 <nav class="type-nav" aria-label="Seminar types">
   <a href="#upcoming">All upcoming</a>
-  <a href="#initial_review">Initial review</a>
+  <a href="#candidature_review">Candidature review</a>
   <a href="#thesis_defence">Thesis defence</a>
   <a href="#hdr_seminar">HDR seminar</a>
   <a href="#special">Special session</a>

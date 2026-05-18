@@ -18,14 +18,14 @@ Meeting Link:https://teams.microsoft.com/meet/43679131191974?p=...
 
 ## Classification
 
-- "Confirmation of Candidature Review" → `type: initial_review`
+- "Confirmation of Candidature Review" → `type: candidature_review`
 - Teams link → `teams_url`
 
 ## Output entry
 
 ```yaml
-  - id: initial-review-2026-05-13-ye
-    type: initial_review
+  - id: candidature-review-2026-05-13-ye
+    type: candidature_review
     candidate: "Ziyang Ye"
     supervisor: "Prof Olaf Maennel"
     date: 2026-05-13

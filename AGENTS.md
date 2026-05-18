@@ -9,7 +9,7 @@ Live site (after deployment): <https://ht-timchen.github.io/Adelaide-CSIT-GRC/>
 When the user pastes an email notice and asks to update the website:
 
 1. Read the project skill: [`.cursor/skills/update-seminar-calendar/SKILL.md`](.cursor/skills/update-seminar-calendar/SKILL.md) (parsing rules, type mapping, examples).
-2. Map **Confirmation of Candidature** / CoC review → `initial_review`; thesis defence → `thesis_defence`; HDR series talk → `hdr_seminar`.
+2. Map **Confirmation of Candidature** / CoC review → `candidature_review`; thesis defence → `thesis_defence`; HDR series talk → `hdr_seminar`.
 3. Parse **DD/MM/YYYY** dates as Australian format → ISO `YYYY-MM-DD` in YAML.
 4. Add or update one item in `_data/seminars.yml`; run `python3 scripts/validate_seminars.py`.
 5. Remind the user to push to `main` for GitHub Pages to rebuild (do not commit unless asked).
@@ -18,7 +18,7 @@ When the user pastes an email notice and asks to update the website:
 
 | `type` value       | Use for                                      | Format        |
 |--------------------|----------------------------------------------|---------------|
-| `initial_review`   | Initial review seminar                       | Thesis block  |
+| `candidature_review` | Candidature review                         | Thesis block  |
 | `thesis_defence`   | Thesis defence (public seminar)              | Thesis block  |
 | `hdr_seminar`      | Regular HDR seminar series presentation      | Event card    |
 | `special`          | Special sessions (panels, workshops, etc.)   | Event card    |
@@ -38,7 +38,7 @@ Keep entries sorted by `date` ascending.
 
 ## Thesis announcement format
 
-Use for `initial_review` and `thesis_defence`. Fields match the standard email notice:
+Use for `candidature_review` and `thesis_defence`. Fields match the standard email notice:
 
 | YAML field     | Display label              | Required |
 |----------------|----------------------------|----------|
@@ -68,11 +68,11 @@ Use for `initial_review` and `thesis_defence`. Fields match the standard email n
     status: scheduled
 ```
 
-### Template: initial review
+### Template: candidature review
 
 ```yaml
-  - id: initial-review-2026-07-15-familyname
-    type: initial_review
+  - id: candidature-review-2026-07-15-familyname
+    type: candidature_review
     candidate: "Full Name"
     supervisor: "Dr. Supervisor Name"
     date: 2026-07-15

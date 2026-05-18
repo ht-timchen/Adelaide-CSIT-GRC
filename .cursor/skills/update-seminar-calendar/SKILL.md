@@ -4,7 +4,7 @@ description: >-
   Add or update CSIT HDR seminar listings on the GitHub Pages calendar from
   pasted email announcements. Use when the user pastes a seminar/thesis/review
   announcement, asks to update the website or calendar, mentions Confirmation of
-  Candidature, initial review, thesis defence, HDR seminar, or _data/seminars.yml
+  Candidature, candidature review, CoC review, thesis defence, HDR seminar, or _data/seminars.yml
   in Adelaide-CSIT-GRC.
 ---
 
@@ -29,16 +29,16 @@ Do not commit unless the user asks.
 
 | Phrases in email / notice | `type` value |
 |---------------------------|--------------|
-| Confirmation of Candidature, CoC review, initial review, candidature review | `initial_review` |
+| Confirmation of Candidature, CoC review, candidature review | `candidature_review` |
 | Thesis defence, thesis defense, public seminar (thesis) | `thesis_defence` |
 | HDR seminar, seminar series, student presentation (series) | `hdr_seminar` |
 | Panel, workshop, special session, invited talk (series) | `special` |
 
-When unsure between `initial_review` and `thesis_defence`, prefer **`initial_review`** for CoC / confirmation / progress review wording.
+When unsure between `candidature_review` and `thesis_defence`, prefer **`candidature_review`** for CoC / confirmation wording.
 
 ## Parsing pasted announcements
 
-### Thesis-format (`initial_review`, `thesis_defence`)
+### Thesis-format (`candidature_review`, `thesis_defence`)
 
 Look for these labels (case-insensitive, colon optional):
 
@@ -55,7 +55,7 @@ Look for these labels (case-insensitive, colon optional):
 
 **Required:** one of `teams_url` or `zoom_url` for thesis-format entries.
 
-**`id`:** `{type}-{yyyy-mm-dd}-{familyname}` lowercase, e.g. `initial-review-2026-05-13-ye`.
+**`id`:** `{type}-{yyyy-mm-dd}-{familyname}` lowercase, e.g. `candidature-review-2026-05-13-ye`.
 
 ### Event-format (`hdr_seminar`, `special`)
 
@@ -77,11 +77,11 @@ Look for these labels (case-insensitive, colon optional):
 
 ## YAML templates
 
-### Initial review / CoC (from email)
+### Candidature review / CoC (from email)
 
 ```yaml
-  - id: initial-review-2026-05-13-ye
-    type: initial_review
+  - id: candidature-review-2026-05-13-ye
+    type: candidature_review
     candidate: "Ziyang Ye"
     supervisor: "Prof Olaf Maennel"
     date: 2026-05-13
