@@ -1,0 +1,40 @@
+seminars:
+  - id: hdr-2026-02-20-cancelled-example
+    type: hdr_seminar
+    title: "Cancelled example — tools for reproducible research"
+    speaker: "Student Name"
+    date: 2026-02-20
+    time: "14:00"
+    location: "Online"
+    abstract: |
+      This session was cancelled and is kept as an example of the cancelled status field.
+    online_url: "https://teams.microsoft.com/l/meetup-join/example"
+    status: cancelled
+
+  - id: special-2026-03-10-industry-panel
+    type: special
+    title: "Industry collaboration and IP — panel discussion"
+    speaker: "Panel (CSIT HDR)"
+    date: 2026-03-10
+    time: "14:00"
+    location: "Ingkarni Wardli, Level 4 seminar room"
+    abstract: |
+      Special session with industry partners on collaboration models, intellectual
+      property, and commercialisation pathways for HDR research.
+    status: completed
+
+  - id: initial-review-2026-05-13-ye
+    type: initial_review
+    candidate: "Ziyang Ye"
+    supervisor: "Prof Olaf Maennel"
+    date: 2026-05-13
+    time: "10:00–11:00"
+    title: "Towards Secure and Robust Visual Intelligence: Adversarial Robustness in Vision Foundation Models"
+    abstract: |
+      Vision Foundation Models are increasingly becoming the backbone of modern visual intelligence, enabling a wide range of systems to perceive, interpret, and reason about visual information. Their growing reuse across different applications brings significant benefits in generalisation and transferability, but it also introduces a new security concern: adversarial vulnerabilities may no longer be confined to individual models or isolated tasks. Instead, weaknesses in shared visual representations may transfer across model families and propagate through downstream systems, creating broader risks for the visual intelligence ecosystem.
+
+      This research investigates the adversarial robustness of vision foundation models as a core AI security problem. It aims to understand how adversarial vulnerabilities emerge, how they transfer across different models and learning paradigms, and how they affect systems built upon shared visual backbones. It also examines whether current defence mechanisms are sufficient under stronger and more systematic evaluation, and explores the trade-off between improving robustness and preserving the generalisation capabilities that make foundation models valuable.
+
+      Through a comparative and system-oriented methodology, this study will evaluate robustness at multiple levels, from foundation representations to downstream system behaviour, using a range of adversarial settings and defence strategies. The expected outcome is a more unified understanding of vulnerability propagation, defence limitations, and robustness–generalisation trade-offs, contributing to the development of more secure and reliable visual intelligence systems.
+    teams_url: "https://teams.microsoft.com/meet/43679131191974?p=VNm7XZhoNDkqJ8DnhW"
+    status: scheduled

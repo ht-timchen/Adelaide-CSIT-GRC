@@ -1,0 +1,37 @@
+title: Adelaide CSIT Graduate Research
+description: Seminar calendar and resources for graduate research students in Computer Science and IT
+url: https://ht-timchen.github.io
+baseurl: /Adelaide-CSIT-GRC
+
+markdown: kramdown
+theme: null
+
+exclude:
+  - README.md
+  - AGENTS.md
+  - Doc
+  - Seminar
+  - schema
+  - scripts
+  - Gemfile
+  - Gemfile.lock
+  - .github
+  - .gitignore
+
+seminar_types:
+  initial_review:
+    label: Initial review seminar
+    badge: badge-review
+  thesis_defence:
+    label: Thesis defence (public seminar)
+    badge: badge-defence
+  hdr_seminar:
+    label: HDR seminar
+    badge: badge-hdr
+  special:
+    label: Special session
+    badge: badge-special
+
+thesis_types:
+  - initial_review
+  - thesis_defence

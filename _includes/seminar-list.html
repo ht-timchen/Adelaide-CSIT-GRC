@@ -1,0 +1,36 @@
+{% comment %}
+  include.section: "upcoming" or "past"
+  include.type_filter: optional type id (e.g. hdr_seminar)
+{% endcomment %}
+{% assign today = site.time | date: "%Y-%m-%d" %}
+{% assign all = site.data.seminars.seminars | sort: "date" %}
+{% if include.section == "past" %}
+  {% assign all = all | reverse %}
+{% endif %}
+
+<ul class="seminar-list">
+{% assign count = 0 %}
+{% for seminar in all %}
+  {% assign date_str = seminar.date | append: "" %}
+  {% assign show = false %}
+  {% if include.section == "upcoming" %}
+    {% if date_str >= today %}
+      {% assign show = true %}
+    {% endif %}
+  {% elsif include.section == "past" %}
+    {% if date_str < today %}
+      {% assign show = true %}
+    {% endif %}
+  {% endif %}
+  {% if include.type_filter and seminar.type != include.type_filter %}
+    {% assign show = false %}
+  {% endif %}
+  {% if show %}
+    {% include seminar-card.html seminar=seminar %}
+    {% assign count = count | plus: 1 %}
+  {% endif %}
+{% endfor %}
+</ul>
+{% if count == 0 %}
+<p class="empty-state">No seminars in this section.</p>
+{% endif %}

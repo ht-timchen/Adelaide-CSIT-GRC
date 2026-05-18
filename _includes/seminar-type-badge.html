@@ -1,0 +1,9 @@
+{% assign type_info = site.seminar_types[include.type] %}
+{% assign cancelled = false %}
+{% if include.seminar.status == "cancelled" %}
+  {% assign cancelled = true %}
+{% endif %}
+<span class="badge {% if type_info %}{{ type_info.badge }}{% endif %}{% if cancelled %} badge-cancelled{% endif %}">
+  {% if cancelled %}Cancelled — {% endif %}
+  {% include seminar-type-label.html type=include.type %}
+</span>

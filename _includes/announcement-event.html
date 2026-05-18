@@ -1,0 +1,29 @@
+{% assign s = include.seminar %}
+<dl class="announcement-event">
+  <dt>Speaker:</dt>
+  <dd>{{ s.speaker }}</dd>
+
+  <dt>Date and Time:</dt>
+  <dd>
+    {% assign date_str = s.date | append: "" %}
+    {{ date_str | date: "%A %-d %B %Y" }}{% if s.time %}, {{ s.time }}{% endif %} (Adelaide)
+  </dd>
+
+  <dt>Title:</dt>
+  <dd>{{ s.title }}</dd>
+
+  {% if s.location %}
+  <dt>Location:</dt>
+  <dd>{{ s.location }}</dd>
+  {% endif %}
+
+  {% if s.abstract %}
+  <dt>Abstract:</dt>
+  <dd class="abstract">{{ s.abstract }}</dd>
+  {% endif %}
+
+  {% if s.online_url %}
+  <dt>Online:</dt>
+  <dd class="meeting-link"><a href="{{ s.online_url }}" rel="noopener noreferrer">Join online</a></dd>
+  {% endif %}
+</dl>

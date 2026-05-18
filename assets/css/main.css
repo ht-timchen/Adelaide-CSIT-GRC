@@ -1,0 +1,274 @@
+:root {
+  --color-bg: #f8f9fb;
+  --color-surface: #ffffff;
+  --color-text: #1a1f2e;
+  --color-muted: #5c6578;
+  --color-border: #e2e6ee;
+  --color-accent: #003366;
+  --color-accent-light: #e8f0f8;
+  --font-sans: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --radius: 8px;
+  --shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  line-height: 1.6;
+  color: var(--color-text);
+  background: var(--color-bg);
+}
+
+a {
+  color: var(--color-accent);
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.site-header {
+  background: var(--color-accent);
+  color: #fff;
+}
+
+.header-inner {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1rem 1.25rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.site-title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.1rem;
+  text-decoration: none;
+}
+
+.site-title:hover {
+  text-decoration: underline;
+}
+
+.site-nav {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.site-nav a {
+  color: rgba(255, 255, 255, 0.92);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.site-nav a:hover,
+.site-nav a[aria-current="page"] {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.site-main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 3rem;
+}
+
+.site-footer {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 1.5rem 1.25rem 2rem;
+  border-top: 1px solid var(--color-border);
+  color: var(--color-muted);
+  font-size: 0.9rem;
+}
+
+.site-footer p {
+  margin: 0.25rem 0;
+}
+
+.page-header {
+  margin-bottom: 2rem;
+}
+
+.page-header h1 {
+  margin: 0 0 0.5rem;
+  font-size: 1.75rem;
+  line-height: 1.25;
+}
+
+.page-header p {
+  margin: 0;
+  color: var(--color-muted);
+  max-width: 42rem;
+}
+
+.section {
+  margin-bottom: 2.5rem;
+}
+
+.section h2 {
+  font-size: 1.25rem;
+  margin: 0 0 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--color-border);
+}
+
+.section h3 {
+  font-size: 1.05rem;
+  margin: 1.5rem 0 0.75rem;
+  color: var(--color-muted);
+}
+
+.empty-state {
+  color: var(--color-muted);
+  font-style: italic;
+  padding: 1rem 0;
+}
+
+.type-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.type-nav a {
+  display: inline-block;
+  padding: 0.35rem 0.75rem;
+  border-radius: 999px;
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: var(--color-text);
+}
+
+.type-nav a:hover {
+  border-color: var(--color-accent);
+  background: var(--color-accent-light);
+}
+
+.seminar-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.seminar-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.25rem 1.5rem;
+}
+
+.seminar-card.is-cancelled {
+  opacity: 0.75;
+  border-style: dashed;
+}
+
+.seminar-card__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.seminar-card__date {
+  font-size: 0.9rem;
+  color: var(--color-muted);
+  margin: 0;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.2rem 0.55rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.badge-review {
+  background: #e8f4ea;
+  color: #1e5631;
+}
+
+.badge-defence {
+  background: #fce8e8;
+  color: #8b1a1a;
+}
+
+.badge-hdr {
+  background: #e8f0f8;
+  color: #003366;
+}
+
+.badge-special {
+  background: #f3eef8;
+  color: #4a2d6b;
+}
+
+.badge-cancelled {
+  background: #f0f0f0;
+  color: #666;
+}
+
+.announcement-thesis dl,
+.announcement-event dl {
+  margin: 0;
+}
+
+.announcement-thesis dt,
+.announcement-event dt {
+  font-weight: 700;
+  margin: 0.75rem 0 0.15rem;
+}
+
+.announcement-thesis dt:first-child,
+.announcement-event dt:first-child {
+  margin-top: 0;
+}
+
+.announcement-thesis dd,
+.announcement-event dd {
+  margin: 0;
+  padding-left: 0;
+}
+
+.announcement-thesis dd.abstract,
+.announcement-event dd.abstract {
+  white-space: pre-wrap;
+}
+
+.meeting-link {
+  margin-top: 0.75rem;
+}
+
+.meeting-link a {
+  font-weight: 500;
+}
+
+.home-links {
+  margin-top: 2rem;
+}
+
+.home-links a {
+  font-weight: 500;
+}

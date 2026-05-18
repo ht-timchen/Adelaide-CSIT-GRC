@@ -1,0 +1,35 @@
+{% assign s = include.seminar %}
+<dl class="announcement-thesis">
+  <dt>Candidate:</dt>
+  <dd>{{ s.candidate }}</dd>
+
+  <dt>Supervisor:</dt>
+  <dd>{{ s.supervisor }}</dd>
+
+  <dt>Date and Time:</dt>
+  <dd>
+    {% assign date_str = s.date | append: "" %}
+    {{ date_str | date: "%A %-d %B %Y" }}{% if s.time %}, {{ s.time }}{% endif %} (Adelaide)
+  </dd>
+
+  <dt>Title:</dt>
+  <dd>{{ s.title }}</dd>
+
+  <dt>Abstract:</dt>
+  <dd class="abstract">{{ s.abstract }}</dd>
+
+  {% if s.location %}
+  <dt>Location:</dt>
+  <dd>{{ s.location }}</dd>
+  {% endif %}
+
+  {% if s.teams_url %}
+  <dt>Microsoft Teams meeting:</dt>
+  <dd class="meeting-link"><a href="{{ s.teams_url }}" rel="noopener noreferrer">Join Teams meeting</a></dd>
+  {% endif %}
+
+  {% if s.zoom_url %}
+  <dt>Zoom:</dt>
+  <dd class="meeting-link"><a href="{{ s.zoom_url }}" rel="noopener noreferrer">Join Zoom meeting</a></dd>
+  {% endif %}
+</dl>

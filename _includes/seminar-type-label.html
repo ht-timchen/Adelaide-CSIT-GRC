@@ -1,0 +1,6 @@
+{% assign type_info = site.seminar_types[include.type] %}
+{% if type_info %}
+  {{ type_info.label }}
+{% else %}
+  {{ include.type }}
+{% endif %}

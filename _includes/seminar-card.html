@@ -1,0 +1,27 @@
+{% assign s = include.seminar %}
+{% assign today = site.time | date: "%Y-%m-%d" %}
+{% assign date_str = s.date | append: "" %}
+{% assign is_past = false %}
+{% if date_str < today %}
+  {% assign is_past = true %}
+{% endif %}
+{% assign is_cancelled = false %}
+{% if s.status == "cancelled" %}
+  {% assign is_cancelled = true %}
+{% endif %}
+{% assign is_thesis = false %}
+{% if s.type == "initial_review" or s.type == "thesis_defence" %}
+  {% assign is_thesis = true %}
+{% endif %}
+
+<li class="seminar-card{% if is_cancelled %} is-cancelled{% endif %}" id="{{ s.id }}">
+  <div class="seminar-card__header">
+    {% include seminar-type-badge.html type=s.type seminar=s %}
+    <p class="seminar-card__date">{{ date_str | date: "%-d %b %Y" }}{% if s.time %} · {{ s.time }}{% endif %}</p>
+  </div>
+  {% if is_thesis %}
+    {% include announcement-thesis.html seminar=s %}
+  {% else %}
+    {% include announcement-event.html seminar=s %}
+  {% endif %}
+</li>
