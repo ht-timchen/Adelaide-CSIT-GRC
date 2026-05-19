@@ -28,5 +28,7 @@ title: Home
 </section>
 
 <p class="home-links">
-  <a href="{{ '/seminars' | relative_url }}">View all seminars and archive →</a>
+  <a href="{{ '/seminars' | relative_url }}">View all upcoming seminars →</a>
+  ·
+  <a href="{{ '/past-seminars' | relative_url }}">Past seminars</a>
 </p>
