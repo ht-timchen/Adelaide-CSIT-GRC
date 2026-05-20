@@ -327,9 +327,3 @@ a:hover {
   font-size: 0.85rem;
   color: var(--color-muted);
 }
-
-.series-table__ideas {
-  color: var(--color-muted);
-  font-size: 0.9rem;
-  min-width: 10rem;
-}
