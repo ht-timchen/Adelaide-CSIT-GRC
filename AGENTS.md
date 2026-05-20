@@ -98,7 +98,7 @@ Use for `candidature_review` and `thesis_defence`. Fields match the standard ema
 Sessions that belong to the fortnightly **HDR Seminar Series** should include:
 
 - `series: hdr-2026` — groups rows on the [HDR series](/hdr-series) page
-- `session_number: 1` — session number (1–10)
+- `session_number: 1` — week/session number (e.g. 1–16)
 - `ideas: "..."` — short coordinator notes shown in the program table
 
 One-off HDR talks (not part of the series) omit `series` and appear on the main Seminars page.

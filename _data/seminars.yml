@@ -65,155 +65,218 @@ seminars:
     title: "Research talk – AI, social"
     speaker: "TBC"
     date: 2026-07-20
-    time: "14:00"
+    time: "16:00"
     location: "Ingkarni Wardli, Level 4 seminar room (TBC)"
     abstract: |
-      HDR Seminar Series — Session 1 of 10 (tentative). Recurring series for HDR students to present progress, pilot ideas, and engage with peers and staff.
-
-      Possible speakers: Jat Singh? Paul Egre?
-    ideas: "Jat Singh? Paul Egre?"
+      HDR Seminar Series — Week 1 of 16 (tentative).
+    ideas: "Jat Singh? Paul Egre? Tim Miller"
     status: scheduled
 
-  - id: hdr-2026-08-03-series-02
+  - id: hdr-2026-07-27-series-02
     type: hdr_seminar
     series: hdr-2026
     session_number: 2
-    title: "Publishing strategy & venue selection (CHI, CVPR, NeurIPS, MICCAI)"
-    speaker: "TBC"
-    date: 2026-08-03
-    time: "14:00"
+    title: "Student research presentation practice (round 1)"
+    speaker: "Volunteer (TBC)"
+    date: 2026-07-27
+    time: "16:00"
     location: "Ingkarni Wardli, Level 4 seminar room (TBC)"
     abstract: |
-      HDR Seminar Series — Session 2 of 10 (tentative).
-
-      Ideas: TJ has a CVPR talk?
-    ideas: "TJ has a CVPR talk?"
+      HDR Seminar Series — Week 2 of 16 (tentative). Student presentation practice with faculty feedback.
+    ideas: "Volunteer; also need a couple faculties to provide student feedback"
     status: scheduled
 
-  - id: hdr-2026-08-17-series-03
+  - id: hdr-2026-08-03-series-03
     type: hdr_seminar
     series: hdr-2026
     session_number: 3
-    title: "Technical tools demo / Advanced AI lab work — Claude Code, HPC, Zotero, ComfyUI etc."
+    title: "Publishing strategy & venue selection (CHI, CVPR, NeurIPS, MICCAI)"
     speaker: "TBC"
-    date: 2026-08-17
-    time: "14:00"
+    date: 2026-08-03
+    time: "16:00"
     location: "Ingkarni Wardli, Level 4 seminar room (TBC)"
     abstract: |
-      HDR Seminar Series — Session 3 of 10 (tentative).
-
-      Ideas: Someone from industry with experience in training foundation models; or someone in a startup.
-    ideas: "Industry FM training experience or startup speaker"
+      HDR Seminar Series — Week 3 of 16 (tentative).
+    ideas: "TJ has a CVPR talk?"
     status: scheduled
 
-  - id: hdr-2026-08-31-series-04
+  - id: hdr-2026-08-10-series-04
     type: hdr_seminar
     series: hdr-2026
     session_number: 4
-    title: "Research talk – health"
-    speaker: "TBC"
-    date: 2026-08-31
-    time: "14:00"
+    title: "Student research presentation practice (round 2)"
+    speaker: "Volunteer (TBC)"
+    date: 2026-08-10
+    time: "16:00"
     location: "Ingkarni Wardli, Level 4 seminar room (TBC)"
     abstract: |
-      HDR Seminar Series — Session 4 of 10 (tentative).
-
-      Possible speakers: Gustavo, Ignacio.
-    ideas: "Gustavo, Ignacio"
+      HDR Seminar Series — Week 4 of 16 (tentative). Student presentation practice with faculty feedback.
+    ideas: "Volunteer; also need a couple faculties to provide student feedback"
     status: scheduled
 
-  - id: hdr-2026-09-14-series-05
+  - id: hdr-2026-08-17-series-05
     type: hdr_seminar
     series: hdr-2026
     session_number: 5
-    title: "Student research presentation practice (round 1)"
-    speaker: "Volunteer (TBC)"
-    date: 2026-09-14
-    time: "14:00"
+    title: "Technical tools demo / Advanced AI lab work — Claude Code, HPC, Zotero, ComfyUI etc."
+    speaker: "TBC"
+    date: 2026-08-17
+    time: "16:00"
     location: "Ingkarni Wardli, Level 4 seminar room (TBC)"
     abstract: |
-      HDR Seminar Series — Session 5 of 10 (tentative).
-
-      Student volunteer presentation practice. Also need a couple of faculty members to provide student feedback.
-    ideas: "Volunteer presenter; faculty feedback needed"
+      HDR Seminar Series — Week 5 of 16 (tentative).
+    ideas: "Someone from industry with experience in training foundation model etc; or someone in startup"
     status: scheduled
 
-  - id: hdr-2026-09-28-series-06
+  - id: hdr-2026-08-24-series-06
     type: hdr_seminar
     series: hdr-2026
     session_number: 6
-    title: "Research talk – cyber"
-    speaker: "TBC"
-    date: 2026-09-28
-    time: "14:00"
+    title: "Student research presentation practice (round 3)"
+    speaker: "Volunteer (TBC)"
+    date: 2026-08-24
+    time: "16:00"
     location: "Ingkarni Wardli, Level 4 seminar room (TBC)"
     abstract: |
-      HDR Seminar Series — Session 6 of 10 (tentative).
-
-      Ideas: Yuval or Swinburne people? Ask Hung.
-    ideas: "Yuval or Swinburne people? Ask Hung"
+      HDR Seminar Series — Week 6 of 16 (tentative). Student presentation practice with faculty feedback.
+    ideas: "Volunteer; also need a couple faculties to provide student feedback"
     status: scheduled
 
-  - id: hdr-2026-10-12-series-07
+  - id: hdr-2026-08-31-series-07
     type: hdr_seminar
     series: hdr-2026
     session_number: 7
-    title: "Academic job market & career planning"
+    title: "Research talk – health"
     speaker: "TBC"
-    date: 2026-10-12
-    time: "14:00"
+    date: 2026-08-31
+    time: "16:00"
     location: "Ingkarni Wardli, Level 4 seminar room (TBC)"
     abstract: |
-      HDR Seminar Series — Session 7 of 10 (tentative).
-
-      Speaker(s) to be confirmed.
-    ideas: "Speaker(s) to be confirmed"
+      HDR Seminar Series — Week 7 of 16 (tentative).
+    ideas: "Gustavo, Ignacio"
     status: scheduled
 
-  - id: hdr-2026-10-26-series-08
+  - id: hdr-2026-09-07-series-08
     type: hdr_seminar
     series: hdr-2026
     session_number: 8
-    title: "Student research presentation practice (round 2)"
+    title: "Student research presentation practice (round 4)"
     speaker: "Volunteer (TBC)"
-    date: 2026-10-26
-    time: "14:00"
+    date: 2026-09-07
+    time: "16:00"
     location: "Ingkarni Wardli, Level 4 seminar room (TBC)"
     abstract: |
-      HDR Seminar Series — Session 8 of 10 (tentative).
-
-      Student volunteer presentation practice. Also need a couple of faculty members to provide student feedback.
-    ideas: "Volunteer presenter; faculty feedback needed"
+      HDR Seminar Series — Week 8 of 16 (tentative). Student presentation practice with faculty feedback.
+    ideas: "Volunteer; also need a couple faculties to provide student feedback"
     status: scheduled
 
-  - id: hdr-2026-11-09-series-09
+  - id: hdr-2026-09-14-series-09
     type: hdr_seminar
     series: hdr-2026
     session_number: 9
-    title: "Research talk – Software Engineering"
-    speaker: "TBC (Sebastian Baltes)"
-    date: 2026-11-09
-    time: "14:00"
+    title: "Research talk – cyber"
+    speaker: "TBC"
+    date: 2026-09-14
+    time: "16:00"
     location: "Ingkarni Wardli, Level 4 seminar room (TBC)"
     abstract: |
-      HDR Seminar Series — Session 9 of 10 (tentative).
-
-      Ideas: Sebastian Baltes.
-    ideas: "Sebastian Baltes"
+      HDR Seminar Series — Week 9 of 16 (tentative).
+    ideas: "Yuval or Swinburne ppl? Ask Hung"
     status: scheduled
 
-  - id: hdr-2026-11-23-series-10
+  - id: hdr-2026-09-21-series-10
     type: hdr_seminar
     series: hdr-2026
     session_number: 10
-    title: "Job-seeking experience — invite recent graduates"
-    speaker: "TBC"
-    date: 2026-11-23
-    time: "14:00"
+    title: "Student research presentation practice (round 5)"
+    speaker: "Volunteer (TBC)"
+    date: 2026-09-21
+    time: "16:00"
     location: "Ingkarni Wardli, Level 4 seminar room (TBC)"
     abstract: |
-      HDR Seminar Series — Session 10 of 10 (tentative).
+      HDR Seminar Series — Week 10 of 16 (tentative). Student presentation practice with faculty feedback.
+    ideas: "Volunteer; also need a couple faculties to provide student feedback"
+    status: scheduled
 
-      Ideas: Yuankai, Guansong (SMU?); someone in IVE; post-docs.
+  - id: hdr-2026-09-28-series-11
+    type: hdr_seminar
+    series: hdr-2026
+    session_number: 11
+    title: "Academic job market & career planning"
+    speaker: "TBC"
+    date: 2026-09-28
+    time: "16:00"
+    location: "Ingkarni Wardli, Level 4 seminar room (TBC)"
+    abstract: |
+      HDR Seminar Series — Week 11 of 16 (tentative).
+    status: scheduled
+
+  - id: hdr-2026-10-05-series-12
+    type: hdr_seminar
+    series: hdr-2026
+    session_number: 12
+    title: "Student research presentation practice (round 6)"
+    speaker: "Volunteer (TBC)"
+    date: 2026-10-05
+    time: "16:00"
+    location: "Ingkarni Wardli, Level 4 seminar room (TBC)"
+    abstract: |
+      HDR Seminar Series — Week 12 of 16 (tentative). Student presentation practice with faculty feedback.
+    ideas: "Volunteer; also need a couple faculties to provide student feedback"
+    status: scheduled
+
+  - id: hdr-2026-10-12-series-13
+    type: hdr_seminar
+    series: hdr-2026
+    session_number: 13
+    title: "Research talk – Software Engineering"
+    speaker: "TBC"
+    date: 2026-10-12
+    time: "16:00"
+    location: "Ingkarni Wardli, Level 4 seminar room (TBC)"
+    abstract: |
+      HDR Seminar Series — Week 13 of 16 (tentative).
+    ideas: "Sebastian Baltes"
+    status: scheduled
+
+  - id: hdr-2026-10-19-series-14
+    type: hdr_seminar
+    series: hdr-2026
+    session_number: 14
+    title: "Student research presentation practice (round 7)"
+    speaker: "Volunteer (TBC)"
+    date: 2026-10-19
+    time: "16:00"
+    location: "Ingkarni Wardli, Level 4 seminar room (TBC)"
+    abstract: |
+      HDR Seminar Series — Week 14 of 16 (tentative). Student presentation practice with faculty feedback.
+    ideas: "Volunteer; also need a couple faculties to provide student feedback"
+    status: scheduled
+
+  - id: hdr-2026-10-26-series-15
+    type: hdr_seminar
+    series: hdr-2026
+    session_number: 15
+    title: "Job-seeking experience — invite recent graduates"
+    speaker: "TBC"
+    date: 2026-10-26
+    time: "16:00"
+    location: "Ingkarni Wardli, Level 4 seminar room (TBC)"
+    abstract: |
+      HDR Seminar Series — Week 15 of 16 (tentative).
     ideas: "Yuankai, Guansong (SMU?); someone in IVE; post-docs"
+    status: scheduled
+
+  - id: hdr-2026-11-02-series-16
+    type: hdr_seminar
+    series: hdr-2026
+    session_number: 16
+    title: "Student research presentation practice (round 8)"
+    speaker: "Volunteer (TBC)"
+    date: 2026-11-02
+    time: "16:00"
+    location: "Ingkarni Wardli, Level 4 seminar room (TBC)"
+    abstract: |
+      HDR Seminar Series — Week 16 of 16 (tentative). Student presentation practice with faculty feedback.
+    ideas: "Volunteer; also need a couple faculties to provide student feedback"
     status: scheduled
