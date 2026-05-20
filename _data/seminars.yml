@@ -60,6 +60,8 @@ seminars:
 
   - id: hdr-2026-07-20-series-01
     type: hdr_seminar
+    series: hdr-2026
+    session_number: 1
     title: "Research talk – AI, social"
     speaker: "TBC"
     date: 2026-07-20
@@ -69,10 +71,13 @@ seminars:
       HDR Seminar Series — Session 1 of 10 (tentative). Recurring series for HDR students to present progress, pilot ideas, and engage with peers and staff.
 
       Possible speakers: Jat Singh? Paul Egre?
+    ideas: "Jat Singh? Paul Egre?"
     status: scheduled
 
   - id: hdr-2026-08-03-series-02
     type: hdr_seminar
+    series: hdr-2026
+    session_number: 2
     title: "Publishing strategy & venue selection (CHI, CVPR, NeurIPS, MICCAI)"
     speaker: "TBC"
     date: 2026-08-03
@@ -82,10 +87,13 @@ seminars:
       HDR Seminar Series — Session 2 of 10 (tentative).
 
       Ideas: TJ has a CVPR talk?
+    ideas: "TJ has a CVPR talk?"
     status: scheduled
 
   - id: hdr-2026-08-17-series-03
     type: hdr_seminar
+    series: hdr-2026
+    session_number: 3
     title: "Technical tools demo / Advanced AI lab work — Claude Code, HPC, Zotero, ComfyUI etc."
     speaker: "TBC"
     date: 2026-08-17
@@ -95,10 +103,13 @@ seminars:
       HDR Seminar Series — Session 3 of 10 (tentative).
 
       Ideas: Someone from industry with experience in training foundation models; or someone in a startup.
+    ideas: "Industry FM training experience or startup speaker"
     status: scheduled
 
   - id: hdr-2026-08-31-series-04
     type: hdr_seminar
+    series: hdr-2026
+    session_number: 4
     title: "Research talk – health"
     speaker: "TBC"
     date: 2026-08-31
@@ -108,10 +119,13 @@ seminars:
       HDR Seminar Series — Session 4 of 10 (tentative).
 
       Possible speakers: Gustavo, Ignacio.
+    ideas: "Gustavo, Ignacio"
     status: scheduled
 
   - id: hdr-2026-09-14-series-05
     type: hdr_seminar
+    series: hdr-2026
+    session_number: 5
     title: "Student research presentation practice (round 1)"
     speaker: "Volunteer (TBC)"
     date: 2026-09-14
@@ -121,10 +135,13 @@ seminars:
       HDR Seminar Series — Session 5 of 10 (tentative).
 
       Student volunteer presentation practice. Also need a couple of faculty members to provide student feedback.
+    ideas: "Volunteer presenter; faculty feedback needed"
     status: scheduled
 
   - id: hdr-2026-09-28-series-06
     type: hdr_seminar
+    series: hdr-2026
+    session_number: 6
     title: "Research talk – cyber"
     speaker: "TBC"
     date: 2026-09-28
@@ -134,10 +151,13 @@ seminars:
       HDR Seminar Series — Session 6 of 10 (tentative).
 
       Ideas: Yuval or Swinburne people? Ask Hung.
+    ideas: "Yuval or Swinburne people? Ask Hung"
     status: scheduled
 
   - id: hdr-2026-10-12-series-07
     type: hdr_seminar
+    series: hdr-2026
+    session_number: 7
     title: "Academic job market & career planning"
     speaker: "TBC"
     date: 2026-10-12
@@ -147,10 +167,13 @@ seminars:
       HDR Seminar Series — Session 7 of 10 (tentative).
 
       Speaker(s) to be confirmed.
+    ideas: "Speaker(s) to be confirmed"
     status: scheduled
 
   - id: hdr-2026-10-26-series-08
     type: hdr_seminar
+    series: hdr-2026
+    session_number: 8
     title: "Student research presentation practice (round 2)"
     speaker: "Volunteer (TBC)"
     date: 2026-10-26
@@ -160,10 +183,13 @@ seminars:
       HDR Seminar Series — Session 8 of 10 (tentative).
 
       Student volunteer presentation practice. Also need a couple of faculty members to provide student feedback.
+    ideas: "Volunteer presenter; faculty feedback needed"
     status: scheduled
 
   - id: hdr-2026-11-09-series-09
     type: hdr_seminar
+    series: hdr-2026
+    session_number: 9
     title: "Research talk – Software Engineering"
     speaker: "TBC (Sebastian Baltes)"
     date: 2026-11-09
@@ -173,10 +199,13 @@ seminars:
       HDR Seminar Series — Session 9 of 10 (tentative).
 
       Ideas: Sebastian Baltes.
+    ideas: "Sebastian Baltes"
     status: scheduled
 
   - id: hdr-2026-11-23-series-10
     type: hdr_seminar
+    series: hdr-2026
+    session_number: 10
     title: "Job-seeking experience — invite recent graduates"
     speaker: "TBC"
     date: 2026-11-23
@@ -186,4 +215,5 @@ seminars:
       HDR Seminar Series — Session 10 of 10 (tentative).
 
       Ideas: Yuankai, Guansong (SMU?); someone in IVE; post-docs.
+    ideas: "Yuankai, Guansong (SMU?); someone in IVE; post-docs"
     status: scheduled

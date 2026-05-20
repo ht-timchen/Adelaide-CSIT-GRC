@@ -35,3 +35,12 @@ seminar_types:
 thesis_types:
   - candidature_review
   - thesis_defence
+
+hdr_series:
+  id: hdr-2026
+  title: "HDR Seminar Series 2026"
+  description: |
+    A recurring Higher Degree by Research (HDR) seminar series for students to present
+    progress, pilot ideas, and engage with peers and staff. Fortnightly sessions,
+    typically Monday afternoons (Adelaide time). Schedule is tentative until speakers
+    are confirmed.

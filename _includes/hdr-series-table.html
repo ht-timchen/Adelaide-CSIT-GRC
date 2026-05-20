@@ -1,0 +1,37 @@
+{% assign series_id = site.hdr_series.id %}
+{% assign sessions = site.data.seminars.seminars | where: "series", series_id | sort: "session_number" %}
+
+{% if sessions.size == 0 %}
+<p class="empty-state">No HDR series sessions scheduled yet.</p>
+{% else %}
+<div class="table-wrap">
+  <table class="series-table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Date</th>
+        <th scope="col">Topic</th>
+        <th scope="col">Speaker</th>
+        <th scope="col">Ideas / notes</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for s in sessions %}
+      {% assign date_str = s.date | append: "" %}
+      <tr>
+        <td>{{ s.session_number }}</td>
+        <td class="series-table__date">
+          {{ date_str | date: "%-d %b %Y" }}<br>
+          <span class="series-table__time">{{ s.time }}</span>
+        </td>
+        <td>
+          <a href="#{{ s.id }}">{{ s.title }}</a>
+        </td>
+        <td>{{ s.speaker }}</td>
+        <td class="series-table__ideas">{% if s.ideas %}{{ s.ideas }}{% else %}—{% endif %}</td>
+      </tr>
+    {% endfor %}
+    </tbody>
+  </table>
+</div>
+{% endif %}

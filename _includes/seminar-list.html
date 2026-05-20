@@ -25,6 +25,9 @@
   {% if include.type_filter and seminar.type != include.type_filter %}
     {% assign show = false %}
   {% endif %}
+  {% if include.exclude_series and seminar.series %}
+    {% assign show = false %}
+  {% endif %}
   {% if show %}
     {% include seminar-card.html seminar=seminar %}
     {% assign count = count | plus: 1 %}

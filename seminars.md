@@ -19,7 +19,7 @@ description: Upcoming HDR seminars, thesis defences, candidature reviews, and sp
 
 <section class="section" id="upcoming">
   <h2>All upcoming</h2>
-  {% include seminar-list.html section="upcoming" %}
+  {% include seminar-list.html section="upcoming" exclude_series=true %}
 </section>
 
 {% for type_pair in site.seminar_types %}
@@ -27,6 +27,11 @@ description: Upcoming HDR seminars, thesis defences, candidature reviews, and sp
   {% assign type_info = type_pair[1] %}
 <section class="section" id="{{ type_id }}">
   <h2>{{ type_info.label }}</h2>
+  {% if type_id == "hdr_seminar" %}
+  <p class="section-lead"><a href="{{ '/hdr-series' | relative_url }}">View full 2026 HDR series program (table) →</a></p>
+  {% include seminar-list.html section="upcoming" type_filter=type_id exclude_series=true %}
+  {% else %}
   {% include seminar-list.html section="upcoming" type_filter=type_id %}
+  {% endif %}
 </section>
 {% endfor %}

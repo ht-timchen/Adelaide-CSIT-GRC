@@ -16,7 +16,7 @@ title: Home
   <ul class="seminar-list">
   {% for seminar in sorted %}
     {% assign date_str = seminar.date | append: "" %}
-    {% if date_str >= today and shown < 5 %}
+    {% if date_str >= today and shown < 5 and seminar.series == nil %}
       {% include seminar-card.html seminar=seminar %}
       {% assign shown = shown | plus: 1 %}
     {% endif %}
@@ -28,7 +28,9 @@ title: Home
 </section>
 
 <p class="home-links">
-  <a href="{{ '/seminars' | relative_url }}">View all upcoming seminars →</a>
+  <a href="{{ '/hdr-series' | relative_url }}">HDR Seminar Series 2026 (full program) →</a>
+  ·
+  <a href="{{ '/seminars' | relative_url }}">All upcoming seminars</a>
   ·
   <a href="{{ '/past-seminars' | relative_url }}">Past seminars</a>
 </p>
