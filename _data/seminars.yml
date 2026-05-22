@@ -118,14 +118,13 @@ seminars:
     type: hdr_seminar
     series: hdr-2026
     session_number: 5
-    title: "Technical tools demo / Advanced AI lab work — Claude Code, HPC, Zotero, ComfyUI etc."
-    speaker: "TBC"
+    title: "How to publish at top venue"
+    speaker: "Tat-Jun Chin"
     date: 2026-08-17
     time: "16:00"
     location: "Ingkarni Wardli, Level 4 seminar room (TBC)"
     abstract: |
-      HDR Seminar Series — Week 5 of 16 (tentative).
-    ideas: "Someone from industry with experience in training foundation model etc; or someone in startup"
+      HDR Seminar Series — Week 5 of 16.
     status: scheduled
 
   - id: hdr-2026-08-24-series-06
