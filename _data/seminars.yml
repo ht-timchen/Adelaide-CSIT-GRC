@@ -62,14 +62,13 @@ seminars:
     type: hdr_seminar
     series: hdr-2026
     session_number: 1
-    title: "Research talk – Research in CS"
-    speaker: "TBC"
+    title: "User Interfaces for AR: The Last Frontier – Us(ers)"
+    speaker: "Bruce Thomas"
     date: 2026-07-20
     time: "16:00"
     location: "Ingkarni Wardli, Level 4 seminar room (TBC)"
     abstract: |
-      HDR Seminar Series — Week 1 of 16 (tentative).
-    ideas: "Jat Singh? Paul Egre? Tim Miller"
+      HDR Seminar Series — Week 1 of 16.
     status: scheduled
 
   - id: hdr-2026-07-27-series-02
@@ -118,7 +117,7 @@ seminars:
     type: hdr_seminar
     series: hdr-2026
     session_number: 5
-    title: "How to publish at top venue"
+    title: "Why do we publish?"
     speaker: "Tat-Jun Chin"
     date: 2026-08-17
     time: "16:00"
