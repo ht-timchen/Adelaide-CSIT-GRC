@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Seminars
+title: HDR Reviews
 description: Upcoming HDR seminars, thesis defences, candidature reviews, and special sessions.
 ---
 
 <div class="page-header">
-  <h1>Upcoming seminars</h1>
+  <h1>Upcoming HDR Reviews</h1>
   <p>Browse upcoming events by type. Times are Adelaide local (ACST/ACDT). For past events, see <a href="{{ '/past-seminars' | relative_url }}">Past seminars</a>.</p>
 </div>
 
