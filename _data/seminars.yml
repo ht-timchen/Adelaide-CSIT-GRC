@@ -103,14 +103,13 @@ seminars:
     type: hdr_seminar
     series: hdr-2026
     session_number: 3
-    title: "Publishing strategy & venue selection (CHI, CVPR, NeurIPS, MICCAI)"
+    title: "Research talk – AI/ML"
     speaker: "TBC"
     date: 2026-08-03
     time: "16:00"
     location: "Ingkarni Wardli, Level 4 seminar room (TBC)"
     abstract: |
       HDR Seminar Series — Week 3 of 16 (tentative).
-    ideas: "TJ has a CVPR talk?"
     status: scheduled
 
   - id: hdr-2026-08-10-series-04
