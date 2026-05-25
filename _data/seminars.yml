@@ -58,6 +58,20 @@ seminars:
     location: "Ingkarni Wardli 4.63 (IW 4.63) — also available via Teams"
     status: completed
 
+  - id: special-2026-05-29-kim
+    type: special
+    title: "Connecting Intelligences beyond Boundaries"
+    speaker: "Dr Dooyoung Kim, La Trobe University"
+    date: 2026-05-29
+    time: "16:00–17:00"
+    location: "Online (Zoom)"
+    abstract: |
+      This talk explores how XR and spatial computing can connect people, AI, and memories beyond the boundaries of virtual and physical worlds, distance, and time. The presentation covers research on MR telepresence, virtual-physical integration, Physical AI and digital twins, and XRMemory systems for capturing, reconstructing, and replaying spatial experiences.
+
+      Dr Dooyoung Kim is an incoming Lecturer in the Department of Computer Science and Information Technology at La Trobe University. He received his Ph.D. in Culture Technology from the KAIST UVR Lab, was a visiting postdoctoral researcher at New York University, and previously served as a Senior Researcher at the KAIST Augmented Reality Research Center. His research focuses on XR, spatial computing, and Human-Computer Interaction. He has received three ISMAR Best Paper Awards, an ACM CHI Honorable Mention Award, and has served as an organizer and session chair for IEEE VR and IEEE ISMAR.
+    online_url: "https://adelaide.zoom.us/j/82640278384?pwd=cNirpf7n0fnXP3AGnbjcSdwiQ62Vm8.1"
+    status: scheduled
+
   - id: hdr-2026-07-20-series-01
     type: hdr_seminar
     series: hdr-2026
