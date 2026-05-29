@@ -327,3 +327,9 @@ a:hover {
   font-size: 0.85rem;
   color: var(--color-muted);
 }
+
+.series-table__location {
+  color: var(--color-muted);
+  font-size: 0.85rem;
+  min-width: 12rem;
+}

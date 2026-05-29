@@ -8,8 +8,8 @@ description: Tentative 2026 HDR Seminar Series program — fortnightly sessions 
   <h1>{{ site.hdr_series.title }}</h1>
   <p>{{ site.hdr_series.description }}</p>
   <p class="page-header__meta">
-    Default time and location: <strong>4:00 pm</strong> (16:00, tentative), Ingkarni Wardli Level 4 (TBC) — see
-    <a href="{{ '/seminars' | relative_url }}">Upcoming seminars</a> for confirmed details and other event types.
+    Sessions are booked at <strong>North Terrace (CE)</strong> and <strong>Machine Learning Building (ML)</strong> — times and rooms vary by week (see table). See
+    <a href="{{ '/seminars' | relative_url }}">Upcoming seminars</a> for candidature reviews and other events.
   </p>
 </div>
 

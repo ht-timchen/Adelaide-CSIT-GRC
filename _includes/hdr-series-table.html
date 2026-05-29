@@ -12,6 +12,7 @@
         <th scope="col">Date</th>
         <th scope="col">Topic</th>
         <th scope="col">Speaker</th>
+        <th scope="col">Location</th>
       </tr>
     </thead>
     <tbody>
@@ -27,6 +28,7 @@
           <a href="#{{ s.id }}">{{ s.title }}</a>
         </td>
         <td>{{ s.speaker }}</td>
+        <td class="series-table__location">{{ s.location }}</td>
       </tr>
     {% endfor %}
     </tbody>
