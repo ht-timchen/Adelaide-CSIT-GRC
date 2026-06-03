@@ -157,14 +157,13 @@ seminars:
     type: hdr_seminar
     series: hdr-2026
     session_number: 7
-    title: "Research talk – health"
-    speaker: "TBC"
+    title: "SW Engineering Job Readiness in the AI Era"
+    speaker: "Wolfgang Mayer"
     date: 2026-08-31
     time: "15:45–17:15"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
-      HDR Seminar Series — Week 7 of 16 (tentative).
-    ideas: "Gustavo, Ignacio"
+      HDR Seminar Series — Week 7 of 16.
     status: scheduled
 
   - id: hdr-2026-09-07-series-08
@@ -213,13 +212,13 @@ seminars:
     type: hdr_seminar
     series: hdr-2026
     session_number: 11
-    title: "Academic job market & career planning"
-    speaker: "TBC"
+    title: "AI driven decision making in complex systems"
+    speaker: "Claudia Szabo"
     date: 2026-09-28
     time: "15:45–17:15"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
-      HDR Seminar Series — Week 11 of 16 (tentative).
+      HDR Seminar Series — Week 11 of 16.
     status: scheduled
 
   - id: hdr-2026-10-05-series-12
