@@ -79,7 +79,7 @@ seminars:
     title: "User Interfaces for AR: The Last Frontier – Us(ers)"
     speaker: "Bruce Thomas"
     date: 2026-07-20
-    time: "15:45–17:15"
+    time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
       HDR Seminar Series — Week 1 of 16.
@@ -92,8 +92,8 @@ seminars:
     title: "Student research presentation practice (round 1)"
     speaker: "Volunteer (TBC)"
     date: 2026-07-27
-    time: "15:30–17:30"
-    location: "CE: Ingkarni Wardli 5.57 (IW5.57, seminar 4:00–5:15 pm); ML: Mawson Lakes Building J, J2-15"
+    time: "16:00–17:00"
+    location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
       HDR Seminar Series — Week 2 of 16 (tentative). Student presentation practice with faculty feedback.
     ideas: "Volunteer; also need a couple faculties to provide student feedback"
@@ -106,7 +106,7 @@ seminars:
     title: "Frontier research in NLP / LLM"
     speaker: "Lingqiao Liu"
     date: 2026-08-03
-    time: "15:30–17:30"
+    time: "16:00–17:00"
     location: "CE: Napier 108; ML: Mawson Lakes Building J, J2-15"
     abstract: |
       HDR Seminar Series — Week 3 of 16.
@@ -119,7 +119,7 @@ seminars:
     title: "Student research presentation practice (round 2)"
     speaker: "Volunteer (TBC)"
     date: 2026-08-10
-    time: "15:30–17:30"
+    time: "16:00–17:00"
     location: "CE: Napier 108; ML: Mawson Lakes Building J, J2-15"
     abstract: |
       HDR Seminar Series — Week 4 of 16 (tentative). Student presentation practice with faculty feedback.
@@ -133,7 +133,7 @@ seminars:
     title: "Why do we publish?"
     speaker: "Tat-Jun Chin"
     date: 2026-08-17
-    time: "15:45–17:15"
+    time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
       HDR Seminar Series — Week 5 of 16.
@@ -146,7 +146,7 @@ seminars:
     title: "Student research presentation practice (round 3)"
     speaker: "Volunteer (TBC)"
     date: 2026-08-24
-    time: "15:30–17:30"
+    time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
       HDR Seminar Series — Week 6 of 16 (tentative). Student presentation practice with faculty feedback.
@@ -160,7 +160,7 @@ seminars:
     title: "SW Engineering Job Readiness in the AI Era"
     speaker: "Wolfgang Mayer"
     date: 2026-08-31
-    time: "15:45–17:15"
+    time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
       HDR Seminar Series — Week 7 of 16.
@@ -173,7 +173,7 @@ seminars:
     title: "Student research presentation practice (round 4)"
     speaker: "Volunteer (TBC)"
     date: 2026-09-07
-    time: "15:30–17:30"
+    time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
       HDR Seminar Series — Week 8 of 16 (tentative). Student presentation practice with faculty feedback.
@@ -187,7 +187,7 @@ seminars:
     title: "TBC"
     speaker: "TBC"
     date: 2026-09-14
-    time: "15:45–17:15"
+    time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
       HDR Seminar Series — Week 9 of 16 (tentative).
@@ -201,7 +201,7 @@ seminars:
     title: "Student research presentation practice (round 5)"
     speaker: "Volunteer (TBC)"
     date: 2026-09-21
-    time: "15:30–17:30"
+    time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
       HDR Seminar Series — Week 10 of 16 (tentative). Student presentation practice with faculty feedback.
@@ -215,7 +215,7 @@ seminars:
     title: "AI driven decision making in complex systems"
     speaker: "Claudia Szabo"
     date: 2026-09-28
-    time: "15:45–17:15"
+    time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
       HDR Seminar Series — Week 11 of 16.
@@ -228,7 +228,7 @@ seminars:
     title: "Student research presentation practice (round 6)"
     speaker: "Volunteer (TBC)"
     date: 2026-10-05
-    time: "15:30–17:30"
+    time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
       HDR Seminar Series — Week 12 of 16 (tentative). Student presentation practice with faculty feedback.
@@ -239,14 +239,13 @@ seminars:
     type: hdr_seminar
     series: hdr-2026
     session_number: 13
-    title: "TBC"
-    speaker: "TBC"
+    title: "AI/ML tool use in the industry"
+    speaker: "Simon Ratcliffe"
     date: 2026-10-12
-    time: "15:45–17:15"
+    time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
-      HDR Seminar Series — Week 13 of 16 (tentative).
-    ideas: "Sebastian Baltes"
+      HDR Seminar Series — Week 13 of 16.
     status: scheduled
 
   - id: hdr-2026-10-19-series-14
@@ -256,7 +255,7 @@ seminars:
     title: "Student research presentation practice (round 7)"
     speaker: "Volunteer (TBC)"
     date: 2026-10-19
-    time: "15:30–17:30"
+    time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
       HDR Seminar Series — Week 14 of 16 (tentative). Student presentation practice with faculty feedback.
@@ -270,7 +269,7 @@ seminars:
     title: "TBC"
     speaker: "TBC"
     date: 2026-10-26
-    time: "15:45–17:15"
+    time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
       HDR Seminar Series — Week 15 of 16 (tentative).
@@ -284,7 +283,7 @@ seminars:
     title: "Student research presentation practice (round 8)"
     speaker: "Volunteer (TBC)"
     date: 2026-11-02
-    time: "15:30–17:30"
+    time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
       HDR Seminar Series — Week 16 of 16 (tentative). Student presentation practice with faculty feedback.
