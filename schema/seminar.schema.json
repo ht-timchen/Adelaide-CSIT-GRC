@@ -41,6 +41,16 @@
         "status": {
           "type": "string",
           "enum": ["scheduled", "cancelled", "completed"]
+        },
+        "image": {
+          "type": "string",
+          "pattern": "^/assets/seminars/.+\\.(png|jpe?g|webp|gif)$",
+          "description": "Site path to a banner image under assets/seminars/"
+        },
+        "image_alt": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Accessible alt text; defaults to title if omitted"
         }
       }
     },

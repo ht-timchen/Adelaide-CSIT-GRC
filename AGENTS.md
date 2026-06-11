@@ -33,8 +33,18 @@ When the user pastes an email notice and asks to update the website:
 | `time`   | Yes      | 24-hour local Adelaide time, e.g. `"14:00"` |
 | `title`  | Yes      | Talk or event title |
 | `status` | Yes      | `scheduled`, `cancelled`, or `completed` |
+| `image`  | No       | Optional banner: site path under `assets/seminars/`, e.g. `"/assets/seminars/special-2026-06-16-ml-universe.jpg"` |
+| `image_alt` | No    | Alt text for the image (defaults to `title` if omitted) |
 
 Keep entries sorted by `date` ascending.
+
+### Optional banner image
+
+1. Save the image file in [`assets/seminars/`](assets/seminars/) (JPEG, PNG, or WebP; use the seminar `id` as the filename when possible).
+2. Add `image: "/assets/seminars/{filename}"` to the seminar entry in `_data/seminars.yml`.
+3. Optionally set `image_alt` for accessibility.
+
+The image appears on the event card (home, seminars, HDR series, and past pages). Omit `image` for text-only listings.
 
 ## Thesis announcement format
 

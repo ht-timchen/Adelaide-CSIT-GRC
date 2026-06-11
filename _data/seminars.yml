@@ -72,6 +72,20 @@ seminars:
     online_url: "https://adelaide.zoom.us/j/82640278384?pwd=cNirpf7n0fnXP3AGnbjcSdwiQ62Vm8.1"
     status: scheduled
 
+  - id: special-2026-06-16-ml-universe
+    type: special
+    title: "Machine Learning Across the Universe"
+    speaker: "Maja Jablonska"
+    date: 2026-06-16
+    time: "10:30"
+    location: "AIML Atrium (in-person) and Zoom"
+    image: "/assets/seminars/special-2026-06-16-ml-universe.jpg"
+    image_alt: "AIML Research Seminar poster — Machine Learning Across the Universe, 16 June 10:30am, AIML Atrium. Speaker Maja Jablonska."
+    abstract: |
+      Astronomy and physics deal with various problems that can be excellently advanced by machine learning — most commonly due to enormous data volumes, computationally intensive forward models, and complex inference tasks involved. In this talk, Maja will provide an overview of the persistent challenges in astrophysics and highlight recent advances in applying machine learning, including spectral synthesis and analysis, mechanistic interpretability for testing the Platonic hypothesis in astronomical data, and hypothesis generation. She will also examine the limitations of current methods, with particular attention to factors that may hinder the broader adoption of machine learning in astrophysics.
+    online_url: "https://adelaide.zoom.us/j/88930959358?pwd=cjBpt4b2U2D47mZLbI284RYbxzznqG.1"
+    status: scheduled
+
   - id: hdr-2026-07-20-series-01
     type: hdr_seminar
     series: hdr-2026

@@ -67,6 +67,15 @@ Look for these labels (case-insensitive, colon optional):
 | Location, Room | `location` |
 | Abstract, Description | `abstract` |
 | Link, Join online | `online_url` |
+| Poster, flyer, banner (file provided) | `image` + optional `image_alt` |
+
+### Optional banner image
+
+When the user supplies a poster or flyer:
+
+1. Save it under `assets/seminars/` (e.g. `special-2026-06-16-ml-universe.jpg`).
+2. Add to the YAML entry: `image: "/assets/seminars/special-2026-06-16-ml-universe.jpg"`.
+3. Set `image_alt` if the image conveys more than the title alone.
 
 ## Date and time rules
 

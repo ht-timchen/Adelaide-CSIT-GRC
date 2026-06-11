@@ -14,14 +14,29 @@
   {% assign is_thesis = true %}
 {% endif %}
 
-<li class="seminar-card{% if is_cancelled %} is-cancelled{% endif %}" id="{{ s.id }}">
+<li class="seminar-card{% if is_cancelled %} is-cancelled{% endif %}{% if s.image %} seminar-card--with-image{% endif %}" id="{{ s.id }}">
   <div class="seminar-card__header">
     {% include seminar-type-badge.html type=s.type seminar=s %}
     <p class="seminar-card__date">{{ date_str | date: "%-d %b %Y" }}{% if s.time %} · {{ s.time }}{% endif %}</p>
   </div>
-  {% if is_thesis %}
-    {% include announcement-thesis.html seminar=s %}
-  {% else %}
-    {% include announcement-event.html seminar=s %}
-  {% endif %}
+  <div class="seminar-card__body">
+    {% if s.image %}
+    <div class="seminar-card__media">
+      <img
+        class="seminar-card__image"
+        src="{{ s.image | relative_url }}"
+        alt="{{ s.image_alt | default: s.title }}"
+        loading="lazy"
+        decoding="async"
+      >
+    </div>
+    {% endif %}
+    <div class="seminar-card__content">
+      {% if is_thesis %}
+        {% include announcement-thesis.html seminar=s %}
+      {% else %}
+        {% include announcement-event.html seminar=s %}
+      {% endif %}
+    </div>
+  </div>
 </li>
