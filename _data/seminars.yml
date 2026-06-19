@@ -86,6 +86,18 @@ seminars:
     online_url: "https://adelaide.zoom.us/j/88930959358?pwd=cjBpt4b2U2D47mZLbI284RYbxzznqG.1"
     status: scheduled
 
+  - id: candidature-review-2026-06-26-li
+    type: candidature_review
+    candidate: "Xiaoyang Li"
+    supervisor: "Wei Zhang"
+    date: 2026-06-26
+    time: "10:30"
+    title: "Time Series Forecasting under Data Heterogeneity"
+    abstract: |
+      Time series forecasting aims to predict future values or uncertainty from historical temporal observations, but real-world time series are often heterogeneous across time, data sources, and external modalities. This project investigates time series forecasting under data heterogeneity, focusing on three challenges: robustness under temporal distribution shift, generalization across structurally heterogeneous sources, and alignment of multimodal information with numerical time series. By developing heterogeneity-aware and uncertainty-aware forecasting methods, this project aims to support more robust, transferable, and interpretable forecasting in complex real-world settings.
+    teams_url: "https://teams.microsoft.com/meet/43232849140610?p=FRBEJYKfrZFlE7rl7j"
+    status: scheduled
+
   - id: hdr-2026-07-20-series-01
     type: hdr_seminar
     series: hdr-2026
