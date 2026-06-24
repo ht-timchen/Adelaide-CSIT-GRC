@@ -98,6 +98,26 @@ seminars:
     teams_url: "https://teams.microsoft.com/meet/43232849140610?p=FRBEJYKfrZFlE7rl7j"
     status: scheduled
 
+  - id: special-2026-06-30-smart-cities
+    type: special
+    title: "Building Sustainable Smart Cities with AI-as-a-Service on Cloud and Edge Platforms"
+    speaker: "Nguyen Huu Thanh and Nguyen Tai Hung, Advanced Networking and Smart Applications Laboratory (ANSA), School of Electrical and Electronic Engineering, Hanoi University of Science and Technology, Vietnam"
+    date: 2026-06-30
+    time: "10:30–11:15"
+    location: "AIML Atrium (in-person) and Zoom"
+    image: "/assets/seminars/special-2026-06-30-smart-cities.png"
+    image_alt: "AIML Research Seminar — Building Sustainable Smart Cities with AI-as-a-Service on Cloud and Edge Platforms, 30 June 10:30am, AIML Atrium. Speakers Nguyen Huu Thanh and Nguyen Tai Hung."
+    abstract: |
+      Join us for a special AIML Research Seminar with Nguyen Huu Thanh and Nguyen Tai Hung from Hanoi University of Science and Technology as they explore how AI-as-a-Service, cloud-edge computing, and distributed AI are enabling the development of sustainable, intelligent smart cities through scalable, energy-efficient, and real-time AI solutions. In person at the AIML Atrium; morning tea provided.
+
+      Artificial Intelligence (AI) is becoming a key enabler of digital transformation and smart city development. However, the rapid growth of AI applications generates unprecedented demands on computing, communication, and energy resources, raising important challenges related to scalability, latency, privacy, and sustainability. This talk presents cloud and edge computing infrastructures as a foundation for delivering sustainable AI services in smart city environments.
+
+      In this talk, we first discuss emerging distributed AI paradigms, including federated learning, model parallelism, and hybrid parallelism, that enable AI training and inference across heterogeneous edge-cloud resources while reducing communication overhead and preserving data privacy. The concept of AI-as-a-Service is then introduced, integrating distributed AI, edge/cloud computing, and advanced communication networks to support dynamic provisioning of AI services. Attention is given to resource-aware orchestration, containerized service deployment, and energy-efficient management of computing resources.
+
+      The talk further presents a recent research project on a real-world smart city case study involving large-scale traffic camera networks to illustrate how sustainable AI services can be deployed efficiently, achieving improved resource utilization, reduced energy consumption, and enhanced real-time performance.
+    online_url: "https://adelaide.zoom.us/j/88930959358?pwd=cjBpt4b2U2D47mZLbI284RYbxzznqG.1"
+    status: scheduled
+
   - id: hdr-2026-07-20-series-01
     type: hdr_seminar
     series: hdr-2026
