@@ -118,31 +118,17 @@ seminars:
     online_url: "https://adelaide.zoom.us/j/88930959358?pwd=cjBpt4b2U2D47mZLbI284RYbxzznqG.1"
     status: scheduled
 
-  - id: hdr-2026-07-20-series-01
+  - id: hdr-2026-07-27-series-01
     type: hdr_seminar
     series: hdr-2026
     session_number: 1
     title: "User Interfaces for AR: The Last Frontier – Us(ers)"
     speaker: "Bruce Thomas"
-    date: 2026-07-20
-    time: "16:00–17:00"
-    location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
-    abstract: |
-      HDR Seminar Series — Week 1 of 16.
-    status: scheduled
-
-  - id: hdr-2026-07-27-series-02
-    type: hdr_seminar
-    series: hdr-2026
-    session_number: 2
-    title: "Student research presentation practice (round 1)"
-    speaker: "Volunteer (TBC)"
     date: 2026-07-27
     time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
-      HDR Seminar Series — Week 2 of 16 (tentative). Student presentation practice with faculty feedback.
-    ideas: "Volunteer; also need a couple faculties to provide student feedback"
+      HDR Seminar Series — Week 1 of 16.
     status: scheduled
 
   - id: hdr-2026-08-03-series-03
