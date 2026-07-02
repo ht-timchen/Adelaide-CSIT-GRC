@@ -128,196 +128,196 @@ seminars:
     time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
-      HDR Seminar Series — Week 1 of 16.
+      HDR Seminar Series — Week 1 of 15.
     status: scheduled
 
   - id: hdr-2026-08-03-series-03
     type: hdr_seminar
     series: hdr-2026
-    session_number: 3
+    session_number: 2
     title: "Frontier research in NLP / LLM"
     speaker: "Lingqiao Liu"
     date: 2026-08-03
     time: "16:00–17:00"
     location: "CE: Napier 108; ML: Mawson Lakes Building J, J2-15"
     abstract: |
-      HDR Seminar Series — Week 3 of 16.
+      HDR Seminar Series — Week 2 of 15.
     status: scheduled
 
   - id: hdr-2026-08-10-series-04
     type: hdr_seminar
     series: hdr-2026
-    session_number: 4
-    title: "Student research presentation practice (round 2)"
+    session_number: 3
+    title: "Student research presentation practice (round 1)"
     speaker: "Volunteer (TBC)"
     date: 2026-08-10
     time: "16:00–17:00"
     location: "CE: Napier 108; ML: Mawson Lakes Building J, J2-15"
     abstract: |
-      HDR Seminar Series — Week 4 of 16 (tentative). Student presentation practice with faculty feedback.
+      HDR Seminar Series — Week 3 of 15 (tentative). Student presentation practice with faculty feedback.
     ideas: "Volunteer; also need a couple faculties to provide student feedback"
     status: scheduled
 
   - id: hdr-2026-08-17-series-05
     type: hdr_seminar
     series: hdr-2026
-    session_number: 5
+    session_number: 4
     title: "Why do we publish?"
     speaker: "Tat-Jun Chin"
     date: 2026-08-17
     time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
-      HDR Seminar Series — Week 5 of 16.
+      HDR Seminar Series — Week 4 of 15.
     status: scheduled
 
   - id: hdr-2026-08-24-series-06
     type: hdr_seminar
     series: hdr-2026
-    session_number: 6
-    title: "Student research presentation practice (round 3)"
+    session_number: 5
+    title: "Student research presentation practice (round 2)"
     speaker: "Volunteer (TBC)"
     date: 2026-08-24
     time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
-      HDR Seminar Series — Week 6 of 16 (tentative). Student presentation practice with faculty feedback.
+      HDR Seminar Series — Week 5 of 15 (tentative). Student presentation practice with faculty feedback.
     ideas: "Volunteer; also need a couple faculties to provide student feedback"
     status: scheduled
 
   - id: hdr-2026-08-31-series-07
     type: hdr_seminar
     series: hdr-2026
-    session_number: 7
+    session_number: 6
     title: "SW Engineering Job Readiness in the AI Era"
     speaker: "Wolfgang Mayer"
     date: 2026-08-31
     time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
-      HDR Seminar Series — Week 7 of 16.
+      HDR Seminar Series — Week 6 of 15.
     status: scheduled
 
   - id: hdr-2026-09-07-series-08
     type: hdr_seminar
     series: hdr-2026
-    session_number: 8
-    title: "Student research presentation practice (round 4)"
+    session_number: 7
+    title: "Student research presentation practice (round 3)"
     speaker: "Volunteer (TBC)"
     date: 2026-09-07
     time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
-      HDR Seminar Series — Week 8 of 16 (tentative). Student presentation practice with faculty feedback.
+      HDR Seminar Series — Week 7 of 15 (tentative). Student presentation practice with faculty feedback.
     ideas: "Volunteer; also need a couple faculties to provide student feedback"
     status: scheduled
 
   - id: hdr-2026-09-14-series-09
     type: hdr_seminar
     series: hdr-2026
-    session_number: 9
+    session_number: 8
     title: "TBC"
     speaker: "TBC"
     date: 2026-09-14
     time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
-      HDR Seminar Series — Week 9 of 16 (tentative).
+      HDR Seminar Series — Week 8 of 15 (tentative).
     ideas: "Yuval or Swinburne ppl? Ask Hung"
     status: scheduled
 
   - id: hdr-2026-09-21-series-10
     type: hdr_seminar
     series: hdr-2026
-    session_number: 10
-    title: "Student research presentation practice (round 5)"
+    session_number: 9
+    title: "Student research presentation practice (round 4)"
     speaker: "Volunteer (TBC)"
     date: 2026-09-21
     time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
-      HDR Seminar Series — Week 10 of 16 (tentative). Student presentation practice with faculty feedback.
+      HDR Seminar Series — Week 9 of 15 (tentative). Student presentation practice with faculty feedback.
     ideas: "Volunteer; also need a couple faculties to provide student feedback"
     status: scheduled
 
   - id: hdr-2026-09-28-series-11
     type: hdr_seminar
     series: hdr-2026
-    session_number: 11
+    session_number: 10
     title: "AI driven decision making in complex systems"
     speaker: "Claudia Szabo"
     date: 2026-09-28
     time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
-      HDR Seminar Series — Week 11 of 16.
+      HDR Seminar Series — Week 10 of 15.
     status: scheduled
 
   - id: hdr-2026-10-05-series-12
     type: hdr_seminar
     series: hdr-2026
-    session_number: 12
-    title: "Student research presentation practice (round 6)"
+    session_number: 11
+    title: "Student research presentation practice (round 5)"
     speaker: "Volunteer (TBC)"
     date: 2026-10-05
     time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
-      HDR Seminar Series — Week 12 of 16 (tentative). Student presentation practice with faculty feedback.
+      HDR Seminar Series — Week 11 of 15 (tentative). Student presentation practice with faculty feedback.
     ideas: "Volunteer; also need a couple faculties to provide student feedback"
     status: scheduled
 
   - id: hdr-2026-10-12-series-13
     type: hdr_seminar
     series: hdr-2026
-    session_number: 13
+    session_number: 12
     title: "AI/ML tool use in the industry"
     speaker: "Simon Ratcliffe"
     date: 2026-10-12
     time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
-      HDR Seminar Series — Week 13 of 16.
+      HDR Seminar Series — Week 12 of 15.
     status: scheduled
 
   - id: hdr-2026-10-19-series-14
     type: hdr_seminar
     series: hdr-2026
-    session_number: 14
-    title: "Student research presentation practice (round 7)"
+    session_number: 13
+    title: "Student research presentation practice (round 6)"
     speaker: "Volunteer (TBC)"
     date: 2026-10-19
     time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
-      HDR Seminar Series — Week 14 of 16 (tentative). Student presentation practice with faculty feedback.
+      HDR Seminar Series — Week 13 of 15 (tentative). Student presentation practice with faculty feedback.
     ideas: "Volunteer; also need a couple faculties to provide student feedback"
     status: scheduled
 
   - id: hdr-2026-10-26-series-15
     type: hdr_seminar
     series: hdr-2026
-    session_number: 15
+    session_number: 14
     title: "TBC"
     speaker: "TBC"
     date: 2026-10-26
     time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
-      HDR Seminar Series — Week 15 of 16 (tentative).
+      HDR Seminar Series — Week 14 of 15 (tentative).
     ideas: "Yuankai, Guansong (SMU?); someone in IVE; post-docs"
     status: scheduled
 
   - id: hdr-2026-11-02-series-16
     type: hdr_seminar
     series: hdr-2026
-    session_number: 16
-    title: "Student research presentation practice (round 8)"
+    session_number: 15
+    title: "Student research presentation practice (round 7)"
     speaker: "Volunteer (TBC)"
     date: 2026-11-02
     time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
-      HDR Seminar Series — Week 16 of 16 (tentative). Student presentation practice with faculty feedback.
+      HDR Seminar Series — Week 15 of 15 (tentative). Student presentation practice with faculty feedback.
     ideas: "Volunteer; also need a couple faculties to provide student feedback"
     status: scheduled
