@@ -16,7 +16,11 @@ title: Home
   <ul class="seminar-list">
   {% for seminar in sorted %}
     {% assign date_str = seminar.date | append: "" %}
-    {% if date_str >= today and shown < 5 and seminar.series == nil %}
+    {% assign show_seminar = true %}
+    {% if seminar.title contains "Student research presentation practice" %}
+      {% assign show_seminar = false %}
+    {% endif %}
+    {% if date_str >= today and shown < 5 and show_seminar %}
       {% include seminar-card.html seminar=seminar %}
       {% assign shown = shown | plus: 1 %}
     {% endif %}
