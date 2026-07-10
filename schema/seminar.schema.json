@@ -78,7 +78,8 @@
           },
           "anyOf": [
             { "required": ["teams_url"] },
-            { "required": ["zoom_url"] }
+            { "required": ["zoom_url"] },
+            { "required": ["location"] }
           ],
           "not": {
             "required": ["teams_url", "zoom_url"]

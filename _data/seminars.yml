@@ -118,6 +118,24 @@ seminars:
     online_url: "https://adelaide.zoom.us/j/88930959358?pwd=cjBpt4b2U2D47mZLbI284RYbxzznqG.1"
     status: scheduled
 
+  - id: thesis-defence-2026-07-15-pinero
+    type: thesis_defence
+    candidate: "Sindy Pinero"
+    supervisor: "A/Prof Thuc Duy Le"
+    date: 2026-07-15
+    time: "09:20–10:00"
+    title: "Causal Frameworks for Biomarker Discovery, Early Detection, and Drug Repurposing in Long COVID"
+    abstract: |
+      Post-Acute Sequelae of SARS-CoV-2 infection (PASC), commonly known as Long COVID, is a major global health challenge that affects a substantial proportion of individuals after infection and imposes high economic costs on healthcare systems and society. Despite extensive research, no disease-modifying therapy has received regulatory approval, and clinical care remains largely focused on symptoms. Progress has been slowed by three linked problems. First, the molecular signals reported across omics studies are difficult to interpret because association-based findings cannot reliably distinguish causal disease mechanisms from downstream responses or confounded correlates. Second, current diagnostic practice is retrospective and symptom-based, which limits the ability to identify high-risk individuals before persistent symptoms develop. Third, drug development pipelines treat safety as a downstream filter rather than a primary selection criterion, which is poorly suited to the heterogeneous, multimorbid populations affected by Long COVID.
+
+      Addressing these problems requires moving from descriptive omics databases toward a coherent, causally aware analytical pipeline. The general aim of this thesis is to develop and apply computational frameworks that link omics evidence to causal biomarker discovery, presymptomatic risk prediction, and safety-first therapeutic deprioritisation on Long COVID. This aim is pursued through four objectives, each mapped to one of the above problems. The first objective focuses on the interpretability problem at the level of evidence from the literature, by establishing what is currently known from omics research on Long COVID and assessing the reliability of this evidence. The second objective continues to address the interpretability problem at the level of target discovery, by determining whether gene expression signatures can be linked to Long COVID susceptibility in a way that separates mechanistic drivers from downstream or confounded correlates. The third objective addresses the early-detection problem by testing whether early molecular profiles captured during acute infection can predict future Long COVID risk before symptom onset. The fourth objective addresses the safety problem in drug repurposing by developing a therapeutic deprioritisation framework that integrates causal target evidence with safety-first reasoning.
+
+      To meet these objectives, this thesis develops four computational contributions. The first is a systematic critical review of 101 Long COVID omics studies that identify reproducible biological signals and articulate the methodological gaps that constrain translation. The second is MRCONTROL, an integrative framework that combines two complementary causal inference strategies to prioritise causal genes and stratify patients into transcriptomic endotypes. The third is TACO, a presymptomatic detection framework that combines causal feature selection with foundation-model classification to detect Long COVID at an early stage. The fourth is SPLIT, a drug repurposing framework that integrates three causal inference strategies with clinical knowledge graph learning to classify drug candidates based on predicted safety across different cohorts of Long COVID.
+
+      Together, these contributions advance both the methodology and the translational evidence for Long COVID, providing causally grounded biomarkers, an early-detection model suitable for the acute infection window, and a phenotype-aware safety screening tool. The integrated workflow also provides a reusable template for other complex chronic conditions characterised by heterogeneity, comorbidity, and limited validated therapeutic targets.
+    location: "Mawson Lakes, Building H, Level 1, Room 42"
+    status: scheduled
+
   - id: hdr-2026-07-27-series-01
     type: hdr_seminar
     series: hdr-2026
