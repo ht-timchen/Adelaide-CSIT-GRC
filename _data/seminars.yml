@@ -136,6 +136,18 @@ seminars:
     location: "Mawson Lakes, Building H, Level 1, Room 42"
     status: scheduled
 
+  - id: thesis-defence-2026-07-16-zhang
+    type: thesis_defence
+    candidate: "Kaining Zhang"
+    supervisor: "Prof Mark Billinghurst, Dr Theophilus Teo, Dr Allison Jing"
+    date: 2026-07-16
+    time: "15:20"
+    title: "Decoding Input Preferences and Switch-Intention from Implicit Signals"
+    abstract: |
+      This thesis presents an implicit sensing framework for investigating how physiological and behavioural signals can be used to infer input preference and reported switch-intention in interaction tasks, with a focus on augmented reality (AR) interaction. Across three empirical studies, the thesis examines EEG-based differentiation between preferred and non-preferred hand-based input methods, validates EEG-based preference prediction in realistic AR interaction, and explores a multimodal implicit-signal method for predicting reported trial-level switch-intention using EEG, eye gaze, and head movement signals. This research provides methodological and design insights for developing more adaptive and user-centred AR interaction systems.
+    location: "Mawson Lakes, Building H, Level 1, Room 42"
+    status: scheduled
+
   - id: hdr-2026-07-27-series-01
     type: hdr_seminar
     series: hdr-2026
