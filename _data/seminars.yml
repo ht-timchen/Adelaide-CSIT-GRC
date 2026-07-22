@@ -148,6 +148,24 @@ seminars:
     location: "Mawson Lakes, Building H, Level 1, Room 42"
     status: scheduled
 
+  - id: thesis-defence-2026-07-16-zhou
+    type: thesis_defence
+    candidate: "Gengze Zhou"
+    supervisor: "A/Prof Qi Wu, Dr Yicong Hong"
+    date: 2026-07-16
+    time: "15:20"
+    title: "Embodied World Knowledge for Vision-and-Language Navigation: Reasoning, Grounding, and Generalisation with Multimodal Large Language Models"
+    abstract: |
+      Vision-and-Language Navigation requires an embodied agent to interpret natural-language instructions, understand complex visual environments, reason about spatial relationships, and execute a sequence of actions to reach a target destination. Although substantial progress has been made, conventional navigation systems often rely on task-specific architectures and limited supervision, restricting their ability to generalise to unseen environments, instructions, and navigation objectives.
+
+      This thesis investigates how multimodal large language models can equip embodied agents with richer world knowledge, stronger reasoning capabilities, and improved visual-language grounding. It introduces a series of methods that integrate pretrained vision-language representations, large language model reasoning, environmental memory, and navigation-specific action learning. These methods address key challenges including instruction understanding, object and landmark grounding, long-horizon planning, continuous-environment navigation, and generalisation across tasks and environments.
+
+      The thesis also examines a broader agentic formulation of embodied navigation, in which high-level reasoning and planning are separated from low-level navigation execution. Within this framework, a general-purpose agent can interpret user goals, decompose complex tasks, maintain and retrieve relevant environmental evidence, and coordinate specialised navigation and perception components. This separation enables the reasoning layer to flexibly select behaviours, manage contextual information, and adapt the system to different tasks without requiring every capability to be incorporated into a single monolithic model.
+
+      Overall, the research demonstrates that combining large-scale vision-language pretraining, explicit embodied alignment, structured memory, and agentic planning can substantially improve navigation performance, robustness, and generalisation. These findings provide a scalable foundation for developing general-purpose embodied agents capable of understanding instructions, reasoning about their surroundings, and acting effectively in complex simulated and real-world environments.
+    location: "City East, Napier Building, 209 Lecture Theatre"
+    status: scheduled
+
   - id: hdr-2026-07-27-series-01
     type: hdr_seminar
     series: hdr-2026
@@ -172,6 +190,22 @@ seminars:
     location: "CE: Napier 108; ML: Mawson Lakes Building J, J2-15"
     abstract: |
       HDR Seminar Series — Week 2 of 15.
+    status: scheduled
+
+  - id: special-2026-08-07-ive-zhang
+    type: special
+    title: "Human–Building Interaction: Comfort, Cognition, Energy and Climate Resilience"
+    speaker: "Dr Fan Zhang, Griffith University"
+    date: 2026-08-07
+    time: "14:00"
+    location: "Online (Zoom)"
+    image: "/assets/seminars/special-2026-08-07-ive-zhang.jpg"
+    image_alt: "IVE Seminar poster — Human–Building Interaction: Comfort, Cognition, Energy and Climate Resilience, Friday 7 August 2pm, Zoom. Speaker Dr Fan Zhang, Griffith University."
+    abstract: |
+      The talk covers a research programme on healthy, comfortable, productive, low-carbon built environments. It starts with the tension between climate resilience, peak electricity demand and indoor environmental quality, then presents experimental evidence challenging the assumption that office performance peaks narrowly at 22°C. It draws on thermal-comfort experiments, cognitive testing, EEG, field monitoring, web mining and building-performance analysis to examine how temperature and IEQ affect comfort, cognition, satisfaction and energy use. It also introduces Dr Zhang's current work on integrated IEQ-energy evaluation, data-driven post-occupancy assessment, and DECRA research on thermal effects on office productivity, with particular attention to learning effects in repeated cognitive testing that may exceed apparent temperature effects. It concludes with implications for evidence-based design, sustainable retrofit, adaptive controls and climate-resilient building operation.
+
+      Dr Fan Zhang is a senior lecturer and DECRA Fellow at Griffith University. PhD in architectural science from the University of Sydney, MSc in sustainable building technology from the University of Nottingham. Expertise covers thermal comfort and productivity, integrated IEQ-energy assessment, overheating and heat-health risk, sustainable retrofit, evidence-based and VR-enabled design evaluation, and occupant-centric adaptive building operation. She is associate editor for Frontiers in Built Environment (Indoor Environment section) and editorial board member for Indoor and Built Environment and Architecture. She was conference chair of the 57th International Conference of the Architectural Science Association (ANZAScA).
+    online_url: "https://adelaide.zoom.us/j/82640278384?pwd=cNirpf7n0fnXP3AGnbjcSdwiQ62Vm8.1"
     status: scheduled
 
   - id: hdr-2026-08-10-series-04
