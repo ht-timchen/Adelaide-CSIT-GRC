@@ -2,13 +2,13 @@ seminars:
   - id: special-2026-03-10-industry-panel
     type: special
     title: "Industry collaboration and IP — panel discussion"
-    speaker: "Panel (CSIT HDR)"
+    speaker: "Panel (CSIT GRS)"
     date: 2026-03-10
     time: "14:00"
     location: "Ingkarni Wardli, Level 4 seminar room"
     abstract: |
       Special session with industry partners on collaboration models, intellectual
-      property, and commercialisation pathways for HDR research.
+      property, and commercialisation pathways for GRS research.
     status: completed
 
   - id: candidature-review-2026-04-24-dahia
@@ -171,12 +171,16 @@ seminars:
     series: hdr-2026
     session_number: 1
     title: "User Interfaces for AR: The Last Frontier – Us(ers)"
-    speaker: "Bruce Thomas"
+    speaker: "Prof Bruce H. Thomas"
     date: 2026-07-27
     time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
+    image: "/assets/seminars/hdr-2026-07-27-series-01.png"
+    image_alt: "GRS Series talk banner — User Interfaces for AR: The Last Frontier – Us(ers). Speaker Prof Bruce H. Thomas."
     abstract: |
-      HDR Seminar Series — Week 1 of 15.
+      User interfaces are the boundary between humans and Augmented Reality technology. These user interfaces incorporate the visual presentation of information, virtual controls for the applications, and physical devices to enhance users’ abilities to build a mental model that blends the physical world and the virtual world created for them. This is a very difficult problem to solve. Many smart scientists have investigated this problem for decades. This talk will investigate this research from the point of view of where we came from, where we are at the current moment, and possible future directions we could go. Part of this journey is a discussion of why this is a difficult problem. AR user interfaces are more difficult to design than traditional 2D desktops, handheld devices, and (I would argue) Virtual Reality interfaces. While AR user interfaces research is challenging, it is quite rewarding. The talk hopefully will motivate more researchers to investigate this topic.
+
+      Professor Thomas is currently Emeritus Professor at the Adelaide University. His current research interests include the following: user interfaces, augmented reality, virtual reality, visualisation, wearable computers, CSCW, tabletop display interfaces, and the use of cognitive psychology in virtual environments research. He has served in many roles for the IEEE International Symposium on Mixed and Augmented Reality, IEEE Virtual Reality, and IEEE/ACM International Symposium on Wearable Computers, including program chair, general chair and on the steering committee. He also founded the ACM Interactive Surfaces and Spaces Conference (formerly IEEE Tabletop). He was awarded the ACM International Symposium on Wearable Computers (ISWC) 20-Year Impact Award. Prof. Thomas’ academic qualifications include the following: a BA in Physics from George Washington University, an MS in Computer Science from the University of Virginia, and a PhD in Computer Science from Flinders University.
     status: scheduled
 
   - id: hdr-2026-08-03-series-03
@@ -189,7 +193,7 @@ seminars:
     time: "16:00–17:00"
     location: "CE: Napier 108; ML: Mawson Lakes Building J, J2-15"
     abstract: |
-      HDR Seminar Series — Week 2 of 15.
+      GRS Series — Week 2 of 15.
     status: scheduled
 
   - id: special-2026-08-07-ive-zhang
@@ -218,7 +222,7 @@ seminars:
     time: "16:00–17:00"
     location: "CE: Napier 108; ML: Mawson Lakes Building J, J2-15"
     abstract: |
-      HDR Seminar Series — Week 3 of 15 (tentative). Student presentation practice with faculty feedback.
+      GRS Series — Week 3 of 15 (tentative). Student presentation practice with faculty feedback.
     ideas: "Volunteer; also need a couple faculties to provide student feedback"
     status: scheduled
 
@@ -232,7 +236,7 @@ seminars:
     time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
-      HDR Seminar Series — Week 4 of 15.
+      GRS Series — Week 4 of 15.
     status: scheduled
 
   - id: hdr-2026-08-24-series-06
@@ -245,7 +249,7 @@ seminars:
     time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
-      HDR Seminar Series — Week 5 of 15 (tentative). Student presentation practice with faculty feedback.
+      GRS Series — Week 5 of 15 (tentative). Student presentation practice with faculty feedback.
     ideas: "Volunteer; also need a couple faculties to provide student feedback"
     status: scheduled
 
@@ -259,7 +263,7 @@ seminars:
     time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
-      HDR Seminar Series — Week 6 of 15.
+      GRS Series — Week 6 of 15.
     status: scheduled
 
   - id: hdr-2026-09-07-series-08
@@ -272,7 +276,7 @@ seminars:
     time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
-      HDR Seminar Series — Week 7 of 15 (tentative). Student presentation practice with faculty feedback.
+      GRS Series — Week 7 of 15 (tentative). Student presentation practice with faculty feedback.
     ideas: "Volunteer; also need a couple faculties to provide student feedback"
     status: scheduled
 
@@ -286,7 +290,7 @@ seminars:
     time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
-      HDR Seminar Series — Week 8 of 15 (tentative).
+      GRS Series — Week 8 of 15 (tentative).
     ideas: "Yuval or Swinburne ppl? Ask Hung"
     status: scheduled
 
@@ -300,7 +304,7 @@ seminars:
     time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
-      HDR Seminar Series — Week 9 of 15 (tentative). Student presentation practice with faculty feedback.
+      GRS Series — Week 9 of 15 (tentative). Student presentation practice with faculty feedback.
     ideas: "Volunteer; also need a couple faculties to provide student feedback"
     status: scheduled
 
@@ -314,7 +318,7 @@ seminars:
     time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
-      HDR Seminar Series — Week 10 of 15.
+      GRS Series — Week 10 of 15.
     status: scheduled
 
   - id: hdr-2026-10-05-series-12
@@ -327,7 +331,7 @@ seminars:
     time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
-      HDR Seminar Series — Week 11 of 15 (tentative). Student presentation practice with faculty feedback.
+      GRS Series — Week 11 of 15 (tentative). Student presentation practice with faculty feedback.
     ideas: "Volunteer; also need a couple faculties to provide student feedback"
     status: scheduled
 
@@ -341,7 +345,7 @@ seminars:
     time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
-      HDR Seminar Series — Week 12 of 15.
+      GRS Series — Week 12 of 15.
     status: scheduled
 
   - id: hdr-2026-10-19-series-14
@@ -354,7 +358,7 @@ seminars:
     time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
-      HDR Seminar Series — Week 13 of 15 (tentative). Student presentation practice with faculty feedback.
+      GRS Series — Week 13 of 15 (tentative). Student presentation practice with faculty feedback.
     ideas: "Volunteer; also need a couple faculties to provide student feedback"
     status: scheduled
 
@@ -368,7 +372,7 @@ seminars:
     time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
-      HDR Seminar Series — Week 14 of 15 (tentative).
+      GRS Series — Week 14 of 15 (tentative).
     ideas: "Yuankai, Guansong (SMU?); someone in IVE; post-docs"
     status: scheduled
 
@@ -382,6 +386,6 @@ seminars:
     time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
-      HDR Seminar Series — Week 15 of 15 (tentative). Student presentation practice with faculty feedback.
+      GRS Series — Week 15 of 15 (tentative). Student presentation practice with faculty feedback.
     ideas: "Volunteer; also need a couple faculties to provide student feedback"
     status: scheduled

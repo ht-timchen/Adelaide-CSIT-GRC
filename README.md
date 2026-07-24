@@ -19,5 +19,5 @@ Lead: Frank Neumann
 - T-X: 28: Mingyu Guo
 
 # Important links
-- [Upcoming seminars](https://ht-timchen.github.io/Adelaide-CSIT-GRC/) — HDR seminars, thesis defences, candidature reviews, and special sessions
+- [Upcoming seminars](https://ht-timchen.github.io/Adelaide-CSIT-GRC/) — GRS seminars, thesis defences, candidature reviews, and special sessions
 - [Graduate research student forms](https://adelaideuni.edu.au/research/graduate-research-school/graduate-research-student-forms/)

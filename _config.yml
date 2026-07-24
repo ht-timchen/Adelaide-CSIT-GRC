@@ -26,7 +26,7 @@ seminar_types:
     label: Thesis defence (public seminar)
     badge: badge-defence
   hdr_seminar:
-    label: HDR seminar
+    label: GRS seminar
     badge: badge-hdr
   special:
     label: Special session
@@ -38,8 +38,8 @@ thesis_types:
 
 hdr_series:
   id: hdr-2026
-  title: "HDR Seminar Series 2026"
+  title: "GRS Series 2026"
   description: |
-    A recurring Higher Degree by Research (HDR) seminar series for students to present
+    A recurring Graduate Research Student (GRS) seminar series for students to present
     progress, pilot ideas, and engage with peers and staff. Weekly sessions from July
     to November 2026 (Adelaide time). Schedule is tentative until speakers are confirmed.

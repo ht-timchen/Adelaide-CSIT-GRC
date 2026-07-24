@@ -9,7 +9,7 @@ Live site (after deployment): <https://ht-timchen.github.io/Adelaide-CSIT-GRC/>
 When the user pastes an email notice and asks to update the website:
 
 1. Read the project skill: [`.cursor/skills/update-seminar-calendar/SKILL.md`](.cursor/skills/update-seminar-calendar/SKILL.md) (parsing rules, type mapping, examples).
-2. Map **Confirmation of Candidature** / CoC review → `candidature_review`; thesis defence → `thesis_defence`; HDR series talk → `hdr_seminar`.
+2. Map **Confirmation of Candidature** / CoC review → `candidature_review`; thesis defence → `thesis_defence`; GRS series talk → `hdr_seminar`.
 3. Parse **DD/MM/YYYY** dates as Australian format → ISO `YYYY-MM-DD` in YAML.
 4. Add or update one item in `_data/seminars.yml`; run `python3 scripts/validate_seminars.py`.
 5. Remind the user to push to `main` for GitHub Pages to rebuild (do not commit unless asked).
@@ -20,7 +20,7 @@ When the user pastes an email notice and asks to update the website:
 |--------------------|----------------------------------------------|---------------|
 | `candidature_review` | Candidature review                         | Thesis block  |
 | `thesis_defence`   | Thesis defence (public seminar)              | Thesis block  |
-| `hdr_seminar`      | Regular HDR seminar series presentation      | Event card    |
+| `hdr_seminar`      | Regular GRS series presentation              | Event card    |
 | `special`          | Special sessions (panels, workshops, etc.)   | Event card    |
 
 ## Common fields (all types)
@@ -44,7 +44,7 @@ Keep entries sorted by `date` ascending.
 2. Add `image: "/assets/seminars/{filename}"` to the seminar entry in `_data/seminars.yml`.
 3. Optionally set `image_alt` for accessibility.
 
-The image appears on the event card (home, seminars, HDR series, and past pages). Omit `image` for text-only listings.
+The image appears on the event card (home, seminars, GRS series, and past pages). Omit `image` for text-only listings.
 
 ## Thesis announcement format
 
@@ -94,7 +94,7 @@ Use for `candidature_review` and `thesis_defence`. Fields match the standard ema
     status: scheduled
 ```
 
-## HDR and special session format
+## GRS and special session format
 
 | YAML field   | Required | Notes |
 |--------------|----------|-------|
@@ -103,17 +103,17 @@ Use for `candidature_review` and `thesis_defence`. Fields match the standard ema
 | `abstract`   | Recommended | Multi-line description |
 | `online_url` | Optional | Generic join link |
 
-### HDR Seminar Series (program table)
+### GRS Series (program table)
 
-Sessions that belong to the fortnightly **HDR Seminar Series** should include:
+Sessions that belong to the fortnightly **GRS Series** should include:
 
-- `series: hdr-2026` — groups rows on the [HDR series](/hdr-series) page
+- `series: hdr-2026` — groups rows on the [GRS series](/grs-series) page
 - `session_number: 1` — week/session number (e.g. 1–16)
 - `ideas: "..."` — short coordinator notes shown in the program table
 
-One-off HDR talks (not part of the series) omit `series` and appear on the main Seminars page.
+One-off GRS talks (not part of the series) omit `series` and appear on the main Seminars page.
 
-### Template: HDR seminar
+### Template: GRS seminar
 
 ```yaml
   - id: hdr-2026-07-20-familyname

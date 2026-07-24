@@ -2,7 +2,7 @@
 {% assign sessions = site.data.seminars.seminars | where: "series", series_id | sort: "session_number" %}
 
 {% if sessions.size == 0 %}
-<p class="empty-state">No HDR series sessions scheduled yet.</p>
+<p class="empty-state">No GRS series sessions scheduled yet.</p>
 {% else %}
 <div class="table-wrap">
   <table class="series-table">

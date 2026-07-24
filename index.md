@@ -5,7 +5,7 @@ title: Home
 
 <div class="page-header">
   <h1>Graduate Research — CSIT</h1>
-  <p>Upcoming seminars for HDR students in the School of Computer Science and IT, Adelaide University.</p>
+  <p>Upcoming seminars for Graduate Research Students (GRS) in the School of Computer Science and IT, Adelaide University.</p>
 </div>
 
 <section class="section">
@@ -32,7 +32,7 @@ title: Home
 </section>
 
 <p class="home-links">
-  <a href="{{ '/hdr-series' | relative_url }}">HDR Seminar Series 2026 (full program) →</a>
+  <a href="{{ '/grs-series' | relative_url }}">GRS Series 2026 (full program) →</a>
   ·
   <a href="{{ '/seminars' | relative_url }}">All upcoming seminars</a>
   ·

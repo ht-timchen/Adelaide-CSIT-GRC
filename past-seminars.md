@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Past seminars
-description: Archive of past HDR seminars, thesis defences, candidature reviews, and special sessions.
+description: Archive of past GRS seminars, thesis defences, candidature reviews, and special sessions.
 ---
 
 <div class="page-header">

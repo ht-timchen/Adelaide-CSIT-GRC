@@ -8,7 +8,7 @@ Published events for students are maintained in:
 
 **[`_data/seminars.yml`](../_data/seminars.yml)**
 
-See [`AGENTS.md`](../AGENTS.md) for field definitions and copy-paste templates (thesis announcements, HDR seminars, etc.).
+See [`AGENTS.md`](../AGENTS.md) for field definitions and copy-paste templates (thesis announcements, GRS seminars, etc.).
 
 The live calendar is deployed to:
 <https://ht-timchen.github.io/Adelaide-CSIT-GRC/seminars>

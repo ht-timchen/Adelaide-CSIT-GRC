@@ -1,10 +1,10 @@
 ---
 name: update-seminar-calendar
 description: >-
-  Add or update CSIT HDR seminar listings on the GitHub Pages calendar from
+  Add or update CSIT GRS seminar listings on the GitHub Pages calendar from
   pasted email announcements. Use when the user pastes a seminar/thesis/review
   announcement, asks to update the website or calendar, mentions Confirmation of
-  Candidature, candidature review, CoC review, thesis defence, HDR seminar, or _data/seminars.yml
+  Candidature, candidature review, CoC review, thesis defence, GRS seminar, HDR seminar, or _data/seminars.yml
   in Adelaide-CSIT-GRC.
 ---
 
@@ -31,7 +31,7 @@ Do not commit unless the user asks.
 |---------------------------|--------------|
 | Confirmation of Candidature, CoC review, candidature review | `candidature_review` |
 | Thesis defence, thesis defense, public seminar (thesis) | `thesis_defence` |
-| HDR seminar, seminar series, student presentation (series) | `hdr_seminar` |
+| GRS seminar, HDR seminar, seminar series, student presentation (series) | `hdr_seminar` |
 | Panel, workshop, special session, invited talk (series) | `special` |
 
 When unsure between `candidature_review` and `thesis_defence`, prefer **`candidature_review`** for CoC / confirmation wording.
@@ -120,7 +120,7 @@ When the user supplies a poster or flyer:
     status: scheduled
 ```
 
-### HDR seminar
+### GRS seminar
 
 ```yaml
   - id: hdr-2026-06-03-taylor

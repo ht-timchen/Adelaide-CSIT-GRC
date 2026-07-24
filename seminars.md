@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Seminars
-description: Upcoming HDR seminars, thesis defences, candidature reviews, and special sessions.
+description: Upcoming GRS seminars, thesis defences, candidature reviews, and special sessions.
 ---
 
 <div class="page-header">
@@ -13,7 +13,7 @@ description: Upcoming HDR seminars, thesis defences, candidature reviews, and sp
   <a href="#upcoming">All upcoming</a>
   <a href="#candidature_review">Candidature review</a>
   <a href="#thesis_defence">Thesis defence</a>
-  <a href="#hdr_seminar">HDR seminar</a>
+  <a href="#hdr_seminar">GRS seminar</a>
   <a href="#special">Special session</a>
 </nav>
 
@@ -28,7 +28,7 @@ description: Upcoming HDR seminars, thesis defences, candidature reviews, and sp
 <section class="section" id="{{ type_id }}">
   <h2>{{ type_info.label }}</h2>
   {% if type_id == "hdr_seminar" %}
-  <p class="section-lead"><a href="{{ '/hdr-series' | relative_url }}">View full 2026 HDR series program (table) →</a></p>
+  <p class="section-lead"><a href="{{ '/grs-series' | relative_url }}">View full 2026 GRS series program (table) →</a></p>
   {% include seminar-list.html section="upcoming" type_filter=type_id exclude_series=true %}
   {% else %}
   {% include seminar-list.html section="upcoming" type_filter=type_id %}
