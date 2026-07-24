@@ -187,13 +187,19 @@ seminars:
     type: hdr_seminar
     series: hdr-2026
     session_number: 2
-    title: "Frontier research in NLP / LLM"
-    speaker: "Lingqiao Liu"
+    title: "Learning Beyond Parameters: Optimising Prompts, Programmes, Workflows and Algorithms in the LLM Era"
+    speaker: "A/Prof Lingqiao Liu"
     date: 2026-08-03
     time: "16:00–17:00"
     location: "CE: Napier 108; ML: Mawson Lakes Building J, J2-15"
+    image: "/assets/seminars/hdr-2026-08-03-series-03.png"
+    image_alt: "Headshot of A/Prof Lingqiao Liu, speaker for the GRS Series talk Learning Beyond Parameters."
     abstract: |
-      GRS Series — Week 2 of 15.
+      The rapid advancement of large language models is transforming not only AI applications, but also what it means for a system to learn. While conventional machine learning focuses on parameter optimisation, modern LLM-based systems expose many additional components that can be optimised, including prompts, programmes, workflows and even algorithms. This seminar examines this shift through three questions: what to learn, how to learn, and what new capabilities this enables. Representative approaches across prompt optimisation, programme optimisation, workflow search and algorithm discovery will be discussed alongside techniques such as textual feedback, evolutionary search, tree search and self-improving agents. We conclude by outlining open challenges and opportunities for building AI systems that can improve not only models but entire problem-solving processes.
+
+      Lingqiao Liu is an Associate Professor at the School of Computer Science, The University of Adelaide, Australia, and an Academic Member of the Australian Institute for Machine Learning. He received the ARC DECRA (Discovery Early Career Researcher Award) in 2016 and the University of Adelaide Research Fellowship in the same year.
+
+      His research spans machine learning, computer vision, and natural language processing, with the objective of building practical machine learning systems that are more data efficient and generalisable for real-world applications. His current major research topics include low-supervision machine learning (semi-supervised learning, unsupervised learning, few-shot and zero-shot learning), generalisable machine learning systems (domain generalisation, compositional generalisation), computer vision applications (dense prediction, fine-grained recognition, content generation), and natural language processing applications (low-resource NLP and generalisation of NLP systems).
     status: scheduled
 
   - id: special-2026-08-07-ive-zhang
