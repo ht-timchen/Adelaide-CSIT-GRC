@@ -222,14 +222,15 @@ seminars:
     type: hdr_seminar
     series: hdr-2026
     session_number: 3
-    title: "Student research presentation practice (round 1)"
-    speaker: "Volunteer (TBC)"
+    title: "Learning Forever Across Varying Domains"
+    speaker: "Naeem Paeedeh"
     date: 2026-08-10
     time: "16:00–17:00"
     location: "CE: Napier 108; ML: Mawson Lakes Building J, J2-15"
     abstract: |
-      GRS Series — Week 3 of 15 (tentative). Student presentation practice with faculty feedback.
-    ideas: "Volunteer; also need a couple faculties to provide student feedback"
+      What if a neural network, the brain of an intelligence system, navigates an ever-changing world? While they can be trained to perform new tasks, they need to practice repeatedly or see a large number of samples. Moreover, as they continually learn new tasks, they forget most of the knowledge learned in past sessions. In this session, two novel methods will be discussed that help transformers efficiently learn new domains while preserving prior knowledge, without altering the networks' valuable original weights or storing any past samples. First, a novel method will be introduced that helps the network absorb both generalizable and shared knowledge across domains while also learning the nuances of each new domain. Second, a new method will be presented for an even more challenging setting of having a handful of samples by combining visual and linguistic knowledge of the world.
+
+      Naeem is a PhD student in the School of Computer Science and IT. His research focuses on developing machine learning methods that enable neural networks to operate in dynamic environments with very limited labeled data. His interests are in few-shot learning, continual learning, domain adaptation, and vision-language models. He has developed transformer-based methods, the current dominant, most powerful yet data-hungry architecture of neural networks, to help them adapt rapidly from a few observations while becoming resilient to sudden and drastic shifts in the environment and to catastrophic forgetting.
     status: scheduled
 
   - id: hdr-2026-08-17-series-05
