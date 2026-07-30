@@ -233,6 +233,22 @@ seminars:
       Naeem is a PhD student in the School of Computer Science and IT. His research focuses on developing machine learning methods that enable neural networks to operate in dynamic environments with very limited labeled data. His interests are in few-shot learning, continual learning, domain adaptation, and vision-language models. He has developed transformer-based methods, the current dominant, most powerful yet data-hungry architecture of neural networks, to help them adapt rapidly from a few observations while becoming resilient to sudden and drastic shifts in the environment and to catastrophic forgetting.
     status: scheduled
 
+  - id: special-2026-08-13-ive-hou
+    type: special
+    title: "Human–Environment Interactions in the Built Environment: From Healthy Ageing to Immersive Soundscape Research"
+    speaker: "Dr Cynthia Hou, The Hong Kong Polytechnic University"
+    date: 2026-08-13
+    time: "10:00"
+    location: "Catherine Helen Spence Building, City West Room CS 5-09"
+    image: "/assets/seminars/special-2026-08-13-ive-hou.jpg"
+    image_alt: "IVE Seminar poster — Human–Environment Interactions in the Built Environment: From Healthy Ageing to Immersive Soundscape Research, Thursday 13 August 10am. Speaker Dr Cynthia Hou."
+    abstract: |
+      Dr Cynthia Hou will present her research on human–environment interactions in the built environment, highlighting how interdisciplinary approaches can support healthier, safer, and more resilient living environments. Her work integrates environmental psychology, building science, immersive technologies, and artificial intelligence to understand how people perceive, interact with, and adapt to their surrounding environments.
+
+      Dr Hou is an Assistant Professor in the Department of Building Environment and Energy Engineering at The Hong Kong Polytechnic University. Her research focuses on the interaction between humans and the built environment, particularly from the perspectives of architectural engineering and user management. Her recent research concentrates on three core areas: healthy aging from facilities management perspective, urban soundscape for healthy city, and user views on indoor and outdoor architectural environment design and service management. She has been published in journals such as Building and Environment, Energy and Buildings, Journal of Building Engineering, Applied Acoustics, Sustainable Cities and Society, and Engineering, Construction and Architectural Management.
+    online_url: "https://adelaide.zoom.us/j/826402783842?pwd=cNirpf7n0fnXP3AGnbjcSdwiQ62Vm8.1"
+    status: scheduled
+
   - id: hdr-2026-08-17-series-05
     type: hdr_seminar
     series: hdr-2026
