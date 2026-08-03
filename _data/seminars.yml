@@ -202,6 +202,18 @@ seminars:
       His research spans machine learning, computer vision, and natural language processing, with the objective of building practical machine learning systems that are more data efficient and generalisable for real-world applications. His current major research topics include low-supervision machine learning (semi-supervised learning, unsupervised learning, few-shot and zero-shot learning), generalisable machine learning systems (domain generalisation, compositional generalisation), computer vision applications (dense prediction, fine-grained recognition, content generation), and natural language processing applications (low-resource NLP and generalisation of NLP systems).
     status: scheduled
 
+  - id: candidature-review-2026-08-04-nguyen
+    type: candidature_review
+    candidate: "Nam Kha Nguyen"
+    supervisor: "Wei Zhang"
+    date: 2026-08-04
+    time: "10:00–10:30"
+    title: "Generative Supervision for Modality Alignment in Vision-Language Models"
+    abstract: |
+      Vision-language models align a frozen vision encoder to a language model using only a caption loss. Captions usually just describe the salient objects and omit texture, layout and fine attributes, so the encoder learns to discard the visual detail that many downstream tasks depend on. This project asks whether a generative model can supply a second, vision-grounded supervision signal during alignment which covers what the caption leaves out. It examines how such a signal should be built and conditioned so that it strengthens performance and the perception of visual detail, and then which kind of generative process delivers that signal most effectively.
+    teams_url: "https://teams.microsoft.com/meet/410550131343629?p=iLmYf3KloIEJjomFcE"
+    status: scheduled
+
   - id: special-2026-08-04-ive-herr
     type: special
     title: "Introduction to the Future Ecologies Group"
