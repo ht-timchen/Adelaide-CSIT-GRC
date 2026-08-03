@@ -214,6 +214,22 @@ seminars:
     teams_url: "https://teams.microsoft.com/meet/410550131343629?p=iLmYf3KloIEJjomFcE"
     status: scheduled
 
+  - id: special-2026-08-04-aiml-fischer
+    type: special
+    title: "Sensing Change: Brain-Inspired Navigation Beyond GPS"
+    speaker: "Dr Tobias Fischer, Queensland University of Technology"
+    date: 2026-08-04
+    time: "14:30"
+    location: "AIML Atrium (in-person) and Zoom"
+    image: "/assets/seminars/special-2026-08-04-aiml-fischer.jpg"
+    image_alt: "AIML Research Seminar poster — Sensing Change: Brain-Inspired Navigation Beyond GPS, Tuesday 4 August 2:30pm, AIML Atrium. Speaker Dr Tobias Fischer, QUT."
+    abstract: |
+      Knowing your location is fundamental to navigation - for humans, animals, and autonomous systems alike. But how can robots and other autonomous agents determine their position with confidence and precision in environments where satellite systems are unavailable or unreliable? The central theme of this talk explores Visual Place Recognition (VPR), which is the ability to recognise previously visited locations using only visual data. I will demonstrate how energy-efficient approaches using bio-inspired event-based cameras and spiking neural networks can provide low-power edge devices with location information with superior energy efficiency, adaptability, and data efficiency. Beyond this central theme, I will also touch on my work on underwater perception for reef restoration, and about Pixi, a powerful tool to run many robotics, computer vision, and AI libraries on any operating system (Linux, MacOS, Windows, or even your browser!).
+
+      Dr Tobias Fischer is a Senior Lecturer and ARC DECRA Fellow at the Queensland University of Technology (QUT). His research spans neuromorphic computing, computer vision, and robotics, with a focus on robot localisation and underwater perception for resource-constrained autonomous systems. He has secured over $3 million in competitive research funding, including grants from Intel, Amazon, the Reef Restoration and Adaptation Program and a CRC-P with Emesent. Dr Fischer received his PhD from Imperial College London, where his thesis won the UK Best PhD in Robotics Award. He has published more than 70 papers in leading venues, including Science Robotics, IEEE Transactions on Robotics, IEEE Transactions on Pattern Analysis and Machine Intelligence, CVPR, ICCV, ECCV, ICRA, and IROS. He serves as an Associate Editor for leading robotics journals and conferences and co-chairs the IEEE Robotics and Automation Society Women in Engineering Committee. Website: https://www.tobiasfischer.info
+    online_url: "https://adelaide.zoom.us/j/86998554108?pwd=hbMMO5S7Uz9skWAyHDfr1dpbWdG12t.1"
+    status: scheduled
+
   - id: special-2026-08-04-ive-herr
     type: special
     title: "Introduction to the Future Ecologies Group"
