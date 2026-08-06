@@ -111,6 +111,8 @@ Sessions that belong to the fortnightly **GRS Series** should include:
 - `session_number: 1` — week/session number (e.g. 1–16)
 - `ideas: "..."` — short coordinator notes shown in the program table
 
+Student presentation weeks may have **one or two** talks. Give each speaker their own YAML entry with the **same** `date`, `time`, `location`, and `session_number`; the program table merges them into one week row, while session details still show separate cards.
+
 One-off GRS talks (not part of the series) omit `series` and appear on the main Seminars page.
 
 ### Template: GRS seminar

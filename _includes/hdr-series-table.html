@@ -16,7 +16,13 @@
       </tr>
     </thead>
     <tbody>
+    {% assign seen_weeks = "|" %}
     {% for s in sessions %}
+      {% assign week_key = s.session_number | append: "" %}
+      {% assign week_marker = "|" | append: week_key | append: "|" %}
+      {% unless seen_weeks contains week_marker %}
+      {% assign seen_weeks = seen_weeks | append: week_key | append: "|" %}
+      {% assign peers = sessions | where: "session_number", s.session_number %}
       {% assign date_str = s.date | append: "" %}
       <tr>
         <td>{{ s.session_number }}</td>
@@ -25,11 +31,20 @@
           <span class="series-table__time">{{ s.time }}</span>
         </td>
         <td>
-          <a href="#{{ s.id }}">{{ s.title }}</a>
+          {% for p in peers %}
+            {% unless forloop.first %}<br>{% endunless %}
+            <a href="#{{ p.id }}">{{ p.title }}</a>
+          {% endfor %}
         </td>
-        <td>{{ s.speaker }}</td>
+        <td>
+          {% for p in peers %}
+            {% unless forloop.first %}<br>{% endunless %}
+            {{ p.speaker }}
+          {% endfor %}
+        </td>
         <td class="series-table__location">{{ s.location }}</td>
       </tr>
+      {% endunless %}
     {% endfor %}
     </tbody>
   </table>
