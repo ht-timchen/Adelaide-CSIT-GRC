@@ -375,3 +375,13 @@ a:hover {
   font-size: 0.85rem;
   min-width: 12rem;
 }
+
+.series-table__split {
+  border: 0;
+  border-top: 1px solid var(--color-border);
+  margin: 0.65rem 0;
+}
+
+.series-table__talk {
+  line-height: 1.4;
+}

@@ -32,14 +32,22 @@
         </td>
         <td>
           {% for p in peers %}
-            {% unless forloop.first %}<br>{% endunless %}
-            <a href="#{{ p.id }}">{{ p.title }}</a>
+            {% unless forloop.first %}
+            <hr class="series-table__split">
+            {% endunless %}
+            <div class="series-table__talk">
+              <a href="#{{ p.id }}">{{ p.title }}</a>
+            </div>
           {% endfor %}
         </td>
         <td>
           {% for p in peers %}
-            {% unless forloop.first %}<br>{% endunless %}
-            {{ p.speaker }}
+            {% unless forloop.first %}
+            <hr class="series-table__split">
+            {% endunless %}
+            <div class="series-table__talk">
+              {{ p.speaker }}
+            </div>
           {% endfor %}
         </td>
         <td class="series-table__location">{{ s.location }}</td>
