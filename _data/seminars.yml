@@ -277,6 +277,19 @@ seminars:
       Naeem is a PhD student in the School of Computer Science and IT. His research focuses on developing machine learning methods that enable neural networks to operate in dynamic environments with very limited labeled data. His interests are in few-shot learning, continual learning, domain adaptation, and vision-language models. He has developed transformer-based methods, the current dominant, most powerful yet data-hungry architecture of neural networks, to help them adapt rapidly from a few observations while becoming resilient to sudden and drastic shifts in the environment and to catastrophic forgetting.
     status: scheduled
 
+  - id: hdr-2026-08-10-pathiranage
+    type: hdr_seminar
+    series: hdr-2026
+    session_number: 3
+    title: "On the Use of Bi-Objective Evolutionary Algorithms for the Stochastic Multiple Knapsack Problem under Dynamic Constraints"
+    speaker: "Ishara Udayanthi Hewa Pathiranage (student presentation)"
+    date: 2026-08-10
+    time: "16:00–17:00"
+    location: "CE: Napier 108; ML: Mawson Lakes Building J, J2-15"
+    abstract: |
+      The multiple knapsack problem (MKP) generalizes the classical knapsack problem by assigning items to multiple knapsacks subject to capacity constraints. It is used to model many real-world resource allocation and scheduling problems. In practice, these optimization problems often involve stochastic and dynamic components. Evolutionary algorithms provide a flexible framework for addressing such problems under uncertainty and dynamic changes. In this paper, we investigate a stochastic and dynamic variant of MKP with chance constraints, where the item weights are modeled as independent normally distributed random variables and knapsack capacities change during the optimization process. We formulate the problem as a bi-objective optimization formulation that balances profit maximization and probabilistic capacity satisfaction at a given confidence level. We conduct an empirical comparison of four widely used multi-objective evolutionary algorithms (MOEAs), representing both decomposition- and dominance-based search paradigms. The algorithms are evaluated under varying uncertainty levels, confidence thresholds, and dynamic change settings. The results provide comparative insights into the behavior of decomposition-based and dominance-based MOEAs for stochastic MKP under dynamic constraints.
+    status: scheduled
+
   - id: special-2026-08-13-ive-hou
     type: special
     title: "Human–Environment Interactions in the Built Environment: From Healthy Ageing to Immersive Soundscape Research"
@@ -337,14 +350,13 @@ seminars:
     type: hdr_seminar
     series: hdr-2026
     session_number: 7
-    title: "Student research presentation practice (round 3)"
-    speaker: "Volunteer (TBC)"
+    title: "TBD"
+    speaker: "Thilina Pathirage Don"
     date: 2026-09-07
     time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
-      GRS Series — Week 7 of 15 (tentative). Student presentation practice with faculty feedback.
-    ideas: "Volunteer; also need a couple faculties to provide student feedback"
+      GRS Series — Week 7 of 15 (tentative).
     status: scheduled
 
   - id: hdr-2026-09-14-series-09
