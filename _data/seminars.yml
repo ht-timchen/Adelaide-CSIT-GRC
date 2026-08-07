@@ -377,14 +377,13 @@ seminars:
     type: hdr_seminar
     series: hdr-2026
     session_number: 9
-    title: "Student research presentation practice (round 4)"
-    speaker: "Volunteer (TBC)"
+    title: "TBD"
+    speaker: "Yuankai Qi, Macquarie University"
     date: 2026-09-21
     time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
-      GRS Series — Week 9 of 15 (tentative). Student presentation practice with faculty feedback.
-    ideas: "Volunteer; also need a couple faculties to provide student feedback"
+      Yuankai Qi is a Lecturer at Macquarie University. He received his PhD degree from Harbin Institute of Technology (HIT) in 2018, supervised by Prof Qingming Huang. His research interests span computer vision, natural language processing, and speech processing, such as vision-language navigation for robots, video captioning, image generation from text, image editing, crowd counting, action recognition, visual object tracking, movie dubbing, and music generation. Website: https://sites.google.com/site/yuankiqi/home
     status: scheduled
 
   - id: hdr-2026-09-28-series-11
