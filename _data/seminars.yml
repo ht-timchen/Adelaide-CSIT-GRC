@@ -297,6 +297,8 @@ seminars:
     date: 2026-08-12
     time: "11:00–12:00"
     location: "Online (Zoom)"
+    image: "/assets/seminars/special-2026-08-12-rezatofighi.jpg"
+    image_alt: "Headshot of A/Prof Hamid Rezatofighi, Monash University."
     abstract: |
       Recent advances in vision-language and vision-language-action foundation models have transformed robotics, yet scaling neural models alone does not necessarily deliver the reasoning, interpretability, and safety assurance required for trustworthy autonomy.
 
