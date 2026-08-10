@@ -290,6 +290,30 @@ seminars:
       The multiple knapsack problem (MKP) generalizes the classical knapsack problem by assigning items to multiple knapsacks subject to capacity constraints. It is used to model many real-world resource allocation and scheduling problems. In practice, these optimization problems often involve stochastic and dynamic components. Evolutionary algorithms provide a flexible framework for addressing such problems under uncertainty and dynamic changes. In this paper, we investigate a stochastic and dynamic variant of MKP with chance constraints, where the item weights are modeled as independent normally distributed random variables and knapsack capacities change during the optimization process. We formulate the problem as a bi-objective optimization formulation that balances profit maximization and probabilistic capacity satisfaction at a given confidence level. We conduct an empirical comparison of four widely used multi-objective evolutionary algorithms (MOEAs), representing both decomposition- and dominance-based search paradigms. The algorithms are evaluated under varying uncertainty levels, confidence thresholds, and dynamic change settings. The results provide comparative insights into the behavior of decomposition-based and dominance-based MOEAs for stochastic MKP under dynamic constraints.
     status: scheduled
 
+  - id: special-2026-08-12-rezatofighi
+    type: special
+    title: "Neuro-Symbolic AI for Visual Reasoning and Robotic Systems: Building Trustworthy Intelligence"
+    speaker: "A/Prof Hamid Rezatofighi, Monash University"
+    date: 2026-08-12
+    time: "11:00–12:00"
+    location: "Online (Zoom)"
+    abstract: |
+      Recent advances in vision-language and vision-language-action foundation models have transformed robotics, yet scaling neural models alone does not necessarily deliver the reasoning, interpretability, and safety assurance required for trustworthy autonomy.
+
+      In this talk, I will present our research at Monash on neuro-symbolic AI, combining neural perception and grounding with explicit world representations, symbolic reasoning, and planning. I will briefly discuss our work on humanoid and human-centred robots and demonstrate this philosophy through our DARPA autonomous UAV system, which integrates perception, probabilistic world modelling, reasoning, and mission-level planning.
+
+      I will then ask a deeper question: how far can neural scaling take us toward the reasoning required for embodied intelligence? Through VIEW2SPACE [ECCV’26], I will show limitations of state-of-the-art foundation models in multi-view visual reasoning, particularly as compositional complexity increases. I will conclude with our progression through HYDRA [ECCV’24], NAVER [ICCV’25], and MATA [ICLR’26] toward agentic neuro-symbolic visual reasoning that combines structured memory, explicit reasoning, specialised agents, and learned reasoning control.
+
+      Dr. Hamid Rezatofighi is an Associate Professor in the Faculty of Information Technology at Monash University, Australia. His research spans computer vision, machine learning, robotics, and neuro-symbolic AI, with a particular focus on visual perception and reasoning for intelligent autonomous systems operating in complex, dynamic environments. His current research explores how neural foundation models can be integrated with symbolic reasoning and agentic planning to develop more capable, interpretable, and trustworthy embodied AI systems.
+
+      Prior to joining Monash, he was awarded the prestigious Australian Government Endeavour Research Fellowship, supporting his research at Stanford University’s Vision and Learning Lab. He subsequently served as a Senior Research Fellow at the Australian Institute for Machine Learning (AIML), University of Adelaide, and received his PhD from the Australian National University in 2015. Dr. Rezatofighi has authored approximately 120 publications in top-tier venues across computer vision, machine learning, artificial intelligence, and robotics, attracting over 21,000 citations. His work on Generalized Intersection over Union (GIoU), introduced in 2019, has received over 9,300 citations and has been widely adopted in modern object detection systems.
+
+      His research has attracted more than $18 million in competitive funding, including multiple DARPA projects (one as Lead PI) and an ARC Discovery Project as Lead CI. His research has been recognised through competitive awards including the U.S. Office of Naval Research Global-X Challenge Award as Lead PI, the Australian Government Endeavour Research Fellowship, and the Monash Faculty of IT Dean’s Award for Early Career Research Excellence.
+
+      He is strongly committed to serving the international research community. Since 2020, he has regularly served as Area Chair or Lead Area Chair for major conferences including CVPR, NeurIPS, ECCV, ICCV, AAAI, and IJCAI. His broader community service includes Editor for IROS, Senior Associate Editor for IEEE Transactions on Image Processing, and Associate Editor for the Artificial Intelligence Journal and ICRA.
+    online_url: "https://adelaide.zoom.us/j/88023516383?pwd=dSBIMRH4WfXhsWBIYv7qNbclpWvfbR.1"
+    status: scheduled
+
   - id: special-2026-08-13-ive-hou
     type: special
     title: "Human–Environment Interactions in the Built Environment: From Healthy Ageing to Immersive Soundscape Research"
