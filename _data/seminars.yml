@@ -364,7 +364,7 @@ seminars:
     series: hdr-2026
     session_number: 4
     title: "Why do we publish?"
-    speaker: "Tat-Jun Chin"
+    speaker: "Professor Tat-Jun Chin"
     date: 2026-08-17
     time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
@@ -392,7 +392,7 @@ seminars:
     series: hdr-2026
     session_number: 6
     title: "SW Engineering Job Readiness in the AI Era"
-    speaker: "Wolfgang Mayer"
+    speaker: "Professor Wolfgang Mayer"
     date: 2026-08-31
     time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
@@ -443,7 +443,7 @@ seminars:
     series: hdr-2026
     session_number: 9
     title: "TBD"
-    speaker: "Yuankai Qi, Macquarie University"
+    speaker: "Dr Yuankai Qi, Macquarie University"
     date: 2026-09-21
     time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
@@ -467,7 +467,7 @@ seminars:
     series: hdr-2026
     session_number: 10
     title: "AI driven decision making in complex systems"
-    speaker: "Claudia Szabo"
+    speaker: "Professor Claudia Szabo"
     date: 2026-09-28
     time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
@@ -569,7 +569,7 @@ seminars:
   - id: special-2026-11-03-aiml-chin
     type: special
     title: "AI for Space"
-    speaker: "Prof Tat-Jun Chin"
+    speaker: "Professor Tat-Jun Chin"
     date: 2026-11-03
     time: "14:30–15:30"
     location: "AIML Atrium"
