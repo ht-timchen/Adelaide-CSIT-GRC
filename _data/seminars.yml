@@ -183,6 +183,17 @@ seminars:
       Professor Thomas is currently Emeritus Professor at the Adelaide University. His current research interests include the following: user interfaces, augmented reality, virtual reality, visualisation, wearable computers, CSCW, tabletop display interfaces, and the use of cognitive psychology in virtual environments research. He has served in many roles for the IEEE International Symposium on Mixed and Augmented Reality, IEEE Virtual Reality, and IEEE/ACM International Symposium on Wearable Computers, including program chair, general chair and on the steering committee. He also founded the ACM Interactive Surfaces and Spaces Conference (formerly IEEE Tabletop). He was awarded the ACM International Symposium on Wearable Computers (ISWC) 20-Year Impact Award. Prof. Thomas’ academic qualifications include the following: a BA in Physics from George Washington University, an MS in Computer Science from the University of Virginia, and a PhD in Computer Science from Flinders University.
     status: completed
 
+  - id: special-2026-07-28-aiml-chen
+    type: special
+    title: "Large Language Models (LLMs)"
+    speaker: "Prof Weitong Chen (introduction); Liangwei Zheng (presentation)"
+    date: 2026-07-28
+    time: "14:30–15:30"
+    location: "AIML Atrium"
+    abstract: |
+      AIML Research Seminar. Format: AIML News, a short introduction by a senior academic, a student/postdoc presentation, Q&A, and afternoon tea. Talk titles TBC.
+    status: completed
+
   - id: hdr-2026-08-03-series-03
     type: hdr_seminar
     series: hdr-2026
@@ -290,6 +301,22 @@ seminars:
       The multiple knapsack problem (MKP) generalizes the classical knapsack problem by assigning items to multiple knapsacks subject to capacity constraints. It is used to model many real-world resource allocation and scheduling problems. In practice, these optimization problems often involve stochastic and dynamic components. Evolutionary algorithms provide a flexible framework for addressing such problems under uncertainty and dynamic changes. In this paper, we investigate a stochastic and dynamic variant of MKP with chance constraints, where the item weights are modeled as independent normally distributed random variables and knapsack capacities change during the optimization process. We formulate the problem as a bi-objective optimization formulation that balances profit maximization and probabilistic capacity satisfaction at a given confidence level. We conduct an empirical comparison of four widely used multi-objective evolutionary algorithms (MOEAs), representing both decomposition- and dominance-based search paradigms. The algorithms are evaluated under varying uncertainty levels, confidence thresholds, and dynamic change settings. The results provide comparative insights into the behavior of decomposition-based and dominance-based MOEAs for stochastic MKP under dynamic constraints.
     status: scheduled
 
+  - id: special-2026-08-11-aiml-hengel
+    type: special
+    title: "Eyesight to the Blind"
+    speaker: "Prof Anton van den Hengel"
+    date: 2026-08-11
+    time: "14:30–15:30"
+    location: "AIML Atrium (in-person) and Zoom"
+    image: "/assets/seminars/special-2026-08-11-aiml-hengel.jpg"
+    image_alt: "AIML Research Seminar poster — Eyesight to the Blind. Speaker Prof Anton van den Hengel."
+    abstract: |
+      Can a machine learn to see before it has seen anything? This talk explores groundbreaking research showing how abstract procedural data gives AI the structural foundations for more efficient and capable learning.
+
+      Transformers, like so many neural networks, are commonly initialised at random because we don't know what structure we actually want in the initial weights. Random initialisation is easy, and safe to the extent that it is unlikely to introduce unwanted bias. It represents a maximally unstructured starting point for gradient descent's search for the computational scaffolding it needs to begin learning semantics. This talk describes work showing that brief exposure to specific, abstract, procedurally generated data injects beneficial structural inductive biases directly into transformer weights before any semantic training begins. These biases are modular to the extent that they reside in identifiable architectural components, can be transferred independently, and compose across pretraining rules to jointly improve multiple capabilities. This process is modality-agnostic: a vision transformer warm-started on sequences of balanced brackets, and no images, gains +1.7% final performance on ImageNet-1k, outperforming baselines trained on visual synthetic data. We show that front-loading as little as 0.1% procedural tokens reduces the language modelling data budget by up to 45%. Pretraining on procedural data is thus far more effective than training on real data.
+    online_url: "https://adelaide.zoom.us/j/82433965818?pwd=mcL9rxS5ByVi9ggTKRnQ4dOcVXhANY.1"
+    status: scheduled
+
   - id: special-2026-08-12-rezatofighi
     type: special
     title: "Neuro-Symbolic AI for Visual Reasoning and Robotic Systems: Building Trustworthy Intelligence"
@@ -385,6 +412,17 @@ seminars:
       GRS Series — Week 7 of 15 (tentative).
     status: scheduled
 
+  - id: special-2026-09-08-aiml-sejdinovic
+    type: special
+    title: "AI Safety & Robustness / Trusted Autonomous Systems"
+    speaker: "Dr Dino Sejdinovic (introduction); Erdun Gao (presentation)"
+    date: 2026-09-08
+    time: "14:30–15:30"
+    location: "AIML Atrium"
+    abstract: |
+      AIML Research Seminar. Format: AIML News, a short introduction by a senior academic, a student/postdoc presentation, Q&A, and afternoon tea. Talk titles TBC.
+    status: scheduled
+
   - id: hdr-2026-09-14-series-09
     type: hdr_seminar
     series: hdr-2026
@@ -410,6 +448,17 @@ seminars:
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
       Yuankai Qi is a Lecturer at Macquarie University. He received his PhD degree from Harbin Institute of Technology (HIT) in 2018, supervised by Prof Qingming Huang. His research interests span computer vision, natural language processing, and speech processing, such as vision-language navigation for robots, video captioning, image generation from text, image editing, crowd counting, action recognition, visual object tracking, movie dubbing, and music generation. Website: https://sites.google.com/site/yuankiqi/home
+    status: scheduled
+
+  - id: special-2026-09-22-aiml-garg
+    type: special
+    title: "AI Safety & Robustness / Trusted Autonomous Systems"
+    speaker: "Dr Arpit Garg"
+    date: 2026-09-22
+    time: "14:30–15:30"
+    location: "AIML Atrium"
+    abstract: |
+      AIML Research Seminar. Format: AIML News, a short introduction by a senior academic, a student/postdoc presentation, Q&A, and afternoon tea. Talk title TBC.
     status: scheduled
 
   - id: hdr-2026-09-28-series-11
@@ -439,6 +488,17 @@ seminars:
     ideas: "Volunteer; also need a couple faculties to provide student feedback"
     status: scheduled
 
+  - id: special-2026-10-06-aiml-palmer
+    type: special
+    title: "Probabilistic & Statistical Machine Learning"
+    speaker: "Prof Lyle Palmer"
+    date: 2026-10-06
+    time: "14:30–15:30"
+    location: "AIML Atrium"
+    abstract: |
+      AIML Research Seminar. Format: AIML News, a short introduction by a senior academic, a student/postdoc presentation, Q&A, and afternoon tea. Talk title TBC.
+    status: scheduled
+
   - id: hdr-2026-10-12-series-13
     type: hdr_seminar
     series: hdr-2026
@@ -464,6 +524,17 @@ seminars:
     abstract: |
       GRS Series — Week 13 of 15 (tentative). Student presentation practice with faculty feedback.
     ideas: "Volunteer; also need a couple faculties to provide student feedback"
+    status: scheduled
+
+  - id: special-2026-10-20-aiml-li
+    type: special
+    title: "Probabilistic & Statistical Machine Learning"
+    speaker: "Dr Henry Li"
+    date: 2026-10-20
+    time: "14:30–15:30"
+    location: "AIML Atrium"
+    abstract: |
+      AIML Research Seminar. Format: AIML News, a short introduction by a senior academic, a student/postdoc presentation, Q&A, and afternoon tea. Talk title TBC.
     status: scheduled
 
   - id: hdr-2026-10-26-series-15
@@ -492,4 +563,37 @@ seminars:
     abstract: |
       GRS Series — Week 15 of 15 (tentative). Student presentation practice with faculty feedback.
     ideas: "Volunteer; also need a couple faculties to provide student feedback"
+    status: scheduled
+
+  - id: special-2026-11-03-aiml-chin
+    type: special
+    title: "AI for Space"
+    speaker: "Prof Tat-Jun Chin"
+    date: 2026-11-03
+    time: "14:30–15:30"
+    location: "AIML Atrium"
+    abstract: |
+      AIML Research Seminar. Format: AIML News, a short introduction by a senior academic, a student/postdoc presentation, Q&A, and afternoon tea. Talk title TBC.
+    status: scheduled
+
+  - id: special-2026-11-17-aiml-mundy
+    type: special
+    title: "Physics Informed Neural Networks"
+    speaker: "Alex Mundy"
+    date: 2026-11-17
+    time: "14:30–15:30"
+    location: "AIML Atrium"
+    abstract: |
+      AIML Research Seminar. Format: AIML News, a short introduction by a senior academic, a student/postdoc presentation, Q&A, and afternoon tea. Talk title TBC.
+    status: scheduled
+
+  - id: special-2026-12-01-aiml-lucey
+    type: special
+    title: "AIML 2026 Year in Review"
+    speaker: "Prof Simon Lucey"
+    date: 2026-12-01
+    time: "14:30–15:30"
+    location: "AIML Atrium"
+    abstract: |
+      AIML Research Seminar — 2026 Year in Review with Prof Simon Lucey, Director.
     status: scheduled
