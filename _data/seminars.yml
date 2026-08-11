@@ -376,14 +376,15 @@ seminars:
     type: hdr_seminar
     series: hdr-2026
     session_number: 5
-    title: "Student research presentation practice (round 2)"
-    speaker: "Volunteer (TBC)"
+    title: "Decoding Input Preferences and Switch-Intention from Implicit Signals"
+    speaker: "Dr Kaining Zhang"
     date: 2026-08-24
     time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
-      GRS Series — Week 5 of 15 (tentative). Student presentation practice with faculty feedback.
-    ideas: "Volunteer; also need a couple faculties to provide student feedback"
+      Adaptive interactive systems need to understand not only what users are doing, but also how they experience and respond to different interaction methods. This research investigates whether physiological and behavioural signals can provide implicit evidence of users’ input preference and reported switch-intention, with a particular focus on augmented reality (AR) interaction. Across three empirical studies, we examine whether EEG can differentiate preferred and non-preferred hand-based input methods, whether preference-related EEG patterns remain detectable during realistic AR interaction, and whether multimodal signals, including EEG, eye gaze, and head movement, can predict users’ reported trial-level intention to switch input methods. The findings highlight the potential of implicit sensing for understanding dynamic user states during interaction and inform the design of more adaptive and user-centred interactive systems.
+
+      Kaining Zhang is a Postdoctoral Teaching Fellow at Adelaide University and an HCI researcher working at the intersection of augmented and mixed reality, multimodal interaction, and implicit sensing. She recently passed her PhD defense, with her doctoral research investigating how physiological and behavioural signals, including EEG, eye gaze, and head movement, can be used to infer users’ input preferences and interaction intentions. Her broader research interests include adaptive and intelligent interactive systems, implicit user-state modelling, and interaction design for emerging computing environments. She is particularly interested in how interactive systems can better understand users and adapt to their changing needs while preserving user agency and control.
     status: scheduled
 
   - id: hdr-2026-08-31-series-07
