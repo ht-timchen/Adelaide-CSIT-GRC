@@ -374,6 +374,7 @@ seminars:
       Many research students start their PhD journey by asking "how many papers do I need to publish to get the PhD". Similarly, many PhD supervisors set expectations in terms of the number of papers published, as well as the desired ranking of the publication venues (conferences, journals). At departmental and institutional levels, academic leaders use publication metrics to evaluate the performance of research groups and individual researchers. At governmental levels and society at large, academic league tables are often used to compare the performance of universities, and the publication statistics of an institution influence greatly the position of the institution in such rankings. With the current attitudes towards publishing entrenched and the "industry" of publishing strong and pervasive, there is the risk of losing sight of the reason for and the value of publishing towards scientific research. This talk aims to (re)ignite conversations on why we publish.
     bio: |
       Tat-Jun Chin is Professor of Computer Science at Adelaide University, where he leads the AI for Space Group. He received his PhD in Computer Systems Engineering from Monash University in 2007, which was partly supported by the Endeavour Australia-Asia Award, and a Bachelor in Mechatronics Engineering from Universiti Teknologi Malaysia in 2004, where he won the Vice Chancellor’s Award. Tat-Jun’s research interest lies in optimisation for computer vision and machine learning, and their application to intelligent satellites and space robotics. He has published more than 150 research articles on the subject, and has received multiple accolades for his research, including a CVPR award (2015), a BMVC award (2018), Best of ECCV (2018), three DST Awards (2015, 2017, 2021), an IAPR Award (2019), an RAL Best Paper Award (2021), and a nomination for ECCV Best Paper Award (2024). He was a Finalist in the Academic of the Year Category at Australian Space Awards 2021. Tat-Jun is currently Visiting Professor at the European Space Agency's Philab and was a SmartSat CRC Professorial Chair in 2020-2025.
+    online_url: "https://adelaide.zoom.us/j/83155077274?pwd=ZZCPGEADAFjvlbgxSViNfHbh6MCggh.1"
     status: scheduled
 
   - id: hdr-2026-08-24-series-06
@@ -432,14 +433,15 @@ seminars:
     type: hdr_seminar
     series: hdr-2026
     session_number: 8
-    title: "TBC"
-    speaker: "TBC"
+    title: "TBD"
+    speaker: "Hu Wang, Khalifa University"
     date: 2026-09-14
     time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
-      GRS Series — Week 8 of 15 (tentative).
-    ideas: "Yuval or Swinburne ppl? Ask Hung"
+      Topic TBC.
+    bio: |
+      Website: https://huwang01.github.io/
     status: scheduled
 
   - id: hdr-2026-09-21-series-10
@@ -546,14 +548,15 @@ seminars:
     type: hdr_seminar
     series: hdr-2026
     session_number: 14
-    title: "TBC"
-    speaker: "TBC"
+    title: "TBD"
+    speaker: "Congbo Ma, NYU Abu Dhabi"
     date: 2026-10-26
     time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
-      GRS Series — Week 14 of 15 (tentative).
-    ideas: "Yuankai, Guansong (SMU?); someone in IVE; post-docs"
+      Topic TBC.
+    bio: |
+      Website: https://congboma.github.io/
     status: scheduled
 
   - id: hdr-2026-11-02-series-16
