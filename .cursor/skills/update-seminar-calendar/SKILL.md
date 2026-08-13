@@ -66,6 +66,7 @@ Look for these labels (case-insensitive, colon optional):
 | Date / time | `date`, `time` |
 | Location, Room | `location` |
 | Abstract, Description | `abstract` |
+| Bio, Biography | `bio` (optional; shown under **Bio:**) |
 | Link, Join online | `online_url` |
 | Poster, flyer, banner (file provided) | `image` + optional `image_alt` |
 
@@ -132,6 +133,8 @@ When the user supplies a poster or flyer:
     location: "Ingkarni Wardli, Level 4"
     abstract: |
       Brief description.
+    bio: |
+      Short speaker biography.
     status: scheduled
 ```
 

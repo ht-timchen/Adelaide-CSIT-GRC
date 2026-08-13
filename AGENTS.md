@@ -100,7 +100,8 @@ Use for `candidature_review` and `thesis_defence`. Fields match the standard ema
 |--------------|----------|-------|
 | `speaker`    | Yes      | Presenter name(s) |
 | `location`   | Yes      | Room or `"Online"` |
-| `abstract`   | Recommended | Multi-line description |
+| `abstract`   | Recommended | Multi-line talk description |
+| `bio`        | Optional | Speaker biography (shown under **Bio:**) |
 | `online_url` | Optional | Generic join link |
 
 ### GRS Series (program table)
@@ -127,6 +128,8 @@ One-off GRS talks (not part of the series) omit `series` and appear on the main 
     location: "Ingkarni Wardli, Level 4 seminar room"
     abstract: |
       Brief description of the talk.
+    bio: |
+      Short speaker biography.
     status: scheduled
 ```
 

@@ -22,6 +22,11 @@
   <dd class="abstract">{{ s.abstract }}</dd>
   {% endif %}
 
+  {% if s.bio %}
+  <dt>Bio:</dt>
+  <dd class="abstract">{{ s.bio }}</dd>
+  {% endif %}
+
   {% if s.online_url %}
   <dt>Online:</dt>
   <dd class="meeting-link"><a href="{{ s.online_url }}" rel="noopener noreferrer">Join online</a></dd>

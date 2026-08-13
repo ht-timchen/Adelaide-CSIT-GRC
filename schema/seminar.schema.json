@@ -100,6 +100,7 @@
             "speaker": { "type": "string", "minLength": 1 },
             "location": { "type": "string", "minLength": 1 },
             "abstract": { "type": "string" },
+            "bio": { "type": "string" },
             "online_url": { "type": "string", "format": "uri" }
           }
         }
