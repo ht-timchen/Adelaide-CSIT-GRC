@@ -377,6 +377,22 @@ seminars:
     online_url: "https://adelaide.zoom.us/j/83155077274?pwd=ZZCPGEADAFjvlbgxSViNfHbh6MCggh.1"
     status: scheduled
 
+  - id: special-2026-08-20-aiml-tapus
+    type: special
+    title: "Socially Assistive Robotics: Personalised and Adaptive Human–Robot Interaction"
+    speaker: "Prof Adriana Tapus, ENSTA, Institut Polytechnique de Paris"
+    date: 2026-08-20
+    time: "10:30–11:30"
+    location: "AIML Atrium (in-person) and Microsoft Teams"
+    image: "/assets/seminars/special-2026-08-20-aiml-tapus.jpg"
+    image_alt: "AIML Special Presentation flyer — Prof Adriana Tapus, Thursday 20 August 10:30–11:30am, AIML Atrium."
+    abstract: |
+      Join us for a special presentation by Prof. Adriana Tapus from ENSTA, Institut Polytechnique de Paris, a leading researcher in socially assistive robotics and human–robot interaction.
+
+      Prof. Tapus’ research explores how intelligent robots can understand and adapt to individual users, combining verbal and nonverbal communication, user modelling and adaptive learning to create more personalised and socially aware interactions. Her work has particular applications in supporting people with physical and cognitive impairments, with the broader goal of developing robotic technologies that can meaningfully improve quality of life.
+    online_url: "https://teams.microsoft.com/meet/477172147674190?p=63uax3eQvY9N4fXb9x"
+    status: scheduled
+
   - id: hdr-2026-08-24-series-06
     type: hdr_seminar
     series: hdr-2026
@@ -441,7 +457,9 @@ seminars:
     abstract: |
       Topic TBC.
     bio: |
-      Website: https://huwang01.github.io/
+      I am an Assistant Professor at Khalifa University, which is currently ranked #147 in the QS World University Rankings. My research interests lie in language model reasoning, self-evolving and self-learning AI models, multi-agent systems, and representation learning.
+
+      Before joining Khalifa University, I worked as an Assistant Professor of Practice and a Research Scientist at Mohamed bin Zayed University of Artificial Intelligence (MBZUAI). Prior to that, I worked as a Research Fellow at the Australian Institute for Machine Learning (AIML), University of Adelaide, where I also received my Ph.D. degree. My research has been published in leading conferences and journals, including CVPR, ECCV, ICCV, NeurIPS, IJCAI, AAAI, ACM MM, MICCAI, ICASSP, and ACM Computing Surveys. Website: https://huwang01.github.io/
     status: scheduled
 
   - id: hdr-2026-09-21-series-10
