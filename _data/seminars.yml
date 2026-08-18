@@ -408,6 +408,26 @@ seminars:
       Kaining Zhang is a Postdoctoral Teaching Fellow at Adelaide University and an HCI researcher working at the intersection of augmented and mixed reality, multimodal interaction, and implicit sensing. She recently passed her PhD defense, with her doctoral research investigating how physiological and behavioural signals, including EEG, eye gaze, and head movement, can be used to infer users’ input preferences and interaction intentions. Her broader research interests include adaptive and intelligent interactive systems, implicit user-state modelling, and interaction design for emerging computing environments. She is particularly interested in how interactive systems can better understand users and adapt to their changing needs while preserving user agency and control.
     status: scheduled
 
+  - id: special-2026-08-27-zhao
+    type: special
+    title: "Beyond the 3D Data Bottleneck: Foundation Models as Teachers, Annotators, and Reasoners"
+    speaker: "Dr Na Zhao, Singapore University of Technology and Design"
+    date: 2026-08-27
+    time: "14:30–15:30"
+    location: "CE-AIML-G.42 Atrium"
+    abstract: |
+      3D scene understanding and reasoning are limited less by architectures than by supervision. 3D annotation is slow and expensive, and the datasets we have remain orders of magnitude smaller than the image–text corpora that gave 2D vision and language models their open-world competence. The productive question, then, is what to borrow from foundation models, and how to route it into 3D.
+
+      This talk traces that question through a series of our recent works, organized around a single observation in embodied AI. One ordinary instruction, such as "open the bottom drawer of the wooden cabinet with the flower vase on top", inherently demands four distinct capabilities: 1) recognizing categories outside the training vocabulary; 2) resolving which instance a description refers to; 3) reasoning about spatial arrangement; and 4) inferring how a part of an object can be acted upon.
+
+      Across these works, 2D foundation models take on three roles. As teachers, they supply image-wise guidance and vision-language alignment for open-vocabulary 3D detection. As annotators, they synthesize diverse text–3D pairs that any existing 3D grounding method can consume. As reasoners, they operate directly over rendered viewpoints, replacing 3D-specific training with task-driven view selection to enable both spatial reasoning and fine-grained embodied reasoning, including predicting the location of affordance elements and how they move.
+
+      Together, these works show which role a foundation model can usefully play in a given 3D task depending on where the bottleneck lies. I will close by looking ahead to instruction-driven embodied agents, and to the open challenges that stand in the way.
+    bio: |
+      Dr. Na Zhao is an Assistant Professor at the Singapore University of Technology and Design (SUTD), where she directs the Intelligent Machine Perception Lab (IMPL). She received her PhD in Computer Science from the National University of Singapore, where her thesis was awarded the 2021 IMDA Excellence Prize for Best PhD Thesis. Her research spans 3D computer vision, machine learning, and embodied AI, with the goal of building trustworthy autonomous systems that can perceive, reason, and act reliably in real-world applications, including robotics and autonomous driving. She has published 70+ papers in leading venues, including CVPR, ICCV, ECCV, NeurIPS, ICML, ICLR, AAAI, ICRA, IROS, IJCV, and TIP, and has attracted competitive research funding totaling over S$14M, including approximately S$4M as lead PI. She serves as an Associate Editor of IEEE Transactions on Circuits and Systems for Video Technology and Knowledge-Based Systems, and as an Area Chair or Senior Program Committee member for venues including NeurIPS, ICLR, ACM MM, AAAI, and IJCAI. She is General Co-Chair of the 33rd International Conference on Multimedia Modeling (MMM 2027), Diversity, Equity, and Inclusion Chair of the 36th ACM Web Conference (WWW 2027), and will serve as Technical Program Co-Chair of the 18th ACM International Conference on Multimedia Retrieval (ICMR 2028).
+    online_url: "https://adelaide.zoom.us/j/83373610811?pwd=2NHkIOqGIvEmPiigSyE5w4JMGOwtnb.1"
+    status: scheduled
+
   - id: hdr-2026-08-31-series-07
     type: hdr_seminar
     series: hdr-2026
