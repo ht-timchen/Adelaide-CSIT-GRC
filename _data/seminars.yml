@@ -412,13 +412,15 @@ seminars:
     type: hdr_seminar
     series: hdr-2026
     session_number: 5
-    title: "TBD"
-    speaker: "Spencer John O'Keeffe (student presentation)"
+    title: "Action Research with Industry"
+    speaker: "Spencer O'Keeffe (student presentation)"
     date: 2026-08-24
     time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
-      Topic TBC.
+      Working with an industry partner provides researchers with domain expertise, relevant data, and tangible context for research projects, but brings a unique set of challenges. This talk will provide an overview of a PhD focused on immersive analytics in forestry, covering the action research methodology taken, how findings guided the research direction, opportunities arisen, and observations for new researchers engaging in industry partnered projects.
+    bio: |
+      Spencer O’Keeffe recently defended his PhD with the Wearable Computer Lab and the Forestry Centre of Excellence. His cross-disciplinary research spans Immersive Analytics and Forestry, exploring how extended reality, LiDAR, and advanced data visualisation can support decision-making, training, and planning in complex forestry systems. His work is conducted in close collaboration with industry partners, including OneFortyOne Mt Gambier. His current research interests include pine disease detection from LiDAR, machinery safety training in VR, and point clouds.
     status: scheduled
 
   - id: special-2026-08-27-zhao
