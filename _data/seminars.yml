@@ -452,6 +452,8 @@ seminars:
     date: 2026-08-31
     time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
+    image: "/assets/seminars/hdr-2026-08-31-series-07.png"
+    image_alt: "Headshot of Professor Wolfgang Mayer."
     abstract: |
       The presentation explores how increasingly capable AI may reshape software engineering by focusing on three fundamental questions: If writing and rewriting code is no longer the bottleneck, what becomes the difficult part of software engineering? Do traditional concerns such as architecture, design, maintainability, and technical debt still matter when AI can change software at scale? And what does this shift mean for the skills and research problems that will matter in the future? Drawing on ideas from Brooks, Parnas, Dijkstra, Beck, Fowler, and Karpathy, the talk examines how AI shifts attention from producing code to determining what should be built, managing system-level consequences, and ensuring that generated solutions are appropriate and trustworthy.
     bio: |
