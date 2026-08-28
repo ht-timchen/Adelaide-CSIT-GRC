@@ -447,13 +447,15 @@ seminars:
     type: hdr_seminar
     series: hdr-2026
     session_number: 6
-    title: "SW Engineering Job Readiness in the AI Era"
+    title: "AI and Software Engineering: When writing code is no longer the bottleneck"
     speaker: "Professor Wolfgang Mayer"
     date: 2026-08-31
     time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
-      GRS Series — Week 6 of 15.
+      The presentation explores how increasingly capable AI may reshape software engineering by focusing on three fundamental questions: If writing and rewriting code is no longer the bottleneck, what becomes the difficult part of software engineering? Do traditional concerns such as architecture, design, maintainability, and technical debt still matter when AI can change software at scale? And what does this shift mean for the skills and research problems that will matter in the future? Drawing on ideas from Brooks, Parnas, Dijkstra, Beck, Fowler, and Karpathy, the talk examines how AI shifts attention from producing code to determining what should be built, managing system-level consequences, and ensuring that generated solutions are appropriate and trustworthy.
+    bio: |
+      Professor Wolfgang Mayer's research combines machine learning, knowledge representation and semantic technologies to develop trustworthy AI for complex real-world systems. His research spans knowledge graphs, ontology engineering, few-shot and continual learning, reinforcement learning, natural language processing, digital twins and semantic interoperability. A central theme is the integration of data-driven and knowledge-driven AI to support reasoning and decision-making when data are heterogeneous, limited or distributed across organisational boundaries. His work is strongly application-oriented, with projects across Defence, advanced manufacturing, healthcare, engineering and asset management.
     status: scheduled
 
   - id: hdr-2026-09-07-series-08
