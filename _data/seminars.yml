@@ -464,13 +464,17 @@ seminars:
     type: hdr_seminar
     series: hdr-2026
     session_number: 7
-    title: "TBD"
-    speaker: "Yuval Yarom"
+    title: "Emergent behaviour in computer microarchitecture"
+    speaker: "Professor Yuval Yarom"
     date: 2026-09-07
     time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
+    image: "/assets/seminars/hdr-2026-09-07-series-08.png"
+    image_alt: "Headshot of Professor Yuval Yarom."
     abstract: |
-      GRS Series — Week 7 of 15 (tentative).
+      Modern CPUs consist of a large number of circuits, data structures and algorithms, collectively called the microarchitecture. Six decades of advances in microarchitectural design have yielded the highly optimised CPUs that drive our current, digital society. Although these optimisations are critical for computer performance, unintended interactions between microarchitectural components can leak sensitive information. Much effort has been invested into exploiting such emergent behaviour, identifying attacks and designing defences. In this talk we shift the focus to exploring the fundamental capabilities of this emergent behaviour. We discuss a recent construct called "weird gates" and examine its computational capabilities and temporal sensitivity. We demonstrate that weird gates allow arbitrary (Turing complete) computation on microarchitectural state and show their utility for various tasks, including overcoming defences, reverse engineering and code obfuscation.
+    bio: |
+      Yuval Yarom is a Professor of Computer Security at Ruhr University Bochum in Germany. His research focuses on the interface between the software and the hardware. In particular, He is interested in the discrepancy between the way that programmers think about software execution and the concrete execution in modern processors. He is a recipient of a 2020 ARC Discovery Early Career Award and the 2020 CORE Chris Wallace Award for Outstanding Research, a 2020 Young Tall Poppy. Previously, he has been an Associate Professor at the University of Adelaide, the Vice President of Research in Memco Software, and a co-founder and Chief Technology Officer of Girafa.com. Yuval earned his Ph.D. in Computer Science from the University of Adelaide in 2014, and an M.Sc. in Computer Science and a B.Sc. in Mathematics and Computer Science from the Hebrew University of Jerusalem in 1993 and 1990, respectively.
     status: scheduled
 
   - id: special-2026-09-08-aiml-sejdinovic
@@ -488,13 +492,15 @@ seminars:
     type: hdr_seminar
     series: hdr-2026
     session_number: 8
-    title: "TBD"
+    title: "At the Intersection of Multi-modal Representation Learning and Large Models"
     speaker: "Hu Wang, Khalifa University"
     date: 2026-09-14
     time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
+    image: "/assets/seminars/hdr-2026-09-14-series-09.png"
+    image_alt: "Headshot of Hu Wang."
     abstract: |
-      Topic TBC.
+      This talk explores the intersection of multi-modal representation learning and large models, with a focus on building robust, efficient, and adaptive AI systems. I will present our recent work on multi-modal learning, efficient vision-language models, and further discuss sequential decision making and reinforcement learning for large model reasoning. Together, these efforts point toward more capable multi-modal large models and self-evolving AI systems. I will also briefly share some information on the development of research, and higher education in the UAE universities, and the opportunities they offer for AI research and collaboration.
     bio: |
       I am an Assistant Professor at Khalifa University, which is currently ranked #147 in the QS World University Rankings. My research interests lie in language model reasoning, self-evolving and self-learning AI models, multi-agent systems, and representation learning.
 
