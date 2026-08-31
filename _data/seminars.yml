@@ -460,6 +460,18 @@ seminars:
       Professor Wolfgang Mayer's research combines machine learning, knowledge representation and semantic technologies to develop trustworthy AI for complex real-world systems. His research spans knowledge graphs, ontology engineering, few-shot and continual learning, reinforcement learning, natural language processing, digital twins and semantic interoperability. A central theme is the integration of data-driven and knowledge-driven AI to support reasoning and decision-making when data are heterogeneous, limited or distributed across organisational boundaries. His work is strongly application-oriented, with projects across Defence, advanced manufacturing, healthcare, engineering and asset management.
     status: scheduled
 
+  - id: candidature-review-2026-09-04-lin
+    type: candidature_review
+    candidate: "Yvonne Lin"
+    supervisor: "Ivan Lee, Bruce Wedding, Lachlan Rudd"
+    date: 2026-09-04
+    time: "10:00–11:00"
+    title: "Dynamic Safety and Quality Control in Hospitals Using Machine Learning: A Learning Health System Approach"
+    abstract: |
+      Hospital quality improvement increasingly relies on learning from routinely collected health data. However, predictions, hospital benchmarks, anomaly alerts, and automated reporting become difficult to interpret when the comparative references behind each output are implicit, insufficiently supported, or inconsistent across different contexts. This limits their auditability and reduces confidence in translating analytical results into quality improvement decisions. Guided by the principles of Learning Health Systems, which transform routinely collected health data into evidence, action, and continuous organisational learning, this research aims to develop and validate an interpretability-centred hospital quality intelligence framework by integrating advanced computational methods, including explainable machine learning, graph-based modelling, uncertainty quantification, and schema-constrained language-model query planning. This framework aims to support improved patient safety and healthcare quality through effective patient references, fair and patient-relevant hospital comparisons, and reliable reporting. Its goal is to clearly identify uncertainties, enabling users to understand which patients and hospitals constitute each comparative reference, how conclusions were reached, and whether sufficient evidence exists before using this information for hospital quality assessments.
+    teams_url: "https://teams.microsoft.com/meet/463525668554893?p=7wdab3PWrJ5IdcnSZG"
+    status: scheduled
+
   - id: hdr-2026-09-07-series-08
     type: hdr_seminar
     series: hdr-2026
