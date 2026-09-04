@@ -14,11 +14,11 @@
   {% assign date_str = seminar.date | append: "" %}
   {% assign show = false %}
   {% if include.section == "upcoming" %}
-    {% if date_str >= today %}
+    {% if date_str >= today and seminar.status != "completed" %}
       {% assign show = true %}
     {% endif %}
   {% elsif include.section == "past" %}
-    {% if date_str < today %}
+    {% if date_str < today or seminar.status == "completed" %}
       {% assign show = true %}
     {% endif %}
   {% endif %}

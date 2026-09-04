@@ -20,6 +20,9 @@ title: Home
     {% if seminar.title contains "Student research presentation practice" %}
       {% assign show_seminar = false %}
     {% endif %}
+    {% if seminar.status == "completed" %}
+      {% assign show_seminar = false %}
+    {% endif %}
     {% if date_str >= today and shown < 5 and show_seminar %}
       {% include seminar-card.html seminar=seminar %}
       {% assign shown = shown | plus: 1 %}
