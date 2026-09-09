@@ -519,6 +519,19 @@ seminars:
       Before joining Khalifa University, I worked as an Assistant Professor of Practice and a Research Scientist at Mohamed bin Zayed University of Artificial Intelligence (MBZUAI). Prior to that, I worked as a Research Fellow at the Australian Institute for Machine Learning (AIML), University of Adelaide, where I also received my Ph.D. degree. My research has been published in leading conferences and journals, including CVPR, ECCV, ICCV, NeurIPS, IJCAI, AAAI, ACM MM, MICCAI, ICASSP, and ACM Computing Surveys. Website: https://huwang01.github.io/
     status: scheduled
 
+  - id: candidature-review-2026-09-15-jin
+    type: candidature_review
+    candidate: "Qunchao Jin"
+    supervisor: "Lia Song, Qi Wu"
+    date: 2026-09-15
+    time: "11:00"
+    title: "Multi-agent Vision-and-Language Navigation Based on Large Foundation Models"
+    abstract: |
+      As multiple robots such as vacuums, delivery robots and assistant robots increasingly coexist in shared spaces, can Vision-Language Navigation (VLN) agents operating in the same environment benefit from each other's observations? Standard VLN systems are fundamentally constrained by partial observability, since each agent can only act based on what it has personally observed. We propose Co-VLN, a minimalist, model-agnostic framework in which independently tasked VLN agents detect spatial overlap and share their topological memory, effectively widening each agent's perceptual field without additional environment interaction. Across both learning-based and zero-shot VLN paradigms, peer observation yields consistent improvements, and our analyses reveal that the gains scale with scene complexity and the number of peers. Building on these findings, we are now exploring an extension to heterogeneous teams, whose members differ in sensing and locomotion capabilities.
+    zoom_url: "https://adelaide.zoom.us/j/84425200254?pwd=IP0pWf7Vjhcgb5EUFyzKrzIVLQomIz.1"
+    location: "Online (Zoom; password 12345)"
+    status: scheduled
+
   - id: hdr-2026-09-21-series-10
     type: hdr_seminar
     series: hdr-2026
