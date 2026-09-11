@@ -556,6 +556,22 @@ seminars:
       AIML Research Seminar. Format: AIML News, a short introduction by a senior academic, a student/postdoc presentation, Q&A, and afternoon tea. Talk title TBC.
     status: scheduled
 
+  - id: special-2026-09-28-ive-stanescu
+    type: special
+    title: "Intelligent AR Guidance for Physical Tasks"
+    speaker: "Dr Ana Stanescu, Graz University of Technology"
+    date: 2026-09-28
+    time: "13:00"
+    location: "Online (Zoom)"
+    image: "/assets/seminars/special-2026-09-28-ive-stanescu.jpg"
+    image_alt: "IVE Seminar poster — Intelligent AR Guidance for Physical Tasks, Monday 28 September 1:00pm. Speaker Dr Ana Stanescu, Graz University of Technology."
+    abstract: |
+      The talk covers making AR tutorials state-aware and interactive instead of relying on pre-recorded steps and manual progression. The approach uses computer vision to detect object configuration, track user progress, and catch assembly errors, so the AR guidance can auto-advance instructions and give corrective feedback.
+    bio: |
+      Ana Stanescu is a postdoc researcher who did her undergraduate, graduate, and PhD (with distinction, 2025) at Graz University of Technology. She works on AR instructional systems for everyday tasks. She recently moved to Adelaide University as an Erwin Schroedinger Fellow of the Austrian Science Fund, researching reliable and transparent AI-based AR instructions.
+    online_url: "https://adelaide.zoom.us/j/82640278384?pwd=cNirpf7n0fnXP3AGnbjcSdwiQ62Vm8.1"
+    status: scheduled
+
   - id: hdr-2026-09-28-series-11
     type: hdr_seminar
     series: hdr-2026
