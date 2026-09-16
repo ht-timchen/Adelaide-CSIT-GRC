@@ -532,6 +532,24 @@ seminars:
     location: "Online (Zoom; password 12345)"
     status: scheduled
 
+  - id: candidature-review-2026-09-18-li
+    type: candidature_review
+    candidate: "Jialiang Li"
+    supervisor: "Mingyu Guo, Weitong Chen"
+    date: 2026-09-18
+    time: "10:30–11:30"
+    title: "Parameterised and Learning-Augmented Algorithms for Real-World Optimisation"
+    abstract: |
+      Combinatorial optimisation seeks the best combination of decisions under a given objective and set of constraints. For many computationally hard problems, exact algorithms can guarantee optimal solutions given sufficient time, but their computational cost can become prohibitive as problem size and complexity increase. This motivates methods that reduce computation while retaining the reliability required in practical decision-making. Machine learning offers promising opportunities to accelerate optimisation by exploiting patterns across problem instances, although learned methods often provide limited guarantees on solution quality and may generalise poorly when new instances differ from the training data.
+
+      This research aims to develop practically effective optimisation methods that integrate algorithm design techniques with modern machine learning. A central component will be parameterised algorithms, which study computational complexity not only in terms of overall input size, but also through carefully chosen parameters that capture structural properties, characteristics of the desired solution, distance from tractable special cases, or other problem-specific features. This perspective can reveal tractable structure that is not captured by conventional complexity measures and enable algorithms tailored to practically relevant applications. Neural models will exploit common patterns to handle the routinely easier parts of the problem, leaving the instance-specific and computationally difficult parts to classical algorithms with reliability. Theoretical analysis will characterise these guarantees and the conditions under which the proposed methods are effective. In parallel, the research will identify and report machine-learning insights arising from this integration, including how learned models can exploit combinatorial structure, generalise across problem instances, and interact reliably with algorithmic components, thereby contributing broader insights to learning for optimisation.
+
+      The proposed methods will be evaluated against established approaches on benchmark and realistic problem instances using various measures of solution quality, runtime, and other relevant performance metrics. The developed methods will also be applied directly to anatomical pathology workflow optimisation at SA Pathology, providing a real-world setting involving scheduling with uncertainty under constrained resources. The research will further consider optimisation challenges arising in large language model services and infrastructure, connecting the proposed methodology to rapidly evolving computational problems at the forefront of modern AI systems.
+
+      Overall, the project seeks to establish broadly applicable principles for combining rigorous algorithm design with machine learning, enabling optimisation methods that are both computationally effective and dependable in practice.
+    zoom_url: "https://adelaide.zoom.us/j/5655083315?pwd=UFVjR1NRTmR6YVptZ0JLMHJmVUI5Zz09"
+    status: scheduled
+
   - id: hdr-2026-09-21-series-10
     type: hdr_seminar
     series: hdr-2026
