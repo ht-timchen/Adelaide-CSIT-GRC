@@ -51,6 +51,10 @@
           "type": "string",
           "minLength": 1,
           "description": "Accessible alt text; defaults to title if omitted"
+        },
+        "featured": {
+          "type": "boolean",
+          "description": "If true, pin this seminar to the top of the home page Coming up list"
         }
       }
     },

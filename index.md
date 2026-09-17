@@ -13,7 +13,18 @@ title: Home
   {% assign today = site.time | date: "%Y-%m-%d" %}
   {% assign sorted = site.data.seminars.seminars | sort: "date" %}
   {% assign shown = 0 %}
+  {% assign pinned_id = "" %}
   <ul class="seminar-list">
+  {% for seminar in sorted %}
+    {% if seminar.featured and seminar.status != "completed" %}
+      {% assign date_str = seminar.date | append: "" %}
+      {% if date_str >= today and shown < 5 %}
+        {% include seminar-card.html seminar=seminar %}
+        {% assign shown = shown | plus: 1 %}
+        {% assign pinned_id = seminar.id %}
+      {% endif %}
+    {% endif %}
+  {% endfor %}
   {% for seminar in sorted %}
     {% assign date_str = seminar.date | append: "" %}
     {% assign show_seminar = true %}
@@ -21,6 +32,9 @@ title: Home
       {% assign show_seminar = false %}
     {% endif %}
     {% if seminar.status == "completed" %}
+      {% assign show_seminar = false %}
+    {% endif %}
+    {% if seminar.id == pinned_id %}
       {% assign show_seminar = false %}
     {% endif %}
     {% if date_str >= today and shown < 5 and show_seminar %}
