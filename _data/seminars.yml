@@ -574,6 +574,19 @@ seminars:
       AIML Research Seminar. Format: AIML News, a short introduction by a senior academic, a student/postdoc presentation, Q&A, and afternoon tea. Talk title TBC.
     status: scheduled
 
+  - id: candidature-review-2026-09-25-chan
+    type: candidature_review
+    candidate: "Adrian Chan"
+    supervisor: "Tat-Jun Chin"
+    date: 2026-09-25
+    time: "11:00–12:00"
+    title: "Sensor Agnostic Object Instance Re-identification using Foundation Models"
+    abstract: |
+      Hyperspectral imaging has unique capability to identify materials by their spectral signatures that can complement appearance-based spatial information for object instance re-identification (re-id). Currently no established pipeline or benchmark exists for hyperspectral re-id. In a security and surveillance context, a key challenge to take advantage of the heterogeneous hyperspectral sensors deployed is the ability to match query and gallery instances captured by different hyperspectral sensors that cover different wavelength regions and differ in the number of bands and band centres. We propose a two-stage sensor-agnostic pipeline for this task: 1) a zero-shot object detection stage, based on state-of-the-art Vision Foundation Models/Vision Language Models, operating on RGB-like image derived from the hyperspectral image-cube; followed by 2) a re-id feature extraction stage built on HyperFree (Li et al., 2025), a sensor-agnostic hyperspectral foundation model to pool per-pixel embeddings from detected objects into object-level feature vectors. As a proof of concept, we evaluate the feature extraction stage by itself using a multi-class classification proxy task and simulating different percentages of overlap between the wavelength regions covered by the query and gallery instances drawn from a single-sensor hyperspectral dataset. We compare the precision and recall of the feature extraction stage against a baseline that uses the pixel spectrum directly as the feature vector.
+    zoom_url: "https://adelaide.zoom.us/j/85775288252?pwd=6bABFoflktm3TUAHQ3UusS7HQL5Ldv.1&from=addon"
+    location: "Online (Zoom; password 838912)"
+    status: scheduled
+
   - id: special-2026-09-28-ive-stanescu
     type: special
     title: "Intelligent AR Guidance for Physical Tasks"
