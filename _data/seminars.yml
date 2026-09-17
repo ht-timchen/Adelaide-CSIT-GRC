@@ -554,13 +554,17 @@ seminars:
     type: hdr_seminar
     series: hdr-2026
     session_number: 9
-    title: "TBD"
+    title: "From Reasoning to Control: Distilling Control-Relevant Summaries via Latent Workspaces"
     speaker: "Dr Yuankai Qi, Macquarie University"
     date: 2026-09-21
     time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
+    image: "/assets/seminars/hdr-2026-09-21-series-10.png"
+    image_alt: "Headshot of Dr Yuankai Qi."
+    abstract: |
+      Explicit physical reasoning can improve policy learning in vision-language-action (VLA) models, but generating it at deployment adds inference cost. We propose a VLA framework that internalizes physical reasoning through control-summary self-distillation, enabling closed-loop control without explicit reasoning generation at deployment. Our framework learns from diverse physical reasoning in a modality-agnostic workspace and uses action supervision to shape what is transferred through its control summary. During self-distillation, a student uses only observations and instructions to match the control summary of a frozen teacher with access to explicit reasoning, without directly aligning their workspace states. Experiments on simulation benchmarks and real-world manipulation tasks show favourable performance compared to several state-of-the-art VLA methods, with average success rates of 98.6% on LIBERO, 73.2% on LIBERO-PLUS, and 77.3% across three real-world tasks. The deployed policy achieves an inference latency of 101 ms on an NVIDIA A100 GPU. Ablations further support the control summary as an effective target for transferring the benefits of physical reasoning to robot control.
     bio: |
-      Yuankai Qi is a Lecturer at Macquarie University. He received his PhD degree from Harbin Institute of Technology (HIT) in 2018, supervised by Prof Qingming Huang. His research interests span computer vision, natural language processing, and speech processing, such as vision-language navigation for robots, video captioning, image generation from text, image editing, crowd counting, action recognition, visual object tracking, movie dubbing, and music generation. Website: https://sites.google.com/site/yuankiqi/home
+      Dr Yuankai Qi is an ARC Future Fellow and Lecturer in Artificial Intelligence at Macquarie University. His research focuses on computer vision, multimodal learning, and embodied AI, with applications in robotics, medical imaging, and video understanding. He has published more than 80 papers in leading AI and computer vision venues, including CVPR, ICCV, ECCV, NeurIPS, AAAI, and IEEE TPAMI. His research has received several recognitions, including the ACM Multimedia 2024 Best Paper Award, ICPR 2024 Best Student Paper Award, and the CAAI Outstanding Doctoral Dissertation Award. He was also recognised among the Stanford/Elsevier World’s Top 2% Scientists in 2024 and 2025.
     status: scheduled
 
   - id: special-2026-09-22-aiml-garg
@@ -572,6 +576,19 @@ seminars:
     location: "AIML Atrium"
     abstract: |
       AIML Research Seminar. Format: AIML News, a short introduction by a senior academic, a student/postdoc presentation, Q&A, and afternoon tea. Talk title TBC.
+    status: scheduled
+
+  - id: candidature-review-2026-09-24-xu
+    type: candidature_review
+    candidate: "Zhenlin Xu"
+    supervisor: "Lia Song, Xiaogang Zhu, Minhui Xue"
+    date: 2026-09-24
+    time: "13:00–14:00"
+    title: "Towards Robust Control Flow Security in LLM Agents"
+    abstract: |
+      LLM agents increasingly rely on components such as memory, guardrails, and recovery mechanisms to support complex tasks, but these components can also introduce new risks to agent control flow, which refers to how an agent decides what to do next and in what order. This project investigates control flow security in LLM agents, focusing on three challenges: persistent manipulation through long term memory, unsafe behaviour reconstruction during recovery, and maintaining effective safety without unnecessarily blocking benign requests. By studying these challenges, this project aims to develop more robust and practical mechanisms for securing agent behaviour throughout the execution lifecycle.
+    zoom_url: "https://adelaide.zoom.us/j/85958115801?pwd=fv2Tp9nL6JVNzHSYaGf424un70Jsya.1"
+    location: "Online (Zoom; password 030246)"
     status: scheduled
 
   - id: candidature-review-2026-09-25-chan
