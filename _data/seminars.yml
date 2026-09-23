@@ -579,6 +579,19 @@ seminars:
       AIML Research Seminar. Format: AIML News, a short introduction by a senior academic, a student/postdoc presentation, Q&A, and afternoon tea. Talk title TBC.
     status: scheduled
 
+  - id: candidature-review-2026-09-24-dong
+    type: candidature_review
+    candidate: "Chang Dong"
+    supervisor: "Minh Hoai Nguyen, Feras Dayoub, Francois Fraysse"
+    date: 2026-09-24
+    time: "11:00–12:00"
+    title: "Fine-Grained Action Counting and Quality Evaluation in Video"
+    abstract: |
+      Fine-grained action understanding asks not only which action was performed but how well, and where it went wrong. Vision-language-action (VLA) policies have made robot manipulation broadly capable, yet their failures are still reduced to a scalar outcome and the trajectory is discarded. My research will investigate how embodied agents can identify, interpret, and learn from unsuccessful actions, organised around three questions: how to localise failure, how to recover from it, and how to learn from it. For the first, I developed a proprioception-guided failure diagnosis framework that localises when an execution begins to go wrong, together with a benchmark for evaluating it; results show that robot state carries temporal evidence that vision alone misses. Building on this diagnosis, the second stage studies correcting failures during execution rather than restarting the task, and the third turns failed experience into a learning signal for policy improvement while preserving the pretrained VLA's capabilities.
+    teams_url: "https://teams.microsoft.com/meet/430383746047601?p=345MfP2cm9hNSMgU23"
+    location: "Online (Teams; passcode m9fb6yS3)"
+    status: scheduled
+
   - id: candidature-review-2026-09-24-xu
     type: candidature_review
     candidate: "Zhenlin Xu"
@@ -605,8 +618,10 @@ seminars:
     location: "Online (Zoom; password 838912)"
     status: scheduled
 
-  - id: special-2026-09-28-ive-stanescu
-    type: special
+  - id: hdr-2026-09-28-series-11
+    type: hdr_seminar
+    series: hdr-2026
+    session_number: 10
     title: "Intelligent AR Guidance for Physical Tasks"
     speaker: "Dr Ana Stanescu, Graz University of Technology"
     date: 2026-09-28
@@ -615,23 +630,10 @@ seminars:
     image: "/assets/seminars/special-2026-09-28-ive-stanescu.jpg"
     image_alt: "IVE Seminar poster — Intelligent AR Guidance for Physical Tasks, Monday 28 September 1:00pm. Speaker Dr Ana Stanescu, Graz University of Technology."
     abstract: |
-      The talk covers making AR tutorials state-aware and interactive instead of relying on pre-recorded steps and manual progression. The approach uses computer vision to detect object configuration, track user progress, and catch assembly errors, so the AR guidance can auto-advance instructions and give corrective feedback.
+      GRS Series — Week 10 of 15 (online only; replacing Professor Claudia Szabo). The talk covers making AR tutorials state-aware and interactive instead of relying on pre-recorded steps and manual progression. The approach uses computer vision to detect object configuration, track user progress, and catch assembly errors, so the AR guidance can auto-advance instructions and give corrective feedback.
     bio: |
       Ana Stanescu is a postdoc researcher who did her undergraduate, graduate, and PhD (with distinction, 2025) at Graz University of Technology. She works on AR instructional systems for everyday tasks. She recently moved to Adelaide University as an Erwin Schroedinger Fellow of the Austrian Science Fund, researching reliable and transparent AI-based AR instructions.
     online_url: "https://adelaide.zoom.us/j/82640278384?pwd=cNirpf7n0fnXP3AGnbjcSdwiQ62Vm8.1"
-    status: scheduled
-
-  - id: hdr-2026-09-28-series-11
-    type: hdr_seminar
-    series: hdr-2026
-    session_number: 10
-    title: "AI driven decision making in complex systems"
-    speaker: "Professor Claudia Szabo"
-    date: 2026-09-28
-    time: "16:00–17:00"
-    location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
-    abstract: |
-      GRS Series — Week 10 of 15.
     status: scheduled
 
   - id: hdr-2026-10-05-series-12
