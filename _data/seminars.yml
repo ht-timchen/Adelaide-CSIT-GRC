@@ -640,13 +640,13 @@ seminars:
     type: hdr_seminar
     series: hdr-2026
     session_number: 11
-    title: "TBD"
-    speaker: "Thilina Pathirage Don"
+    title: "Semester break"
+    speaker: "—"
     date: 2026-10-05
-    time: "16:00–17:00"
-    location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
+    time: "Break"
+    location: "—"
     abstract: |
-      GRS Series — Week 11 of 15 (tentative).
+      GRS Series — Week 11 of 15. No seminar this week (semester break).
     status: scheduled
 
   - id: special-2026-10-06-aiml-palmer
