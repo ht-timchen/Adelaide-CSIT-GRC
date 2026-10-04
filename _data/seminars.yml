@@ -677,14 +677,15 @@ seminars:
     type: hdr_seminar
     series: hdr-2026
     session_number: 13
-    title: "Student research presentation practice (round 6)"
-    speaker: "Volunteer (TBC)"
+    title: "Experiencing the Body as Play through Human-Computer Integration"
+    speaker: "Professor Florian 'Floyd' Mueller, Monash University"
     date: 2026-10-19
     time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
-      GRS Series — Week 13 of 15 (tentative). Student presentation practice with faculty feedback.
-    ideas: "Volunteer; also need a couple faculties to provide student feedback"
+      To date interacting with computers mostly means focusing outwards, on the environment, rather than inwards, into the human body. However, bodily creativity such as expressed in sports teaches us how powerful experiences can be if the active human body is put center-stage. In consequence, I propose a body-centric human-computer integration (rather than interaction) agenda that stresses bodily play as a core human value: I call it “Experiencing the Body as Play”. I argue that this can facilitate novel alternative approaches addressing some of today’s most pressing health issues, such as physical inactivity, obesity and mental health. I illustrate this thinking by presenting recent work, including green-light aware eBikes, wireless pills and headphones that allow you to listen to your gut, literally.
+    bio: |
+      Florian 'Floyd' Mueller is Professor of Future Interfaces at Monash University (Melbourne, Australia), where he leads the award-winning Exertion Games Lab. Previously, he was at RMIT, Stanford, University of Melbourne, Microsoft Research, MIT Media Lab, Fuji-Xerox Palo Alto Labs, Xerox Parc, and industrial research organization CSIRO. He was the first Australian-based researcher to be selected to co-chair the CHI conference: HCI’s highest-ranked publication outlet. Floyd is an ACM Distinguished Member and has been elected to the prestigious ACM SIGCHI Academy, an honorary group of leaders “who have made substantial contributions to the field of HCI”. Website: http://exertiongameslab.org
     status: scheduled
 
   - id: special-2026-10-20-aiml-li
