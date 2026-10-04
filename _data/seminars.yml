@@ -682,6 +682,8 @@ seminars:
     date: 2026-10-19
     time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
+    image: "/assets/seminars/hdr-2026-10-19-series-14.png"
+    image_alt: "Headshot of Professor Florian 'Floyd' Mueller."
     abstract: |
       To date interacting with computers mostly means focusing outwards, on the environment, rather than inwards, into the human body. However, bodily creativity such as expressed in sports teaches us how powerful experiences can be if the active human body is put center-stage. In consequence, I propose a body-centric human-computer integration (rather than interaction) agenda that stresses bodily play as a core human value: I call it “Experiencing the Body as Play”. I argue that this can facilitate novel alternative approaches addressing some of today’s most pressing health issues, such as physical inactivity, obesity and mental health. I illustrate this thinking by presenting recent work, including green-light aware eBikes, wireless pills and headphones that allow you to listen to your gut, literally.
     bio: |
