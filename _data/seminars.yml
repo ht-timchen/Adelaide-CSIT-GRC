@@ -660,6 +660,22 @@ seminars:
       AIML Research Seminar. Format: AIML News, a short introduction by a senior academic, a student/postdoc presentation, Q&A, and afternoon tea. Talk title TBC.
     status: scheduled
 
+  - id: special-2026-10-12-ive-liebherr
+    type: special
+    title: "One AI, Many Minds: Why the Same AI Changes Different People Differently"
+    speaker: "Dr Magnus Liebherr, Carnegie Mellon University"
+    date: 2026-10-12
+    time: "16:00"
+    location: "Online (Zoom)"
+    image: "/assets/seminars/special-2026-10-12-ive-liebherr.jpg"
+    image_alt: "IVE Seminar poster — One AI, Many Minds: Why the Same AI Changes Different People Differently, Monday 12 October 4pm. Speaker Dr Magnus Liebherr, Carnegie Mellon University."
+    abstract: |
+      Does AI make us smarter or dumber? The question dominates the public debate, but it rests on a hidden assumption, namely that there is one effect for one kind of user. In 1950, the US Air Force measured more than 4,000 pilots and found that not one was average on the ten dimensions its cockpits had been built for. Today, AI tools, policies and training are once again designed for an average user who does not exist. Drawing on four decades of research on humans and automation and on our own studies, including a survey of over 30,000 people in 35 countries, this talk shows why the same AI helps some people and harms others. It looks at what people bring to the interaction, how their use drifts over time without them noticing, and why the same path can end in relief for one person and in dependency or lost skills for another. The talk closes with what this means for everyone who teaches, leads or designs with AI.
+    bio: |
+      Magnus Liebherr is an engineering psychologist who studies how people think and work with technology. He is Assistant Professor of Psychology at Carnegie Mellon University in Qatar, leads the Human Factors & Cognition group at the University of Duisburg-Essen, Germany, and holds a visiting professorship at Universiti Kebangsaan Malaysia. His research covers human-AI interaction, mental workload, automated driving and the cognitive factors that shape technology use, and he has published more than 100 peer-reviewed papers. He chairs the Engineering Psychology section of the German Psychological Society (DGPs) and is managing director of implicit GmbH, which develops adaptive AI solutions built on a systematic understanding of users' needs.
+    online_url: "https://adelaide.zoom.us/j/82640278384?pwd=cNirpf7n0fnXP3AGnbjcSdwiQ62Vm8.1"
+    status: scheduled
+
   - id: hdr-2026-10-12-series-13
     type: hdr_seminar
     series: hdr-2026
