@@ -685,6 +685,8 @@ seminars:
     date: 2026-10-12
     time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
+    image: "/assets/seminars/hdr-2026-10-12-series-13.png"
+    image_alt: "Headshot of Professor Simon Ratcliffe."
     abstract: |
       Maptek is an Adelaide-headquartered multi-national technology company developing software for the mining industry. Software Engineering within a commercial environment on large code bases provides challenges for state-of-the-art agentic coding tools and the humans responsible for guiding them. Some of these challenges, due to context size and job scale, are not apparent with clean-start and/or smaller code bases. These will be discussed — and effective approaches taken by engineers to deal with them — as well as lessons still being learnt. This is also an opportunity to ask senior engineers what working on code in a technical commercial environment is like in 2026 and how things are changing.
     bio: |
