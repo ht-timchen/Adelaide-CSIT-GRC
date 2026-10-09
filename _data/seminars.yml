@@ -693,6 +693,21 @@ seminars:
       Presenting will be Simon Ratcliffe (Professor of Practice in Software Engineering at Adelaide University and Head of Experimentation and Technology at Maptek), Yuri Vilmanis and Ashley Harris (Senior Software Engineers and AI Adoption Board founding members at Maptek).
     status: scheduled
 
+  - id: candidature-review-2026-10-13-duan
+    type: candidature_review
+    candidate: "Jingyu Duan"
+    supervisor: "A/Prof Wei Zhang, Dr Xin Yuan"
+    date: 2026-10-13
+    time: "11:00"
+    title: "Intent-Aware Model Predictive Control for Assistive Robotics"
+    abstract: |
+      Assistive robots need to adjust their motion as task goals change, while respecting physical constraints and limits on online computation. Model predictive control (MPC) can plan motions under these requirements, but its decisions depend on when the control plan is updated, how well the dynamics model represents behaviour near constraints, and how information about the person enters the control process.
+
+      This research examines these three aspects within an MPC framework. It estimates the expected benefit of re-solving MPC relative to continuing the current plan, and uses this estimate to guide update timing. It also investigates whether supervising a learned dynamics model with constraint-related action corrections can improve control decisions near constraints. In assistive tasks, changes in beliefs about a person’s goal will be used to evaluate whether the remaining plan is still suitable. Together, these investigations aim to improve task performance and constraint handling while making effective use of online computation.
+    teams_url: "https://teams.microsoft.com/meet/477249437855493?p=TZcaAKdSPqtOXHJyob"
+    location: "Online (Teams; passcode bj7Jy7Pg)"
+    status: scheduled
+
   - id: hdr-2026-10-19-series-14
     type: hdr_seminar
     series: hdr-2026
