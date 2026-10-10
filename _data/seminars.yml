@@ -708,6 +708,22 @@ seminars:
     location: "Online (Teams; passcode bj7Jy7Pg)"
     status: scheduled
 
+  - id: special-2026-10-14-ive-wang
+    type: special
+    title: "Trustworthy Human-Centred Multimodal Intelligence: From Neural Signals to Emotion-Aware Interactive Systems"
+    speaker: "Dr Min Wang, University of Canberra"
+    date: 2026-10-14
+    time: "Time TBC"
+    location: "City West, Jeffrey Smart Building, JS6-13 (also Zoom)"
+    image: "/assets/seminars/special-2026-10-14-ive-wang.png"
+    image_alt: "IVE Seminar poster — Trustworthy Human-Centred Multimodal Intelligence, Wednesday 14 October. Speaker Dr Min Wang, University of Canberra."
+    abstract: |
+      How can intelligent systems better understand and respond to human states? In this talk, I will share our recent work in brain–computer interfaces, neural signal computing, and multimodal human-state understanding. I will also introduce MERIT, our real-time multimodal emotion recognition system integrating EEG, video, and audio, and discuss its potential for interactive environments, digital health, and human–AI/robot interaction. I hope the talk will also open opportunities for interdisciplinary collaboration.
+    bio: |
+      Dr Min Wang is a Lecturer in Artificial Intelligence at the University of Canberra and Research Lead for Robot Perception within the Collaborative Robotics Lab. Her research focuses on neural signal computing, brain–computer interfaces, privacy-preserving AI and biometrics, and human-centred intelligent sensing and computing. She is an Associate Editor of IEEE Transactions on Artificial Intelligence and Chair of the IEEE Computational Intelligence Society ACT Chapter.
+    online_url: "https://adelaide.zoom.us/j/82640278384?pwd=cNirpf7n0fnXP3AGnbjcSdwiQ62Vm8.1"
+    status: scheduled
+
   - id: hdr-2026-10-19-series-14
     type: hdr_seminar
     series: hdr-2026
