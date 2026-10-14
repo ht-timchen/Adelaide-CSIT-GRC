@@ -713,10 +713,10 @@ seminars:
     title: "Trustworthy Human-Centred Multimodal Intelligence: From Neural Signals to Emotion-Aware Interactive Systems"
     speaker: "Dr Min Wang, University of Canberra"
     date: 2026-10-14
-    time: "Time TBC"
+    time: "14:00"
     location: "City West, Jeffrey Smart Building, JS6-13 (also Zoom)"
     image: "/assets/seminars/special-2026-10-14-ive-wang.png"
-    image_alt: "IVE Seminar poster — Trustworthy Human-Centred Multimodal Intelligence, Wednesday 14 October. Speaker Dr Min Wang, University of Canberra."
+    image_alt: "IVE Seminar poster — Trustworthy Human-Centred Multimodal Intelligence, Wednesday 14 October 2pm. Speaker Dr Min Wang, University of Canberra."
     abstract: |
       How can intelligent systems better understand and respond to human states? In this talk, I will share our recent work in brain–computer interfaces, neural signal computing, and multimodal human-state understanding. I will also introduce MERIT, our real-time multimodal emotion recognition system integrating EEG, video, and audio, and discuss its potential for interactive environments, digital health, and human–AI/robot interaction. I hope the talk will also open opportunities for interdisciplinary collaboration.
     bio: |
@@ -750,6 +750,27 @@ seminars:
     location: "AIML Atrium"
     abstract: |
       AIML Research Seminar. Format: AIML News, a short introduction by a senior academic, a student/postdoc presentation, Q&A, and afternoon tea. Talk title TBC.
+    status: scheduled
+
+  - id: candidature-review-2026-10-23-xu
+    type: candidature_review
+    candidate: "Runze Xu"
+    supervisor: "Prof. Simon Lucey, Dr. Arpit Garg"
+    date: 2026-10-23
+    time: "15:30–16:30"
+    title: "Mask the Target: A Plug-and-Play Regularizer Against LoRA Forgetting"
+    abstract: |
+      Low-Rank Adaptation (LoRA) has become one of the most widely used fine-tuning mechanisms for adapting large language models to new domains, tasks, and users. Yet adaptation performance alone can obscure an important failure mode: LoRA updates may improve performance on the target distribution while degrading prior capabilities learned during pretraining and alignment. We show that this forgetting becomes especially severe when the adaptation distribution differs substantially from the model’s original training or alignment distributions.
+
+      The challenge is amplified in practical settings, where the original training and alignment data are typically unavailable. Motivated by this constraint, we study how LoRA-based adaptation balances new learning against forgetting in a replay-free setting, and introduce a simple output-space regularizer that can be added directly to existing training pipelines.
+
+      Our method removes the ground-truth token from both the base and adapted model distributions, renormalizes the remaining probabilities, and applies KL regularization only over the non-target vocabulary. This preserves the base model's relative preferences among alternative tokens without directly opposing the cross-entropy signal required for adaptation.
+
+      As the regularizer acts only at the loss level, it requires no replay data, architectural changes, adapter redesign, or inference-time overhead, and can be applied directly to existing LoRA variants.
+
+      Across all LoRA variants tested and across various backbones, our method improves the frontier between new learning and forgetting when the adaptation distribution differs substantially from the base model’s original training or alignment distributions, suggesting a broadly applicable route toward more reliable LLM updating.
+    zoom_url: "https://adelaide.zoom.us/j/88966521425?pwd=apWoHPSpBQCuE4uBTFTjks9OwLa5IN.1&from=addon"
+    location: "Online (Zoom; password 911280)"
     status: scheduled
 
   - id: hdr-2026-10-26-series-15
