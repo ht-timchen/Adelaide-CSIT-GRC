@@ -752,6 +752,18 @@ seminars:
       AIML Research Seminar. Format: AIML News, a short introduction by a senior academic, a student/postdoc presentation, Q&A, and afternoon tea. Talk title TBC.
     status: scheduled
 
+  - id: candidature-review-2026-10-23-allahresani
+    type: candidature_review
+    candidate: "Hossein Allahresani"
+    supervisor: "Prof. Javen Shi, Dr. Yuhang Liu"
+    date: 2026-10-23
+    time: "13:00–14:00"
+    title: "Causal Representation Learning in JEPA-Based World Models"
+    abstract: |
+      Joint-Embedding Predictive Architectures (JEPAs) predict future representations, but predictive accuracy alone does not establish causal understanding or meaningful object relationships. We investigate two complementary approaches to shaping these representations through action supervision. Do-JEPA uses paired interventions from shared simulator states to learn action effects and, with object-aligned variables, their direct targets and propagation. Additional objectives encourage invariance to context changes that leave the physics unchanged. Inside-JEPA uses inverse-dynamics supervision to structure continuous pairwise relation channels without relation labels during representation learning. Experiments across synthetic, visual, and robotic settings demonstrate improvements in effect prediction and relational alignment.
+    zoom_url: "https://adelaide.zoom.us/j/86576335147?pwd=2nabejajBPxWkcp9xakhFovvAbaaE7.1"
+    status: scheduled
+
   - id: candidature-review-2026-10-23-xu
     type: candidature_review
     candidate: "Runze Xu"
@@ -777,15 +789,34 @@ seminars:
     type: hdr_seminar
     series: hdr-2026
     session_number: 14
-    title: "TBD"
-    speaker: "Congbo Ma, NYU Abu Dhabi"
+    title: "Adaptive and Trustworthy Multi-Agent AI for Medical Error Detection and Correction"
+    speaker: "Dr Congbo Ma, NYU Abu Dhabi"
     date: 2026-10-26
     time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
     abstract: |
-      Topic TBC.
+      As large language models (LLMs) are increasingly applied in healthcare, ensuring their clinical reliability and safety remains a critical challenge. This talk presents two complementary efforts toward trustworthy medical error detection and correction. First, MedErrBench provides a clinician-validated multilingual benchmark for evaluating medical error detection, localization, and correction across English, Arabic, and Chinese, covering diverse clinical error types and reasoning complexities. Second, MedGuards introduces an adaptive multi-agent framework that coordinates specialized agents for error detection, localization, and correction through confidence-guided arbitration, improving robustness without additional model training. The talk will also discuss how clinically grounded evaluation and collaborative reasoning can address the limitations of existing LLM-based approaches. Together, these studies advance the development of more reliable, interpretable, and multilingual AI systems for safer healthcare applications.
     bio: |
-      Website: https://congboma.github.io/
+      Dr. Congbo Ma is a Postdoctoral Associate at the Clinical Artificial Intelligence Lab at New York University Abu Dhabi (NYUAD). Previously, she was a Postdoctoral Research Fellow at Macquarie University and a Visiting Researcher at Mohamed bin Zayed University of Artificial Intelligence (MBZUAI). She received her Ph.D. in Computer Science from the University of Adelaide, Australia, under the supervision of Prof. Wei Zhang, Dr. Mingyu Guo, and Dr. Weitong Chen.
+
+      Her research focuses on developing reliable multimodal and multi-source AI systems that can reason under imperfect, heterogeneous, and evolving information. Her work spans three complementary directions: (1) trustworthy multimodal learning, emphasizing safety, robustness, and evaluation in medical AI; (2) learning from heterogeneous and imperfect data, including noisy, sparsely labeled, and dynamically evolving environments; and (3) adaptive and collaborative multi-agent systems, featuring efficient inter-agent communication and dynamic adaptation mechanisms. Her research spans multimodal learning, graph learning, cross-lingual adaptation, and LLM-based systems, with applications in healthcare and other high-stakes domains. She has published over 40 research papers, with more than 1,600 citations. Website: https://congboma.github.io/
+    status: scheduled
+
+  - id: candidature-review-2026-11-02-su
+    type: candidature_review
+    candidate: "Haoyang Su"
+    supervisor: "Zhibin Liao, Johan Verjans"
+    date: 2026-11-02
+    time: "13:00"
+    title: "Explainable AI for Predicting Out-of-Distribution Performance on Unlabeled Medical Images"
+    abstract: |
+      Reliable deployment of artificial intelligence in healthcare demands that models detect out-of-distribution (OOD) shifts before unpredictable performance degradation leads to diagnostic errors in clinical practice. In medical imaging, distribution shifts routinely arise from variations in patient demographics, differing acquisition hardware, staining protocols, and unseen pathologies. While OOD detection has been widely studied in natural image domains, existing evaluation techniques rely primarily on high-level representations or scalar confidence heuristics that fail to capture the subtle textural, structural, and domain-specific shifts characteristic of clinical modalities. Furthermore, prevailing frameworks operate largely as opaque scoring functions, providing little actionable interpretability to explain why an unlabeled clinical instance deviates from expected data distributions.
+
+      This research aims to establish a principled, explainable framework for predicting and evaluating OOD performance on unlabeled medical images. The project will investigate how distribution shifts manifest across hierarchical feature representations, moving beyond monolithic penultimate-layer evaluations to systematically identify where domain-specific discriminative signals reside across network depths. Building on these representational insights, the research will leverage pre-trained multimodal vision-language architectures to introduce semantic-level explainability. By mapping visual distribution shifts onto structured semantic concept spaces, the proposed framework will ground anomalous inputs against clinically relevant concepts, enabling interpretable characterisation of boundary shifts under realistic, unlabeled deployment streams. In parallel, the project will integrate sample-based data attribution to provide exemplar-level transparency, attributing model decisions on unlabeled test queries back to influential in-distribution reference cases without incurring prohibitive computational bottlenecks.
+
+      The proposed methodologies will be comprehensively validated across diverse imaging modalities, encompassing histopathology, endoscopic surgical video, and radiological scans, alongside established visual benchmarks. Evaluation will consider multiple degrees of distribution shift, including covariate shifts, near-boundary anomalies, and severe semantic divergences, assessing both detection accuracy and explanatory fidelity under realistic streaming scenarios. Overall, this project seeks to advance trustworthy medical AI by developing generalisable principles for unsupervised OOD evaluation, equipping clinical practitioners with transparent, sample- and concept-grounded insights into model reliability.
+    zoom_url: "https://adelaide.zoom.us/j/86762402732?pwd=NjnTZzUEpzRZUgjmkbzaD7grxGvcah.1&from=addon"
+    location: "Online (Zoom; password 728897)"
     status: scheduled
 
   - id: hdr-2026-11-02-series-16
