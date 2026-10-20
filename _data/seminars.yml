@@ -794,6 +794,8 @@ seminars:
     date: 2026-10-26
     time: "16:00–17:00"
     location: "CE: Ingkarni Wardli 5.57 (IW5.57); ML: Mawson Lakes Building J, J2-15"
+    image: "/assets/seminars/hdr-2026-10-26-series-15.jpg"
+    image_alt: "Headshot of Dr Congbo Ma."
     abstract: |
       As large language models (LLMs) are increasingly applied in healthcare, ensuring their clinical reliability and safety remains a critical challenge. This talk presents two complementary efforts toward trustworthy medical error detection and correction. First, MedErrBench provides a clinician-validated multilingual benchmark for evaluating medical error detection, localization, and correction across English, Arabic, and Chinese, covering diverse clinical error types and reasoning complexities. Second, MedGuards introduces an adaptive multi-agent framework that coordinates specialized agents for error detection, localization, and correction through confidence-guided arbitration, improving robustness without additional model training. The talk will also discuss how clinically grounded evaluation and collaborative reasoning can address the limitations of existing LLM-based approaches. Together, these studies advance the development of more reliable, interpretable, and multilingual AI systems for safer healthcare applications.
     bio: |
